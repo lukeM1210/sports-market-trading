@@ -188,10 +188,24 @@ def append_odds_snapshot(odds_df: pd.DataFrame, out_path: Path = ODDS_OUT_PATH) 
     incoming["market_last_update"] = pd.to_datetime(incoming["market_last_update"], utc=True, errors="coerce")
 
     # Build composite keys (strings) for fast membership tests
-    existing_keys = set(existing[UNIQUE_COLS].astype(str).agg("|".join, axis=1).tolist())
-    incoming_keys = incoming[UNIQUE_COLS].astype(str).agg("|".join, axis=1)
+    existing_keys = set(
+    existing
+        .loc[:, UNIQUE_COLS]
+        .astype(str)
+        .apply("|".join, axis=1)
+        .values
+    )
 
-    mask_new = ~incoming_keys.isin(existing_keys)
+    incoming_keys = (
+        incoming
+            .loc[:, UNIQUE_COLS]
+            .astype(str)
+            .apply("|".join, axis=1)
+            .values
+    )
+
+
+    mask_new = ~pd.Series(incoming_keys).isin(existing_keys)
     new_rows = incoming.loc[mask_new]
 
     if new_rows.empty:
@@ -256,4 +270,4 @@ def run_forever(interval_seconds: int = 600) -> None:
 
 
 if __name__ == "__main__":
-    run_forever(600)  # 10 minutes
+    run_forever(3600)  # Rerun every hour
