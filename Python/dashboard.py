@@ -136,9 +136,12 @@ for event_id in event_ids:
             col.info(f"No moneyline data for {team_name}")
             return
 
+        dt = dt.copy()
+        dt["market_last_update_local"] = dt["market_last_update"].dt.tz_convert("America/Chicago")
+
         fig = px.line(
-            dt.sort_values("market_last_update"),
-            x="market_last_update",
+            dt.sort_values("market_last_update_local"),
+            x="market_last_update_local",
             y="price_american",
             color="bookmaker_key",
             markers=True,
@@ -158,7 +161,7 @@ for event_id in event_ids:
             ticktext=ticktext,
         )
 
-        fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (UTC)")
+        fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
         fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook")
         col.plotly_chart(fig, use_container_width=True)
 
