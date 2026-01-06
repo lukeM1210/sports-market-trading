@@ -5,9 +5,13 @@ from datetime import datetime, timezone
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(layout="wide")
 REFRESH_SECONDS = 30  # dashboard refresh cadence
+
+# Autorefresh instance to trigger a refresh of the application
+st_autorefresh(interval=REFRESH_SECONDS * 1000, key="odds_refresh")
 
 csv_path = Path("./output/odds.csv")
 
@@ -17,7 +21,17 @@ if not csv_path.exists():
     st.warning("Waiting for output/odds.csv ...")
     st.stop()
 
-df = pd.read_csv(csv_path)
+def read_csv_retry(path: Path, tries=5, delay=0.2):
+    for _ in range(tries):
+        try:
+            return pd.read_csv(path)
+        except Exception:
+            time.sleep(delay)
+    return pd.read_csv(path)
+
+df = read_csv_retry(csv_path)
+
+#df = pd.read_csv(csv_path)
 
 df["market_last_update"] = pd.to_datetime(df["market_last_update"], utc=True, errors="coerce")
 df["event_commence_utc"] = pd.to_datetime(df["event_commence_utc"], utc=True, errors="coerce")
@@ -54,6 +68,7 @@ df["price_american"] = df["price_american"].astype(int)
 # Treat -100 as +100
 df.loc[df["price_american"] == -100, "price_american"] = 100
 
+# Help issue with non-linearity American odds. For example +105 and -105
 def odds_tickvals_from_data(series: pd.Series, max_ticks: int = 12):
     s = pd.to_numeric(series, errors="coerce").dropna().astype(int)
 
@@ -115,106 +130,123 @@ for event_id in event_ids:
     # 3 charts per game (2 for each teams moneyline, 1 for the total)
     # c1, c2, c3 = st.columns(3)
     # Row 1: moneylines (wide)
-    ml1, ml2 = st.columns(2)
+    with st.container():
+        ml1, ml2 = st.columns(2)
+        totals_col = st.container()
+    
 
-    # Row 2: totals (full width)
-    totals_col = st.container()
+        #ml1, ml2 = st.columns(2)
 
-    if not h2h_all.empty:
-        teams = sorted(h2h_all["outcome_name"].dropna().unique())
-    else:
-        teams = []
+        # Row 2: totals (full width)
+        #totals_col = st.container()
 
-    # If we have exactly 2 teams, keep them in order (away, home) when possible
-    if away_team and home_team:
-        teams = [away_team, home_team]
+        if not h2h_all.empty:
+            teams = sorted(h2h_all["outcome_name"].dropna().unique())
+        else:
+            teams = []
 
-    # Function called to render the charts
-    def plot_moneyline(col, team_name):
-        dt = h2h_all[h2h_all["outcome_name"] == team_name].copy()
-        if dt.empty:
-            col.info(f"No moneyline data for {team_name}")
-            return
+        # If we have exactly 2 teams, keep them in order (away, home) when possible
+        if away_team and home_team:
+            teams = [away_team, home_team]
 
-        dt = dt.copy()
-        dt["market_last_update_local"] = dt["market_last_update"].dt.tz_convert("America/Chicago")
+        # Function called to render the charts
+        def plot_moneyline(col, team_name):
+            dt = h2h_all[h2h_all["outcome_name"] == team_name].copy()
+            if dt.empty:
+                col.info(f"No moneyline data for {team_name}")
+                return
 
-        fig = px.line(
-            dt.sort_values("market_last_update_local"),
-            x="market_last_update_local",
-            y="price_american",
-            color="bookmaker_key",
-            markers=True,
-            title=f"{team_name} Moneyline",
-        )
-        #fig.update_traces(line=dict(width=3, shape="hv"), marker=dict(size=6))
-        fig.update_traces(line=dict(width=3), marker=dict(size=6))
-        #fig.update_yaxes(tickformat="+d", title="American Odds")
+            dt = dt.copy()
+            dt["market_last_update_local"] = dt["market_last_update"].dt.tz_convert("America/Chicago")
 
-        # tickvals and ticktext will be used to help with -105 and +105 linearity problems
-        tickvals, ticktext = odds_tickvals_from_data(dt["price_american"])
+            fig = px.line(
+                dt.sort_values("market_last_update_local"),
+                x="market_last_update_local",
+                y="price_american",
+                color="bookmaker_key",
+                markers=True,
+                title=f"{team_name} Moneyline",
+            )
+            #fig.update_traces(line=dict(width=3, shape="hv"), marker=dict(size=6))
+            fig.update_traces(line=dict(width=3), marker=dict(size=6))
+            #fig.update_yaxes(tickformat="+d", title="American Odds")
 
-        fig.update_yaxes(
-            title="American Odds",
-            tickmode="array",
-            tickvals=tickvals,
-            ticktext=ticktext,
-        )
+            # tickvals and ticktext will be used to help with -105 and +105 linearity problems
+            tickvals, ticktext = odds_tickvals_from_data(dt["price_american"])
 
-        fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
-        fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook")
-        col.plotly_chart(fig, use_container_width=True)
+            fig.update_yaxes(
+                title="American Odds",
+                tickmode="array",
+                tickvals=tickvals,
+                ticktext=ticktext,
+            )
 
-    if len(teams) >= 1:
-        plot_moneyline(ml1, teams[0])
-    else:
-        ml1.info("No moneyline data yet.")
+            fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
+            fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook", uirevision="keep")
+            #col.plotly_chart(fig, use_container_width=True)
+            col.plotly_chart(
+                fig,
+                use_container_width=True,
+                key=f"{event_id}_{team_name}_moneyline",
+            )
 
-    if len(teams) >= 2:
-        plot_moneyline(ml2, teams[1])
-    else:
-        ml2.info("No moneyline data yet.")
+
+        if len(teams) >= 1:
+            plot_moneyline(ml1, teams[0])
+        else:
+            ml1.info("No moneyline data yet.")
+
+        if len(teams) >= 2:
+            plot_moneyline(ml2, teams[1])
+        else:
+            ml2.info("No moneyline data yet.")
 
 
     # =========================
     # Totals: visualize the point total, not the odds (45.5 vs -110)
     # =========================
-    totals = ev[ev["market_key"] == "totals"].copy()
-    if totals.empty:
-        totals_col.info("No totals data yet.")
-    else:
-        # Keep only rows where we actually have a total number
-        totals["line_point"] = pd.to_numeric(totals["line_point"], errors="coerce")
-        totals = totals.dropna(subset=["line_point", "market_last_update"])
+        totals = ev[ev["market_key"] == "totals"].copy()
+        if totals.empty:
+            totals_col.info("No totals data yet.")
+        else:
+            # Keep only rows where we actually have a total number
+            totals["line_point"] = pd.to_numeric(totals["line_point"], errors="coerce")
+            totals = totals.dropna(subset=["line_point", "market_last_update"])
 
-        # Only need one of Over/Under because line_point is the same for both.
-        # Keep Over to dedup.
-        totals = totals[totals["outcome_name"] == "Over"].copy()
+            # Only need one of Over/Under because line_point is the same for both.
+            # Keep Over to dedup.
+            totals = totals[totals["outcome_name"] == "Over"].copy()
 
-        # To dedup identical timestamps per book:
-        totals = totals.sort_values("market_last_update").drop_duplicates(
-            subset=["event_id", "bookmaker_key", "market_last_update", "line_point"],
-            keep="last",
-        )
+            # To dedup identical timestamps per book:
+            totals = totals.sort_values("market_last_update").drop_duplicates(
+                subset=["event_id", "bookmaker_key", "market_last_update", "line_point"],
+                keep="last",
+            )
 
-        fig = px.line(
-            totals.sort_values("market_last_update"),
-            x="market_last_update",
-            y="line_point",
-            color="bookmaker_key",     # one line per book
-            markers=True,
-            title="Total Points Line",
-        )
-        #fig.update_traces(line=dict(width=3, shape="hv"), marker=dict(size=6))
-        fig.update_traces(line=dict(width=3), marker=dict(size=6))
-        fig.update_yaxes(title="Total (Points)")
-        fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (UTC)")
-        fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook")
-        totals_col.plotly_chart(fig, use_container_width=True)
+            fig = px.line(
+                totals.sort_values("market_last_update"),
+                x="market_last_update",
+                y="line_point",
+                color="bookmaker_key",     # one line per book
+                markers=True,
+                title="Total Points Line",
+            )
+            #fig.update_traces(line=dict(width=3, shape="hv"), marker=dict(size=6))
+            fig.update_traces(line=dict(width=3), marker=dict(size=6))
+            fig.update_yaxes(title="Total (Points)")
+            fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (UTC)")
+            fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook", uirevision="keep")
+            #totals_col.plotly_chart(fig, use_container_width=True)
+            totals_col.plotly_chart(
+                fig,
+                use_container_width=True,
+                key=f"{event_id}_totals_line",
+            )
+
 
     st.divider()
 
 # Auto refresh
-time.sleep(REFRESH_SECONDS)
-st.rerun()
+#time.sleep(REFRESH_SECONDS)
+#st.rerun()
 
