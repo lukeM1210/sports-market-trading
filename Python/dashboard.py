@@ -1,9 +1,7 @@
 import time
 from pathlib import Path
 from datetime import datetime, timezone
-
 import plotly.graph_objects as go
-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -117,7 +115,6 @@ for event_id in event_ids:
     st.caption(f"{date_str} | {time_str}")
 
     # 3 charts per game (2 for each teams moneyline, 1 for the total)
-    # c1, c2, c3 = st.columns(3)
     # Row 1: moneylines (wide)
     ml1, ml2 = st.columns(2)
 
@@ -143,14 +140,6 @@ for event_id in event_ids:
         dt = dt.copy()
         dt["market_last_update_local"] = dt["market_last_update"].dt.tz_convert("America/Chicago")
 
-        # fig = px.line(
-        #     dt.sort_values("market_last_update_local"),
-        #     x="market_last_update_local",
-        #     y="price_american",
-        #     color="bookmaker_key",
-        #     markers=True,
-        #     title=f"{team_name} Moneyline",
-        # )
         fig = go.Figure()
         for book, g in dt.groupby("bookmaker_key"):
             fig.add_trace(
@@ -181,9 +170,7 @@ for event_id in event_ids:
         ml2.info("No moneyline data yet.")
 
 
-    # =========================
     # Totals: visualize the point total, not the odds (45.5 vs -110)
-    # =========================
     totals = ev[ev["market_key"] == "totals"].copy()
     if totals.empty:
         totals_col.info("No totals data yet.")
