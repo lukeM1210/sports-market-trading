@@ -182,7 +182,7 @@ for event_id in event_ids:
             )
 
             fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
-            fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook", uirevision="keep")
+            fig.update_layout(legend_title_text="Sportsbook", uirevision="keep", template="plotly_dark")
             #col.plotly_chart(fig, use_container_width=True)
             col.plotly_chart(
                 fig,
@@ -235,7 +235,7 @@ for event_id in event_ids:
             fig.update_traces(line=dict(width=3), marker=dict(size=6))
             fig.update_yaxes(title="Total (Points)")
             fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (UTC)")
-            fig.update_layout(template="plotly_dark", legend_title_text="Sportsbook", uirevision="keep")
+            fig.update_layout(legend_title_text="Sportsbook", uirevision="keep", template="plotly_dark")
             #totals_col.plotly_chart(fig, use_container_width=True)
             totals_col.plotly_chart(
                 fig,
