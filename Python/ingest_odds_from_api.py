@@ -3,17 +3,24 @@ import time
 from pathlib import Path
 from datetime import datetime, UTC
 from typing import List, Dict, Any, Tuple
+from dotenv import load_dotenv
 
 import pandas as pd
 import requests
 
 # ---- CONFIG ----
+load_dotenv()
 API_KEY = os.environ.get("API_KEY")
 if not API_KEY:
-    raise RuntimeError("Missing API_KEY environment variable. Set it before running.")
+    raise RuntimeError("Missing API_KEY environment variable. Set it before running. Check .env file")
+
+# API_URL = (
+#     "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/"
+#     f"?apiKey={API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
+# )
 
 API_URL = (
-    "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/"
+    "https://api.the-odds-api.com/v4/sports/basketball_nba/odds/"
     f"?apiKey={API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
 )
 

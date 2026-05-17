@@ -11,9 +11,10 @@ st.set_page_config(layout="wide")
 REFRESH_SECONDS = 30  # dashboard refresh cadence
 st_autorefresh(interval=REFRESH_SECONDS * 1000, key="refresh")
 
-csv_path = Path("./output/odds.csv")
+csv_path = Path(__file__).parent / "output" / "odds.csv"
 
-st.title("NFL Line Movement Dashboard")
+# st.title("NFL Line Movement Dashboard")
+st.title("NBA Line Movement Dashboard")
 
 if not csv_path.exists():
     st.warning("Waiting for output/odds.csv ...")
@@ -52,32 +53,6 @@ MARKETS = [("h2h", "Moneyline"), ("totals", "Total")]
 df["price_american"] = pd.to_numeric(df["price_american"], errors="coerce")
 df = df.dropna(subset=["price_american"])
 df["price_american"] = df["price_american"].astype(int)
-
-# Treat -100 as +100
-# df.loc[df["price_american"] == -100, "price_american"] = 100
-
-# def odds_tickvals_from_data(series: pd.Series, max_ticks: int = 12):
-#     s = pd.to_numeric(series, errors="coerce").dropna().astype(int)
-
-#     # treat -100 as +100 for display
-#     s = s.replace(-100, 100)
-
-#     uniq = sorted(set(s.tolist()))
-#     if not uniq:
-#         return [100], ["+100"]
-
-#     # always include +100 (even)
-#     if 100 not in uniq:
-#         uniq.append(100)
-#         uniq = sorted(uniq)
-
-#     # too many unique odds? downsample evenly to keep chart readable
-#     if len(uniq) > max_ticks:
-#         idx = [round(i * (len(uniq) - 1) / (max_ticks - 1)) for i in range(max_ticks)]
-#         uniq = [uniq[i] for i in idx]
-
-#     ticktext = [f"+{v}" if v > 0 else str(v) for v in uniq]
-#     return uniq, ticktext
 
 
 # Dedup: keep the last snapshot per timestamp
