@@ -11,11 +11,11 @@ st.caption("Select a sport to view live line movement charts.")
 BASE = Path(__file__).parent
 
 SPORTS = [
-    ("NBA", "pages/nba.py", BASE / "NBA" / "output" / "odds.csv"),
-    ("NFL", "pages/nfl.py", BASE / "NFL" / "output" / "odds.csv"),
-    ("NHL", "pages/nhl.py", BASE / "NHL" / "output" / "odds.csv"),
-    ("MLB", "pages/mlb.py", BASE / "MLB" / "output" / "odds.csv"),
-    ("NCAAF", "pages/ncaaf.py", BASE / "NCAAF" / "output" / "odds.csv"),
+    ("NBA", "pages/NBA.py", BASE / "NBA" / "output" / "odds.csv"),
+    ("NFL", "pages/NFL.py", BASE / "NFL" / "output" / "odds.csv"),
+    ("NHL", "pages/NHL.py", BASE / "NHL" / "output" / "odds.csv"),
+    ("MLB", "pages/MLB.py", BASE / "MLB" / "output" / "odds.csv"),
+    ("NCAAF", "pages/NCAAF.py", BASE / "NCAAF" / "output" / "odds.csv"),
 ]
 
 now = datetime.now(timezone.utc)
