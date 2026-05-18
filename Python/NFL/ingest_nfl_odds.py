@@ -15,7 +15,7 @@ if not API_KEY:
     raise RuntimeError("Missing API_KEY environment variable. Set it before running. Check .env file")
 
 API_URL = (
-    "https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds/"
+    "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/"
     f"?apiKey={API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
 )
 

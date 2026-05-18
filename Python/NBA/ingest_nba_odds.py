@@ -19,7 +19,7 @@ API_URL = (
     f"?apiKey={API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
 )
 
-OUT_DIR = Path("output")
+OUT_DIR = Path(__file__).parent / "output"
 ODDS_OUT_PATH = OUT_DIR / "odds.csv"
 
 # Columns used to uniquely identify a snapshot row
