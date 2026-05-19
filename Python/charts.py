@@ -14,7 +14,6 @@ UNIQUE_COLS = [
     "market_last_update",
 ]
 
-
 def load_odds(csv_path: Path) -> pd.DataFrame | None:
     if not csv_path.exists():
         return None
@@ -51,7 +50,7 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
 
     event_order = (
         df[["event_id", "event_commence_utc"]]
-        .drop_duplicates()
+        .drop_duplicates(subset=["event_id"])
         .sort_values("event_commence_utc")
     )
 
@@ -88,6 +87,7 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
             if dt.empty:
                 col.info(f"No moneyline data for {team_name}")
                 return
+            dt["price_american"] = dt["price_american"].replace(-100, 100)
             dt["market_last_update_local"] = dt["market_last_update"].dt.tz_convert("America/Chicago")
             fig = go.Figure()
             for book, g in dt.groupby("bookmaker_key"):
@@ -99,10 +99,29 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
                     line=dict(width=3),
                     marker=dict(size=6),
                 ))
-            fig.update_yaxes(title="American Odds")
+            y_min = int(dt["price_american"].min())
+            y_max = int(dt["price_american"].max())
+            if y_min < 0 and y_max > 0:
+                step = 50
+                valid_ticks = (
+                    list(range(-600, -50, step)) + list(range(100, 651, step))
+                )
+                axis_min = min(y_min - step, -150)
+                axis_max = max(y_max + step, 150)
+                visible_ticks = [v for v in valid_ticks if axis_min <= v <= axis_max]
+                fig.update_yaxes(
+                    title="American Odds",
+                    tickformat="+d",
+                    tickmode="array",
+                    tickvals=visible_ticks,
+                    range=[axis_min, axis_max],
+                )
+            else:
+                fig.update_yaxes(title="American Odds", tickformat="+d")
+
             fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
             fig.update_layout(title=f"{team_name} Moneyline", template="plotly_dark", legend_title_text="Sportsbook")
-            col.plotly_chart(fig, use_container_width=True)
+            col.plotly_chart(fig, use_container_width=True, key=f"{event_id}_{team_name}")
 
         plot_moneyline(ml1, teams[0]) if len(teams) >= 1 else ml1.info("No moneyline data yet.")
         plot_moneyline(ml2, teams[1]) if len(teams) >= 2 else ml2.info("No moneyline data yet.")
@@ -137,6 +156,6 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
                 template="plotly_dark",
                 legend_title_text="Sportsbook",
             )
-            totals_col.plotly_chart(fig, use_container_width=True)
+            totals_col.plotly_chart(fig, use_container_width=True, key=f"{event_id}_totals")
 
         st.divider()
