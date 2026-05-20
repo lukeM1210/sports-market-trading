@@ -8,8 +8,11 @@ def to_implied_prob(odds: float) -> float:
     return (-odds / (-odds + 100) * 100) if odds < 0 else (100 / (odds + 100) * 100)
 
 
-def _build_movers(csv_path: Path) -> pd.DataFrame:
-    df = pd.read_csv(csv_path)
+def _build_movers(csv_paths: list[Path]) -> pd.DataFrame:
+    frames = [pd.read_csv(p) for p in csv_paths if p.exists()]
+    if not frames:
+        return pd.DataFrame()
+    df = pd.concat(frames, ignore_index=True)
     df["market_last_update"] = pd.to_datetime(df["market_last_update"], utc=True, errors="coerce")
     df["event_commence_utc"] = pd.to_datetime(df["event_commence_utc"], utc=True, errors="coerce")
     df["price_american"] = pd.to_numeric(df["price_american"], errors="coerce")
@@ -53,25 +56,27 @@ def _build_movers(csv_path: Path) -> pd.DataFrame:
     return pd.DataFrame(rows) if rows else pd.DataFrame()
 
 
-def top_5_favorite_movers(csv_path: Path) -> pd.DataFrame:
-    df = _build_movers(csv_path)
+def top_5_favorite_movers(csv_paths: list[Path]) -> pd.DataFrame:
+    df = _build_movers(csv_paths)
     if df.empty:
         return df
     return (
         df[df["prob_shift"] > 0]
         .sort_values("prob_shift", ascending=False)
+        .drop_duplicates(subset=["team", "opponent"])
         .head(5)
         .reset_index(drop=True)
     )
 
 
-def top_5_underdog_movers(csv_path: Path) -> pd.DataFrame:
-    df = _build_movers(csv_path)
+def top_5_underdog_movers(csv_paths: list[Path]) -> pd.DataFrame:
+    df = _build_movers(csv_paths)
     if df.empty:
         return df
     return (
         df[df["prob_shift"] < 0]
         .sort_values("prob_shift", ascending=True)
+        .drop_duplicates(subset=["team", "opponent"])
         .head(5)
         .reset_index(drop=True)
     )

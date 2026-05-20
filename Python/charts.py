@@ -149,7 +149,7 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
                     line=dict(width=3),
                     marker=dict(size=6),
                 ))
-            fig.update_yaxes(title="Total (Points)")
+            fig.update_yaxes(title="Total (Points)", dtick=0.5, tickformat=".1f")
             fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
             fig.update_layout(
                 title=dict(text="Total Points", x=0.5, xanchor="center"),
