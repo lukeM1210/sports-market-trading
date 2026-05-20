@@ -21,6 +21,14 @@ API_URL = (
 
 OUT_DIR = Path(__file__).parent / "output"
 ODDS_OUT_PATH = OUT_DIR / "odds.csv"
+CACHE_TTL_MINUTES = 60
+
+
+def is_cache_fresh() -> bool:
+    if not ODDS_OUT_PATH.exists():
+        return False
+    age_seconds = time.time() - ODDS_OUT_PATH.stat().st_mtime
+    return age_seconds < CACHE_TTL_MINUTES * 60
 
 # Columns used to uniquely identify a snapshot row
 UNIQUE_COLS = [
@@ -219,6 +227,11 @@ def append_odds_snapshot(odds_df: pd.DataFrame, out_path: Path = ODDS_OUT_PATH) 
 
 
 def main() -> None:
+    if is_cache_fresh():
+        age_min = int((time.time() - ODDS_OUT_PATH.stat().st_mtime) / 60)
+        print(f"Cache is fresh ({age_min}m old, TTL={CACHE_TTL_MINUTES}m). Skipping API call.")
+        return
+
     # Call the real API; fall back to local sample if needed
     try:
         data = fetch_odds_from_api()
