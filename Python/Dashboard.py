@@ -2,6 +2,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
 import streamlit as st
+import analytics
 
 st.set_page_config(page_title="Sports Line Movement", layout="wide")
 
@@ -37,3 +38,12 @@ for col, (name, page, csv_path) in zip(cols, SPORTS):
         else:
             st.info("No data yet")
         st.page_link(page, label=f"View {name} Lines")
+
+# Show top 5 movers!
+st.subheader("Top 5 Favorite Movers")
+
+st.table(data=analytics.top_5_favorite_movers("/test_odds.csv"))
+
+st.subheader("Top 5 Underdog Movers")
+
+st.table(data=analytics.top_5_underdog_movers("/test_odds.csv"))

@@ -20,4 +20,4 @@ for script in INGESTORS:
     print(f"Started {script.parent.name} ingestor")
 
 print("\nAll ingestors running. Starting dashboard...\n")
-subprocess.run(["streamlit", "run", str(ROOT / "dashboard.py")])
+subprocess.run(["streamlit", "run", str(ROOT / "Dashboard.py")])
