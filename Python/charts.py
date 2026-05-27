@@ -1,9 +1,16 @@
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
+
+LOOKAHEAD_DAYS = 110
+
+DISPLAY_BOOKS = {
+    "pinnacle", "fanduel", "betonlineag", "prophetx",
+    "novig", "kalshi", "polymarket", "draftkings",
+}
 
 UNIQUE_COLS = [
     "event_id",
@@ -24,7 +31,8 @@ def load_odds(csv_path: Path) -> pd.DataFrame | None:
     df = df.dropna(subset=["event_id", "market_key", "market_last_update", "event_commence_utc"])
 
     now = datetime.now(timezone.utc)
-    df = df[df["event_commence_utc"] >= now].copy()
+    lookahead = now + timedelta(days=LOOKAHEAD_DAYS)
+    df = df[(df["event_commence_utc"] >= now) & (df["event_commence_utc"] <= lookahead)].copy()
 
     df["price_american"] = pd.to_numeric(df["price_american"], errors="coerce")
     df = df.dropna(subset=["price_american"])
@@ -83,7 +91,7 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
         )
 
         def plot_moneyline(col, team_name, h2h=h2h_all):
-            dt = h2h[h2h["outcome_name"] == team_name].copy()
+            dt = h2h[(h2h["outcome_name"] == team_name) & (h2h["bookmaker_key"].isin(DISPLAY_BOOKS))].copy()
             if dt.empty:
                 col.info(f"No moneyline data for {team_name}")
                 return
@@ -119,14 +127,14 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
             else:
                 fig.update_yaxes(title="American Odds", tickformat="+d")
 
-            fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
+            fig.update_xaxes(tickformat="%m/%d", dtick=3600000 * 24, tickangle=-30, title="Date (CT)")
             fig.update_layout(title=f"{team_name} Moneyline", template="plotly_dark", legend_title_text="Sportsbook")
             col.plotly_chart(fig, use_container_width=True, key=f"{event_id}_{team_name}")
 
         plot_moneyline(ml1, teams[0]) if len(teams) >= 1 else ml1.info("No moneyline data yet.")
         plot_moneyline(ml2, teams[1]) if len(teams) >= 2 else ml2.info("No moneyline data yet.")
 
-        totals = ev[ev["market_key"] == "totals"].copy()
+        totals = ev[(ev["market_key"] == "totals") & (ev["bookmaker_key"].isin(DISPLAY_BOOKS))].copy()
         if totals.empty:
             totals_col.info("No totals data yet.")
         else:
@@ -150,7 +158,7 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
                     marker=dict(size=6),
                 ))
             fig.update_yaxes(title="Total (Points)", dtick=0.5, tickformat=".1f")
-            fig.update_xaxes(tickformat="%m/%d %I:%M%p", dtick=3600000 * 6, tickangle=-30, title="Time (CT)")
+            fig.update_xaxes(tickformat="%m/%d", dtick=3600000 * 24, tickangle=-30, title="Date (CT)")
             fig.update_layout(
                 title=dict(text="Total Points", x=0.5, xanchor="center"),
                 template="plotly_dark",

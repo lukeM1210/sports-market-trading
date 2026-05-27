@@ -16,7 +16,7 @@ if not API_KEY:
 
 API_URL = (
     "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/"
-    f"?apiKey={API_KEY}&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
+    f"?apiKey={API_KEY}&bookmakers=pinnacle,fanduel,betonlineag,prophetx,novig,kalshi,polymarket,draftkings&markets=h2h,spreads,totals&oddsFormat=american"
 )
 
 OUT_DIR = Path(__file__).parent / "output"
