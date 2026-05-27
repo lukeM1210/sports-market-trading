@@ -1,0 +1,1792 @@
+{
+  "timestamp": "2026-01-10T16:25:37Z",
+  "previous_timestamp": "2026-01-10T16:20:38Z",
+  "next_timestamp": "2026-01-10T16:30:39Z",
+  "data": [
+    {
+      "id": "c37a03009947c0191ab4e2de9664705a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-10T21:30:00Z",
+      "home_team": "Carolina Panthers",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 410
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -550
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -108,
+                  "point": 10.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -112,
+                  "point": -10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 450
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -600
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -115,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 431
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -575
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -105,
+                  "point": 10.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -115,
+                  "point": -10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 415
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -515
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -115,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 104,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 495
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -500
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -111,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 108,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 481
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -499
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -111,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 110,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kalshi",
+          "title": "Kalshi",
+          "last_update": "2026-01-10T16:25:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 456
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -488
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -113,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 108,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 456
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -488
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -113,
+                  "point": 10.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 108,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "271335072b85daf0ceabb360ef75220e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-11T01:00:00Z",
+      "home_team": "Chicago Bears",
+      "away_team": "Green Bay Packers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 110
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -105,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -115,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 110
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -104,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -118,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 110
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -110,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -110,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 114
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -126
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 101,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -112,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 117
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -118
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -104,
+                  "point": 2.0
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": 100,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 117
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -118
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 102,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -103,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kalshi",
+          "title": "Kalshi",
+          "last_update": "2026-01-10T16:25:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 113
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -113,
+                  "point": 2.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": 104,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 117
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 100,
+                  "point": 1.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -108,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f5701bd3d1340565779bc9ccf6d0b73b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-11T18:00:00Z",
+      "home_team": "Jacksonville Jaguars",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -105
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -115
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -118,
+                  "point": 1.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -102,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -102
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -116
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -118,
+                  "point": 1.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -104,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -106,
+                  "point": 0.0
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -114,
+                  "point": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 106
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 101,
+                  "point": 1.0
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -114,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 104
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 102,
+                  "point": 1.0
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -107,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 108
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -110
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -102,
+                  "point": 1.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -104,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kalshi",
+          "title": "Kalshi",
+          "last_update": "2026-01-10T16:25:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 108
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -113
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -117,
+                  "point": 2.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 113,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 104
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 122,
+                  "point": -1.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -133,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "467cba5a1b3809e6b990033dff600f48",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-11T21:30:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -265
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 215
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -108,
+                  "point": -6.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -112,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -270
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 220
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -118,
+                  "point": -5.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -250
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 207
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -105,
+                  "point": -6.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -258
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 214
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": -5.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 102,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -232
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 228
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -105,
+                  "point": -5.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 104,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -235
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 225
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 102,
+                  "point": -6.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kalshi",
+          "title": "Kalshi",
+          "last_update": "2026-01-10T16:25:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -233
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 212
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 108,
+                  "point": -6.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -113,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -233
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 223
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 108,
+                  "point": -6.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -117,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d48193fef08ca62ade864612a40e2a4e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-12T01:00:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "Los Angeles Chargers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 160
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -192
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -112,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 164
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -196
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -110,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -110,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 157
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -180
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -114,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -106,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 171
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -201
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -104,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 178
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -182
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 100,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -102,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 174
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -178
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 100,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -102,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 178
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -186
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": 100,
+                  "point": 3.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -104,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "932813a3782921beb4f7fecdf247865e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2026-01-13T01:00:00Z",
+      "home_team": "Pittsburgh Steelers",
+      "away_team": "Houston Texans",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2026-01-10T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -155
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -102,
+                  "point": -3.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -118,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2026-01-10T16:23:28Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -160
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 140
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:23:28Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -107,
+                  "point": -3.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -113,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2026-01-10T16:25:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -158
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 134
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:23Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -105,
+                  "point": -3.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -115,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2026-01-10T16:25:22Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -159
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 137
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:22Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -103,
+                  "point": -3.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -109,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kalshi",
+          "title": "Kalshi",
+          "last_update": "2026-01-10T16:25:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -150
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 144
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:34Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -122,
+                  "point": -2.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 113,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -150
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 148
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -119,
+                  "point": -2.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 117,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2026-01-10T16:25:21Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -150
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 146
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:21Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 103,
+                  "point": -3.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -111,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "polymarket",
+          "title": "Polymarket",
+          "last_update": "2026-01-10T16:25:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -150
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 144
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2026-01-10T16:25:24Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -138,
+                  "point": -1.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 127,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

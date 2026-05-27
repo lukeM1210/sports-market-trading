@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 
 # ---- CONFIG ----
-load_dotenv()
+load_dotenv(override=True)
 API_KEY = os.environ.get("API_KEY")
 if not API_KEY:
     raise RuntimeError("Missing API_KEY environment variable. Set it before running. Check .env file")
