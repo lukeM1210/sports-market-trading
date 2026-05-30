@@ -44,8 +44,12 @@ def movement_bucket(pct: float) -> str:
         return "0-2%"
     if a < 5:
         return "2-5%"
+    if a < 6:
+        return "6%"
+    if a < 7:
+        return "7%"
     if a < 8:
-        return "5-8%"
+        return "8%"
     return "8%+"
 
 
@@ -99,8 +103,8 @@ def consensus_devigged_prob(event: dict, team: str, opponent: str, books: list[s
 
 
 def consensus_american_odds(event: dict, team: str, books: list[str]) -> float | None:
-    """Average raw American odds for team across the given books (before de-vigging)."""
-    odds_list = []
+    """Consensus American odds averaged in probability space then converted back."""
+    probs = []
     for bm in event.get("bookmakers", []):
         if bm["key"] not in books:
             continue
@@ -109,8 +113,13 @@ def consensus_american_odds(event: dict, team: str, books: list[str]) -> float |
             continue
         for o in mkt["outcomes"]:
             if o["name"] == team:
-                odds_list.append(float(o["price"]))
-    return round(sum(odds_list) / len(odds_list), 1) if odds_list else None
+                probs.append(american_to_implied(float(o["price"])))
+    if not probs:
+        return None
+    avg = sum(probs) / len(probs)
+    if avg >= 0.5:
+        return round(-(avg / (1 - avg)) * 100, 1)
+    return round(((1 - avg) / avg) * 100, 1)
 
 
 def consensus_spread(event: dict, team: str, books: list[str]) -> float | None:

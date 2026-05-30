@@ -44,7 +44,7 @@ df["ml_movement_pct"] = pd.to_numeric(df["ml_movement_pct"], errors="coerce")
 df["open_prob_sharp"] = pd.to_numeric(df["open_prob_sharp"], errors="coerce")
 df["close_prob_sharp"] = pd.to_numeric(df["close_prob_sharp"], errors="coerce")
 
-BUCKET_ORDER = ["0-2%", "2-5%", "5-8%", "8%+"]
+BUCKET_ORDER = ["0-2%", "2-5%", "6%", "7%", "8%", "8%+"]
 SPREAD_BUCKET_ORDER = ["0-1pt", "1-2pts", "2-3pts", "3pts+"]
 
 resolved = df[df["ml_result"].isin(["W", "L", "T"])].copy()
@@ -241,6 +241,58 @@ else:
                .background_gradient(subset=["ROI %"], cmap="RdYlGn", vmin=-15, vmax=15),
         hide_index=True,
         use_container_width=True,
+    )
+
+    # Download: closing odds for winning bets per bucket
+    def prob_to_american(p: float) -> int:
+        if pd.isna(p) or p <= 0 or p >= 1:
+            return None
+        if p >= 0.5:
+            return int(round(-(p / (1 - p)) * 100))
+        return int(round(((1 - p) / p) * 100))
+
+    dl_bucket = st.selectbox(
+        "Export winning bets for bucket",
+        BUCKET_ORDER,
+        index=BUCKET_ORDER.index("6%") if "6%" in BUCKET_ORDER else 0,
+        key="dl_bucket",
+    )
+
+    base_cols = ["game_date", "team", "opponent", "is_home",
+                 "open_prob_sharp", "close_prob_sharp", "ml_movement_pct",
+                 "close_odds_american", "profit"]
+    all_cols = (["season"] + base_cols) if "season" in roi_data.columns else base_cols
+
+    wins_raw = roi_data[
+        (roi_data["movement_bucket"] == dl_bucket) & (roi_data["ml_result"] == "W")
+    ][all_cols].copy()
+
+    wins_raw["open_odds_american"] = wins_raw["open_prob_sharp"].apply(prob_to_american)
+    wins_raw["close_odds_american"] = pd.to_numeric(wins_raw["close_odds_american"], errors="coerce").round().astype("Int64")
+
+    rename = {
+        "season": "Season",
+        "game_date": "Date",
+        "team": "Team",
+        "opponent": "Opponent",
+        "is_home": "Home",
+        "open_odds_american": "Open Odds",
+        "close_odds_american": "Close Odds",
+        "ml_movement_pct": "Movement %",
+        "profit": "Profit ($)",
+    }
+    wins_export = wins_raw.drop(columns=["open_prob_sharp", "close_prob_sharp"]).rename(columns=rename)
+    wins_export["Home"] = wins_export["Home"].map({True: "Home", False: "Away"})
+    wins_export["Movement %"] = wins_export["Movement %"].round(1)
+    wins_export["Profit ($)"] = wins_export["Profit ($)"].round(2)
+    wins_export = wins_export.sort_values("Date", ascending=False)
+
+    st.dataframe(wins_export, hide_index=True, use_container_width=True)
+    st.download_button(
+        label=f"Download {dl_bucket} wins CSV ({len(wins_export)} rows)",
+        data=wins_export.to_csv(index=False),
+        file_name=f"nfl_{selected_year}_{dl_bucket.replace('%','pct')}_wins.csv",
+        mime="text/csv",
     )
 
 # ---------------------------------------------------------------------------
