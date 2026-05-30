@@ -1,8 +1,22 @@
+"""
+NFL Historical Odds Backfill
+Usage:
+    python nfl_history_backfill.py          # fetch all seasons
+    python nfl_history_backfill.py --year 2023
+    python nfl_history_backfill.py --year 2023 2024 2025
+
+Raw snapshots cached to: Python/NFL/historical/{year}/raw/
+Re-runs cost zero credits — existing cache files are never re-fetched.
+"""
+
 import os
+import sys
 import json
 import time
+import shutil
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
+
 from dotenv import load_dotenv
 import requests
 
@@ -12,62 +26,113 @@ if not API_KEY:
     raise RuntimeError("Missing API_KEY. Check your .env file.")
 
 BASE = Path(__file__).parent
-RAW_DIR = BASE / "NFL" / "historical" / "raw"
-RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-# Sharp books used for consensus line (Circa not available in API)
 SHARP_BOOKS = ["pinnacle", "fanduel", "draftkings", "prophetx", "betonlineag", "novig"]
-# Tracked separately — prediction markets
 PREDICTION_MARKETS = ["kalshi", "polymarket"]
 ALL_BOOKS = ",".join(SHARP_BOOKS + PREDICTION_MARKETS)
 
-# NFL 2025-26 season snapshots.
-# Each tuple: (week_label, open_utc, thu_close_utc_or_None, sun_close_utc)
-#
-# Opening: Tuesday ~noon ET after previous week's games
-#   EDT (Sep–Nov 1):  noon ET = 16:00 UTC
-#   EST (Nov 2+):     noon ET = 17:00 UTC
-#
-# Thursday close: ~8 PM ET kickoff window
-#   EDT: 00:00 UTC next day  |  EST: 01:00 UTC next day
-#
-# Sunday close: ~11:30 AM ET (1 hr before early games)
-#   EDT: 15:30 UTC  |  EST: 16:30 UTC
-#
-# Monday Night close: ~8 PM ET Monday
-#   EDT: 00:00 UTC Tue  |  EST: 01:00 UTC Tue
-NFL_WEEKS = [
-    # --- Regular Season ---
-    ("W01",  "2025-09-02T16:00:00Z", "2025-09-04T23:30:00Z", "2025-09-07T15:30:00Z"),
-    ("W02",  "2025-09-09T16:00:00Z", "2025-09-11T23:30:00Z", "2025-09-14T15:30:00Z"),
-    ("W03",  "2025-09-16T16:00:00Z", "2025-09-18T23:30:00Z", "2025-09-21T15:30:00Z"),
-    ("W04",  "2025-09-23T16:00:00Z", "2025-09-25T23:30:00Z", "2025-09-28T15:30:00Z"),
-    ("W05",  "2025-09-30T16:00:00Z", "2025-10-02T23:30:00Z", "2025-10-05T15:30:00Z"),
-    ("W06",  "2025-10-07T16:00:00Z", "2025-10-09T23:30:00Z", "2025-10-12T15:30:00Z"),
-    ("W07",  "2025-10-14T16:00:00Z", "2025-10-16T23:30:00Z", "2025-10-19T15:30:00Z"),
-    ("W08",  "2025-10-21T16:00:00Z", "2025-10-23T23:30:00Z", "2025-10-26T15:30:00Z"),
-    ("W09",  "2025-10-28T16:00:00Z", "2025-10-30T23:30:00Z", "2025-11-02T15:30:00Z"),
-    ("W10",  "2025-11-04T17:00:00Z", "2025-11-06T00:30:00Z", "2025-11-09T16:30:00Z"),
-    ("W11",  "2025-11-11T17:00:00Z", "2025-11-13T00:30:00Z", "2025-11-16T16:30:00Z"),
-    ("W12",  "2025-11-18T17:00:00Z", "2025-11-20T00:30:00Z", "2025-11-23T16:30:00Z"),
-    ("W13",  "2025-11-25T17:00:00Z", "2025-11-27T00:30:00Z", "2025-11-30T16:30:00Z"),
-    ("W14",  "2025-12-02T17:00:00Z", "2025-12-04T00:30:00Z", "2025-12-07T16:30:00Z"),
-    ("W15",  "2025-12-09T17:00:00Z", "2025-12-11T00:30:00Z", "2025-12-14T16:30:00Z"),
-    ("W16",  "2025-12-16T17:00:00Z", "2025-12-18T00:30:00Z", "2025-12-21T16:30:00Z"),
-    ("W17",  "2025-12-23T17:00:00Z", "2025-12-25T00:30:00Z", "2025-12-28T16:30:00Z"),
-    ("W18",  "2025-12-30T17:00:00Z", None,                    "2026-01-04T16:30:00Z"),
-    # --- Playoffs ---
-    ("WC",   "2026-01-06T17:00:00Z", None,                    "2026-01-10T16:30:00Z"),
-    ("DIV",  "2026-01-13T17:00:00Z", None,                    "2026-01-17T16:30:00Z"),
-    ("CONF", "2026-01-20T17:00:00Z", None,                    "2026-01-25T16:30:00Z"),
-    ("SB",   "2026-01-27T17:00:00Z", None,                    "2026-02-08T21:30:00Z"),
-]
+# Season kickoff = date of the Thursday Night Kickoff game (Week 1)
+# Label is the season year (year the regular season starts)
+NFL_SEASONS = {
+    "2020": "2020-09-10",
+    "2021": "2021-09-09",
+    "2022": "2022-09-08",
+    "2023": "2023-09-07",
+    "2024": "2024-09-05",
+    "2025": "2025-09-04",
+}
 
 
-def fetch_snapshot(timestamp: str) -> dict:
-    """Fetch historical odds at the given UTC timestamp. Results cached to disk."""
+def is_edt(dt: datetime) -> bool:
+    """True if date falls in Eastern Daylight Time (2nd Sun March – 1st Sun Nov)."""
+    year = dt.year
+    # 2nd Sunday of March
+    march1 = datetime(year, 3, 1)
+    edt_start = march1 + timedelta(days=(6 - march1.weekday()) % 7 + 7)
+    # 1st Sunday of November
+    nov1 = datetime(year, 11, 1)
+    edt_end = nov1 + timedelta(days=(6 - nov1.weekday()) % 7)
+    return edt_start.date() <= dt.date() < edt_end.date()
+
+
+def to_utc_str(dt: datetime, hour_et: float) -> str:
+    """Convert a date + Eastern hour to a UTC ISO string."""
+    utc_offset = 4 if is_edt(dt) else 5
+    utc_dt = dt + timedelta(hours=hour_et + utc_offset)
+    return utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def generate_season_snapshots(kickoff_date_str: str) -> list[tuple]:
+    """
+    Generate (label, open_utc, thu_close_utc_or_None, sun_close_utc) tuples
+    for all 18 regular season weeks + playoffs, given the Week 1 kickoff (Thursday).
+
+    Opening:       Tuesday noon ET
+    Thu close:     Thursday 8:30 PM ET (after kickoff)
+    Sunday close:  Sunday 11:30 AM ET (1 hr before early games)
+    """
+    kickoff = datetime.strptime(kickoff_date_str, "%Y-%m-%d")  # Thursday
+
+    week1_tue = kickoff - timedelta(days=2)
+    week1_thu = kickoff
+    week1_sun = kickoff + timedelta(days=3)
+
+    snapshots = []
+
+    # 18 regular season weeks
+    for w in range(18):
+        offset = timedelta(days=w * 7)
+        tue = week1_tue + offset
+        thu = week1_thu + offset
+        sun = week1_sun + offset
+        snapshots.append((
+            f"W{w+1:02d}",
+            to_utc_str(tue, 12.0),    # noon ET open
+            to_utc_str(thu, 20.5),    # 8:30 PM ET Thursday close
+            to_utc_str(sun, 11.5),    # 11:30 AM ET Sunday close
+        ))
+
+    # Playoffs: Wild Card ~2 weeks after Week 18, then every week after
+    week18_sun = week1_sun + timedelta(days=17 * 7)
+    playoff_rounds = [
+        ("WC",   week18_sun + timedelta(days=7)),
+        ("DIV",  week18_sun + timedelta(days=14)),
+        ("CONF", week18_sun + timedelta(days=21)),
+        ("SB",   week18_sun + timedelta(days=35)),   # ~5 weeks after W18
+    ]
+    for label, game_sun in playoff_rounds:
+        tue = game_sun - timedelta(days=5)
+        snapshots.append((
+            label,
+            to_utc_str(tue, 12.0),
+            None,
+            to_utc_str(game_sun, 11.5),
+        ))
+
+    return snapshots
+
+
+def raw_dir(year: str) -> Path:
+    d = BASE / "NFL" / "historical" / year / "raw"
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
+
+def migrate_legacy_raw() -> None:
+    """Move old flat raw/ folder into 2025/ if migration hasn't happened yet."""
+    legacy = BASE / "NFL" / "historical" / "raw"
+    target = BASE / "NFL" / "historical" / "2025" / "raw"
+    if legacy.exists() and not target.exists():
+        print("Migrating existing 2025 raw data to NFL/historical/2025/raw/ ...")
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(legacy), str(target))
+        print("Migration done.")
+
+
+def fetch_snapshot(timestamp: str, year: str) -> dict:
+    """Fetch historical odds at timestamp. Cached per season year."""
     safe_name = timestamp.replace(":", "-")
-    cache_file = RAW_DIR / f"{safe_name}.json"
+    cache_file = raw_dir(year) / f"{safe_name}.json"
 
     if cache_file.exists():
         print(f"  [cache] {timestamp}")
@@ -75,7 +140,6 @@ def fetch_snapshot(timestamp: str) -> dict:
             return json.load(f)
 
     print(f"  [fetch] {timestamp}")
-    # Use bookmakers param directly — regions is ignored when bookmakers is set
     url = (
         "https://api.the-odds-api.com/v4/historical/sports/americanfootball_nfl/odds/"
         f"?apiKey={API_KEY}"
@@ -99,20 +163,39 @@ def fetch_snapshot(timestamp: str) -> dict:
     return data
 
 
-def fetch_all() -> None:
-    print("=== NFL 2025-26 Historical Odds Backfill ===\n")
-    total = sum(2 + (1 if thu else 0) for _, _, thu, _ in NFL_WEEKS)
+def fetch_season(year: str) -> None:
+    kickoff = NFL_SEASONS.get(year)
+    if not kickoff:
+        print(f"Unknown season year: {year}. Available: {list(NFL_SEASONS)}")
+        return
+
+    snapshots = generate_season_snapshots(kickoff)
+    total = sum(2 + (1 if thu else 0) for _, _, thu, _ in snapshots)
+    print(f"\n=== NFL {year} Season ({total} snapshots) ===")
+
     fetched = 0
-
-    for week_label, open_ts, thu_ts, sun_ts in NFL_WEEKS:
-        print(f"\n[{week_label}]")
-        fetch_snapshot(open_ts);   fetched += 1
+    for label, open_ts, thu_ts, sun_ts in snapshots:
+        print(f"\n[{label}]")
+        fetch_snapshot(open_ts, year);  fetched += 1
         if thu_ts:
-            fetch_snapshot(thu_ts); fetched += 1
-        fetch_snapshot(sun_ts);    fetched += 1
+            fetch_snapshot(thu_ts, year); fetched += 1
+        fetch_snapshot(sun_ts, year);   fetched += 1
 
-    print(f"\nDone. {fetched} snapshots in {RAW_DIR}")
+    print(f"\nDone. {fetched} snapshots → NFL/historical/{year}/raw/")
+
+
+def fetch_all(years: list[str] | None = None) -> None:
+    migrate_legacy_raw()
+    targets = years or list(NFL_SEASONS)
+    for year in targets:
+        fetch_season(year)
 
 
 if __name__ == "__main__":
-    fetch_all()
+    args = sys.argv[1:]
+    if "--year" in args:
+        idx = args.index("--year")
+        selected = args[idx + 1:]
+        fetch_all(selected if selected else None)
+    else:
+        fetch_all()

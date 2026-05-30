@@ -1,0 +1,6002 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "slug": "nfl",
+      "season": {
+        "year": 2021,
+        "startDate": "2021-07-17T07:00Z",
+        "endDate": "2022-02-16T07:59Z",
+        "displayName": "2021",
+        "type": {
+          "id": "2",
+          "type": 2,
+          "name": "Regular Season",
+          "abbreviation": "reg"
+        }
+      },
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "lastUpdated": "2018-06-05T12:07Z"
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "lastUpdated": "2024-07-22T16:53Z"
+        }
+      ],
+      "calendarType": "list",
+      "calendarIsWhitelist": true,
+      "calendarStartDate": "2021-07-17T07:00Z",
+      "calendarEndDate": "2022-02-16T07:59Z",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "startDate": "2021-07-17T07:00Z",
+          "endDate": "2021-09-09T06:59Z",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "alternateLabel": "HOF",
+              "detail": "Jul 17-Aug 10",
+              "value": "1",
+              "startDate": "2021-07-17T07:00Z",
+              "endDate": "2021-08-11T06:59Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "alternateLabel": "Pre Wk 1",
+              "detail": "Aug 11-17",
+              "value": "2",
+              "startDate": "2021-08-11T07:00Z",
+              "endDate": "2021-08-18T06:59Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "alternateLabel": "Pre Wk 2",
+              "detail": "Aug 18-24",
+              "value": "3",
+              "startDate": "2021-08-18T07:00Z",
+              "endDate": "2021-08-25T06:59Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "alternateLabel": "Pre Wk 3",
+              "detail": "Aug 25-31",
+              "value": "4",
+              "startDate": "2021-08-25T07:00Z",
+              "endDate": "2021-09-01T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "startDate": "2021-09-09T07:00Z",
+          "endDate": "2022-01-12T07:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Sep 9-14",
+              "value": "1",
+              "startDate": "2021-09-09T07:00Z",
+              "endDate": "2021-09-15T06:59Z"
+            },
+            {
+              "label": "Week 2",
+              "alternateLabel": "Week 2",
+              "detail": "Sep 15-21",
+              "value": "2",
+              "startDate": "2021-09-15T07:00Z",
+              "endDate": "2021-09-22T06:59Z"
+            },
+            {
+              "label": "Week 3",
+              "alternateLabel": "Week 3",
+              "detail": "Sep 22-28",
+              "value": "3",
+              "startDate": "2021-09-22T07:00Z",
+              "endDate": "2021-09-29T06:59Z"
+            },
+            {
+              "label": "Week 4",
+              "alternateLabel": "Week 4",
+              "detail": "Sep 29-Oct 5",
+              "value": "4",
+              "startDate": "2021-09-29T07:00Z",
+              "endDate": "2021-10-06T06:59Z"
+            },
+            {
+              "label": "Week 5",
+              "alternateLabel": "Week 5",
+              "detail": "Oct 6-12",
+              "value": "5",
+              "startDate": "2021-10-06T07:00Z",
+              "endDate": "2021-10-13T06:59Z"
+            },
+            {
+              "label": "Week 6",
+              "alternateLabel": "Week 6",
+              "detail": "Oct 13-19",
+              "value": "6",
+              "startDate": "2021-10-13T07:00Z",
+              "endDate": "2021-10-20T06:59Z"
+            },
+            {
+              "label": "Week 7",
+              "alternateLabel": "Week 7",
+              "detail": "Oct 20-26",
+              "value": "7",
+              "startDate": "2021-10-20T07:00Z",
+              "endDate": "2021-10-27T06:59Z"
+            },
+            {
+              "label": "Week 8",
+              "alternateLabel": "Week 8",
+              "detail": "Oct 27-Nov 2",
+              "value": "8",
+              "startDate": "2021-10-27T07:00Z",
+              "endDate": "2021-11-03T06:59Z"
+            },
+            {
+              "label": "Week 9",
+              "alternateLabel": "Week 9",
+              "detail": "Nov 3-9",
+              "value": "9",
+              "startDate": "2021-11-03T07:00Z",
+              "endDate": "2021-11-10T07:59Z"
+            },
+            {
+              "label": "Week 10",
+              "alternateLabel": "Week 10",
+              "detail": "Nov 10-16",
+              "value": "10",
+              "startDate": "2021-11-10T08:00Z",
+              "endDate": "2021-11-17T07:59Z"
+            },
+            {
+              "label": "Week 11",
+              "alternateLabel": "Week 11",
+              "detail": "Nov 17-23",
+              "value": "11",
+              "startDate": "2021-11-17T08:00Z",
+              "endDate": "2021-11-24T07:59Z"
+            },
+            {
+              "label": "Week 12",
+              "alternateLabel": "Week 12",
+              "detail": "Nov 24-30",
+              "value": "12",
+              "startDate": "2021-11-24T08:00Z",
+              "endDate": "2021-12-01T07:59Z"
+            },
+            {
+              "label": "Week 13",
+              "alternateLabel": "Week 13",
+              "detail": "Dec 1-7",
+              "value": "13",
+              "startDate": "2021-12-01T08:00Z",
+              "endDate": "2021-12-08T07:59Z"
+            },
+            {
+              "label": "Week 14",
+              "alternateLabel": "Week 14",
+              "detail": "Dec 8-14",
+              "value": "14",
+              "startDate": "2021-12-08T08:00Z",
+              "endDate": "2021-12-15T07:59Z"
+            },
+            {
+              "label": "Week 15",
+              "alternateLabel": "Week 15",
+              "detail": "Dec 15-21",
+              "value": "15",
+              "startDate": "2021-12-15T08:00Z",
+              "endDate": "2021-12-22T07:59Z"
+            },
+            {
+              "label": "Week 16",
+              "alternateLabel": "Week 16",
+              "detail": "Dec 22-28",
+              "value": "16",
+              "startDate": "2021-12-22T08:00Z",
+              "endDate": "2021-12-29T07:59Z"
+            },
+            {
+              "label": "Week 17",
+              "alternateLabel": "Week 17",
+              "detail": "Dec 29-Jan 4",
+              "value": "17",
+              "startDate": "2021-12-29T08:00Z",
+              "endDate": "2022-01-05T07:59Z"
+            },
+            {
+              "label": "Week 18",
+              "alternateLabel": "Week 18",
+              "detail": "Jan 5-11",
+              "value": "18",
+              "startDate": "2022-01-05T08:00Z",
+              "endDate": "2022-01-12T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Postseason",
+          "value": "3",
+          "startDate": "2022-01-12T08:00Z",
+          "endDate": "2022-02-16T07:59Z",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "alternateLabel": "Wild Card",
+              "detail": "Jan 12-18",
+              "value": "1",
+              "startDate": "2022-01-12T08:00Z",
+              "endDate": "2022-01-19T07:59Z"
+            },
+            {
+              "label": "Divisional Round",
+              "alternateLabel": "Div Rd",
+              "detail": "Jan 19-25",
+              "value": "2",
+              "startDate": "2022-01-19T08:00Z",
+              "endDate": "2022-01-26T07:59Z"
+            },
+            {
+              "label": "Conference Championship",
+              "alternateLabel": "Conf Champ",
+              "detail": "Jan 26-Feb 1",
+              "value": "3",
+              "startDate": "2022-01-26T08:00Z",
+              "endDate": "2022-02-02T07:59Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "alternateLabel": "Pro Bowl",
+              "detail": "Feb 2-8",
+              "value": "4",
+              "startDate": "2022-02-02T08:00Z",
+              "endDate": "2022-02-09T07:59Z"
+            },
+            {
+              "label": "Super Bowl",
+              "alternateLabel": "Super Bowl",
+              "detail": "Feb 9-15",
+              "value": "5",
+              "startDate": "2022-02-09T08:00Z",
+              "endDate": "2022-02-16T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4",
+          "startDate": "2022-02-16T08:00Z",
+          "endDate": "2022-08-01T06:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Feb 16-Jul 31",
+              "value": "1",
+              "startDate": "2022-02-16T08:00Z",
+              "endDate": "2022-08-01T06:59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "401326425",
+      "uid": "s:20~l:28~e:401326425",
+      "date": "2021-10-24T17:00Z",
+      "name": "Washington  at Green Bay Packers",
+      "shortName": "WSH @ GB",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326425",
+          "uid": "s:20~l:28~e:401326425~c:401326425",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 78219,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3798",
+            "fullName": "Lambeau Field",
+            "address": {
+              "city": "Green Bay",
+              "state": "WI",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "9",
+              "uid": "s:20~l:28~t:9",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "9",
+                "uid": "s:20~l:28~t:9",
+                "location": "Green Bay",
+                "name": "Packers",
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "shortDisplayName": "Packers",
+                "color": "204E32",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3798"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/gb/green-bay-packers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/gb/green-bay-packers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+              },
+              "score": "24",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-1"
+                }
+              ]
+            },
+            {
+              "id": "28",
+              "uid": "s:20~l:28~t:28",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "28",
+                "uid": "s:20~l:28~t:28",
+                "location": "Washington",
+                "abbreviation": "WSH",
+                "displayName": "Washington",
+                "shortDisplayName": "Washington",
+                "color": "650415",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3719"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/wsh/washington-commanders",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/wsh/washington-commanders",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+              },
+              "score": "10",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "27/35, 274 YDS, 3 TD",
+                  "value": 274.0,
+                  "athlete": {
+                    "id": "8439",
+                    "fullName": "Aaron Rodgers",
+                    "displayName": "Aaron Rodgers",
+                    "shortName": "A. Rodgers",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/8439/aaron-rodgers"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
+                    "jersey": "8",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "9"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "10 CAR, 95 YDS",
+                  "value": 95.0,
+                  "athlete": {
+                    "id": "2565969",
+                    "fullName": "Taylor Heinicke",
+                    "displayName": "Taylor Heinicke",
+                    "shortName": "T. Heinicke",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/2565969/taylor-heinicke"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2565969.png",
+                    "jersey": "4",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "28"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "28"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "7 REC, 122 YDS, 1 TD",
+                  "value": 122.0,
+                  "athlete": {
+                    "id": "3121422",
+                    "fullName": "Terry McLaurin",
+                    "displayName": "Terry McLaurin",
+                    "shortName": "T. McLaurin",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3121422/terry-mclaurin"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121422.png",
+                    "jersey": "17",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "28"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "28"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "FOX",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "5",
+                "shortName": "Radio"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "ERADM"
+              },
+              "lang": "en",
+              "region": "us"
+            },
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 With Aaron Rodgers approaching his MVP form and Green Bay\u2019s defense correcting its red-zone problems, the Packers have reason to feel confident as they enter the toughest stretch of their schedule.",
+              "shortLinkText": "Packers defeat Washington 24-10 for 6th straight victory"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326425/commanders-packers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326425",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326425",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326425",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326429",
+      "uid": "s:20~l:28~e:401326429",
+      "date": "2021-10-24T17:00Z",
+      "name": "Kansas City Chiefs at Tennessee Titans",
+      "shortName": "KC @ TEN",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326429",
+          "uid": "s:20~l:28~e:401326429~c:401326429",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 69484,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3810",
+            "fullName": "Nissan Stadium",
+            "address": {
+              "city": "Nashville",
+              "state": "TN",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "10",
+              "uid": "s:20~l:28~t:10",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "10",
+                "uid": "s:20~l:28~t:10",
+                "location": "Tennessee",
+                "name": "Titans",
+                "abbreviation": "TEN",
+                "displayName": "Tennessee Titans",
+                "shortDisplayName": "Titans",
+                "color": "2F95DD",
+                "alternateColor": "001532",
+                "isActive": true,
+                "venue": {
+                  "id": "3810"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/ten/tennessee-titans",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/ten/tennessee-titans",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/ten/tennessee-titans",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/ten",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png"
+              },
+              "score": "27",
+              "linescores": [
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 1
+                },
+                {
+                  "value": 13.0,
+                  "displayValue": "13",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "12",
+              "uid": "s:20~l:28~t:12",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "12",
+                "uid": "s:20~l:28~t:12",
+                "location": "Kansas City",
+                "name": "Chiefs",
+                "abbreviation": "KC",
+                "displayName": "Kansas City Chiefs",
+                "shortDisplayName": "Chiefs",
+                "color": "BE1415",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3622"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/kc/kansas-city-chiefs",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/kc/kansas-city-chiefs",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/kc/kansas-city-chiefs",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/kc",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png"
+              },
+              "score": "3",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "21/27, 270 YDS, 1 TD, 1 INT",
+                  "value": 270.0,
+                  "athlete": {
+                    "id": "14876",
+                    "fullName": "Ryan Tannehill",
+                    "displayName": "Ryan Tannehill",
+                    "shortName": "R. Tannehill",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/14876/ryan-tannehill"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/14876.png",
+                    "jersey": "17",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "10"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "10"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "29 CAR, 86 YDS",
+                  "value": 86.0,
+                  "athlete": {
+                    "id": "3043078",
+                    "fullName": "Derrick Henry",
+                    "displayName": "Derrick Henry",
+                    "shortName": "D. Henry",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3043078/derrick-henry"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
+                    "jersey": "22",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "10"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "10"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "8 REC, 133 YDS, 1 TD",
+                  "value": 133.0,
+                  "athlete": {
+                    "id": "4047646",
+                    "fullName": "A.J. Brown",
+                    "displayName": "A.J. Brown",
+                    "shortName": "A.J. Brown",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4047646/aj-brown"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4047646.png",
+                    "jersey": "11",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "10"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "10"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "CBS",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "CBS"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": [],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 The Tennessee Titans wanted to start games faster and score more points early.",
+              "shortLinkText": "Titans start fast, simply dominate Mahomes, Chiefs 27-3"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326429/chiefs-titans",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326429",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326429",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326429",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326426",
+      "uid": "s:20~l:28~e:401326426",
+      "date": "2021-10-24T17:00Z",
+      "name": "Atlanta Falcons at Miami Dolphins",
+      "shortName": "ATL @ MIA",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326426",
+          "uid": "s:20~l:28~e:401326426~c:401326426",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 62739,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3948",
+            "fullName": "Hard Rock Stadium",
+            "address": {
+              "city": "Miami Gardens",
+              "state": "FL",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "15",
+              "uid": "s:20~l:28~t:15",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": false,
+              "team": {
+                "id": "15",
+                "uid": "s:20~l:28~t:15",
+                "location": "Miami",
+                "name": "Dolphins",
+                "abbreviation": "MIA",
+                "displayName": "Miami Dolphins",
+                "shortDisplayName": "Dolphins",
+                "color": "006B79",
+                "alternateColor": "fc4c02",
+                "isActive": true,
+                "venue": {
+                  "id": "3948"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/mia/miami-dolphins",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/mia/miami-dolphins",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/mia",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png"
+              },
+              "score": "28",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-3"
+                }
+              ]
+            },
+            {
+              "id": "1",
+              "uid": "s:20~l:28~t:1",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": true,
+              "team": {
+                "id": "1",
+                "uid": "s:20~l:28~t:1",
+                "location": "Atlanta",
+                "name": "Falcons",
+                "abbreviation": "ATL",
+                "displayName": "Atlanta Falcons",
+                "shortDisplayName": "Falcons",
+                "color": "000000",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "5348"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/atl/atlanta-falcons",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/atl/atlanta-falcons",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/atl/atlanta-falcons",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/atl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png"
+              },
+              "score": "30",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 13.0,
+                  "displayValue": "13",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-3"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "25/40, 336 YDS, 2 TD, 1 INT",
+                  "value": 336.0,
+                  "athlete": {
+                    "id": "11237",
+                    "fullName": "Matt Ryan",
+                    "displayName": "Matt Ryan",
+                    "shortName": "M. Ryan",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/11237/matt-ryan"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/11237.png",
+                    "jersey": "2",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "1"
+                    },
+                    "active": false
+                  },
+                  "team": {
+                    "id": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "15 CAR, 67 YDS",
+                  "value": 67.0,
+                  "athlete": {
+                    "id": "3886818",
+                    "fullName": "Myles Gaskin",
+                    "displayName": "Myles Gaskin",
+                    "shortName": "M. Gaskin",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3886818/myles-gaskin"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3886818.png",
+                    "jersey": "33",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "15"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "15"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "7 REC, 163 YDS",
+                  "value": 163.0,
+                  "athlete": {
+                    "id": "4360248",
+                    "fullName": "Kyle Pitts Sr.",
+                    "displayName": "Kyle Pitts Sr.",
+                    "shortName": "K. Pitts Sr.",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4360248/kyle-pitts-sr"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360248.png",
+                    "jersey": "8",
+                    "position": {
+                      "abbreviation": "TE"
+                    },
+                    "team": {
+                      "id": "1"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "1"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "FOX",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Matt Ryan fell asleep during Game 6 of the National League Championship Series, and wasn't even aware until waking up Sunday morning that the Atlanta Braves are heading to the World Series.",
+              "shortLinkText": "Ryan throws for 336, Falcons get FG at end, top Miami 30-28"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326426/falcons-dolphins",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326426",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326426",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326426",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326427",
+      "uid": "s:20~l:28~e:401326427",
+      "date": "2021-10-24T17:00Z",
+      "name": "New York Jets at New England Patriots",
+      "shortName": "NYJ @ NE",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326427",
+          "uid": "s:20~l:28~e:401326427~c:401326427",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 65878,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3738",
+            "fullName": "Gillette Stadium",
+            "address": {
+              "city": "Foxborough",
+              "state": "MA",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "17",
+              "uid": "s:20~l:28~t:17",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "17",
+                "uid": "s:20~l:28~t:17",
+                "location": "New England",
+                "name": "Patriots",
+                "abbreviation": "NE",
+                "displayName": "New England Patriots",
+                "shortDisplayName": "Patriots",
+                "color": "02244A",
+                "alternateColor": "c60c30",
+                "isActive": true,
+                "venue": {
+                  "id": "3738"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/ne/new-england-patriots",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/ne/new-england-patriots",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/ne/new-england-patriots",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/ne",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png"
+              },
+              "score": "54",
+              "linescores": [
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 1
+                },
+                {
+                  "value": 17.0,
+                  "displayValue": "17",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 20.0,
+                  "displayValue": "20",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-0"
+                }
+              ]
+            },
+            {
+              "id": "20",
+              "uid": "s:20~l:28~t:20",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "20",
+                "uid": "s:20~l:28~t:20",
+                "location": "New York",
+                "name": "Jets",
+                "abbreviation": "NYJ",
+                "displayName": "New York Jets",
+                "shortDisplayName": "Jets",
+                "color": "174032",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "3839"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/nyj/new-york-jets",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/nyj/new-york-jets",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/nyj/new-york-jets",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/nyj",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png"
+              },
+              "score": "13",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 2
+                },
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-4"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "24/36, 307 YDS, 2 TD",
+                  "value": 307.0,
+                  "athlete": {
+                    "id": "4241464",
+                    "fullName": "Mac Jones",
+                    "displayName": "Mac Jones",
+                    "shortName": "M. Jones",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4241464/mac-jones"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241464.png",
+                    "jersey": "10",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "17"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "17"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "14 CAR, 106 YDS, 2 TD",
+                  "value": 106.0,
+                  "athlete": {
+                    "id": "3925347",
+                    "fullName": "Damien Harris",
+                    "displayName": "Damien Harris",
+                    "shortName": "D. Harris",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3925347/damien-harris"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3925347.png",
+                    "jersey": "22",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "17"
+                    },
+                    "active": false
+                  },
+                  "team": {
+                    "id": "17"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "6 REC, 79 YDS, 1 TD",
+                  "value": 79.0,
+                  "athlete": {
+                    "id": "15478",
+                    "fullName": "Brandon Bolden",
+                    "displayName": "Brandon Bolden",
+                    "shortName": "B. Bolden",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/15478/brandon-bolden"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15478.png",
+                    "jersey": "34",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "17"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "17"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "CBS",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "CBS"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": [],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 The Patriots walked off the field Sunday with the type of win that had eluded them. The Jets left with two losses, one that could further complicate an already frustrating year.",
+              "shortLinkText": "Jones tosses 2 TDs, Patriots roll 54-13 as Jets lose Wilson"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326427/jets-patriots",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326427",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326427",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326427",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326428",
+      "uid": "s:20~l:28~e:401326428",
+      "date": "2021-10-24T17:00Z",
+      "name": "Carolina Panthers at New York Giants",
+      "shortName": "CAR @ NYG",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326428",
+          "uid": "s:20~l:28~e:401326428~c:401326428",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 71899,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3839",
+            "fullName": "MetLife Stadium",
+            "address": {
+              "city": "East Rutherford",
+              "state": "NJ",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "19",
+              "uid": "s:20~l:28~t:19",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "19",
+                "uid": "s:20~l:28~t:19",
+                "location": "New York",
+                "name": "Giants",
+                "abbreviation": "NYG",
+                "displayName": "New York Giants",
+                "shortDisplayName": "Giants",
+                "color": "052570",
+                "alternateColor": "c9243f",
+                "isActive": true,
+                "venue": {
+                  "id": "3839"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/nyg/new-york-giants",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/nyg/new-york-giants",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/nyg",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png"
+              },
+              "score": "25",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 5.0,
+                  "displayValue": "5",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 13.0,
+                  "displayValue": "13",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ]
+            },
+            {
+              "id": "29",
+              "uid": "s:20~l:28~t:29",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "29",
+                "uid": "s:20~l:28~t:29",
+                "location": "Carolina",
+                "name": "Panthers",
+                "abbreviation": "CAR",
+                "displayName": "Carolina Panthers",
+                "shortDisplayName": "Panthers",
+                "color": "2177B0",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3628"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/car/carolina-panthers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/car/carolina-panthers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/car/carolina-panthers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/car",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png"
+              },
+              "score": "3",
+              "linescores": [
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-2"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "23/33, 203 YDS, 1 TD",
+                  "value": 203.0,
+                  "athlete": {
+                    "id": "3917792",
+                    "fullName": "Daniel Jones",
+                    "displayName": "Daniel Jones",
+                    "shortName": "D. Jones",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3917792/daniel-jones"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png",
+                    "jersey": "17",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "19"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "19"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "14 CAR, 51 YDS, 1 TD",
+                  "value": 51.0,
+                  "athlete": {
+                    "id": "3122866",
+                    "fullName": "Devontae Booker",
+                    "displayName": "Devontae Booker",
+                    "shortName": "D. Booker",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3122866/devontae-booker"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3122866.png",
+                    "jersey": "28",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "19"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "19"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "6 REC, 73 YDS",
+                  "value": 73.0,
+                  "athlete": {
+                    "id": "3915416",
+                    "fullName": "DJ Moore",
+                    "displayName": "DJ Moore",
+                    "shortName": "D. Moore",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3915416/dj-moore"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915416.png",
+                    "jersey": "2",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "29"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "29"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "FOX",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 With most of his top skill players sidelined with injuries, Daniel Jones did a little of bit of everything for the New York Giants. He ran the ball, threw a touchdown pass and even made a great catch on a trick play.",
+              "shortLinkText": "Jones passing and catching, Giants D spark win over Panthers"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326428/panthers-giants",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326428",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326428",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326428",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326424",
+      "uid": "s:20~l:28~e:401326424",
+      "date": "2021-10-24T17:00Z",
+      "name": "Cincinnati Bengals at Baltimore Ravens",
+      "shortName": "CIN @ BAL",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326424",
+          "uid": "s:20~l:28~e:401326424~c:401326424",
+          "date": "2021-10-24T17:00Z",
+          "attendance": 70659,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3814",
+            "fullName": "M&T Bank Stadium",
+            "address": {
+              "city": "Baltimore",
+              "state": "MD",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "33",
+              "uid": "s:20~l:28~t:33",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": false,
+              "team": {
+                "id": "33",
+                "uid": "s:20~l:28~t:33",
+                "location": "Baltimore",
+                "name": "Ravens",
+                "abbreviation": "BAL",
+                "displayName": "Baltimore Ravens",
+                "shortDisplayName": "Ravens",
+                "color": "2B025B",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3814"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/bal/baltimore-ravens",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/bal/baltimore-ravens",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/bal/baltimore-ravens",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/bal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png"
+              },
+              "score": "17",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "uid": "s:20~l:28~t:4",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": true,
+              "team": {
+                "id": "4",
+                "uid": "s:20~l:28~t:4",
+                "location": "Cincinnati",
+                "name": "Bengals",
+                "abbreviation": "CIN",
+                "displayName": "Cincinnati Bengals",
+                "shortDisplayName": "Bengals",
+                "color": "FF2700",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3874"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/cin/cincinnati-bengals",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/cin/cincinnati-bengals",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/cin/cincinnati-bengals",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/cin",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png"
+              },
+              "score": "41",
+              "linescores": [
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 1
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 2
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 3
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-1"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "23/38, 416 YDS, 3 TD, 1 INT",
+                  "value": 416.0,
+                  "athlete": {
+                    "id": "3915511",
+                    "fullName": "Joe Burrow",
+                    "displayName": "Joe Burrow",
+                    "shortName": "J. Burrow",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3915511/joe-burrow"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png",
+                    "jersey": "9",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "4"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "4"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "12 CAR, 88 YDS",
+                  "value": 88.0,
+                  "athlete": {
+                    "id": "3916387",
+                    "fullName": "Lamar Jackson",
+                    "displayName": "Lamar Jackson",
+                    "shortName": "L. Jackson",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3916387/lamar-jackson"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
+                    "jersey": "8",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "33"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "33"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "8 REC, 201 YDS, 1 TD",
+                  "value": 201.0,
+                  "athlete": {
+                    "id": "4362628",
+                    "fullName": "Ja'Marr Chase",
+                    "displayName": "Ja'Marr Chase",
+                    "shortName": "J. Chase",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4362628/jamarr-chase"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362628.png",
+                    "jersey": "1",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "4"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "4"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T17:00Z",
+          "broadcast": "CBS",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "CBS"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Ja'Marr Chase caught Joe Burrow's pass over the middle, avoided two players diving at his legs and spun past another defender into the clear.",
+              "shortLinkText": "Burrow, Chase lead way as Bengals speed past Ravens 41-17"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326424/bengals-ravens",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326424",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326424",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326424",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326431",
+      "uid": "s:20~l:28~e:401326431",
+      "date": "2021-10-24T20:05Z",
+      "name": "Philadelphia Eagles at Las Vegas Raiders",
+      "shortName": "PHI @ LV",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326431",
+          "uid": "s:20~l:28~e:401326431~c:401326431",
+          "date": "2021-10-24T20:05Z",
+          "attendance": 62000,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "6501",
+            "fullName": "Allegiant Stadium",
+            "address": {
+              "city": "Las Vegas",
+              "state": "NV",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "13",
+              "uid": "s:20~l:28~t:13",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "13",
+                "uid": "s:20~l:28~t:13",
+                "location": "Las Vegas",
+                "name": "Raiders",
+                "abbreviation": "LV",
+                "displayName": "Las Vegas Raiders",
+                "shortDisplayName": "Raiders",
+                "color": "000000",
+                "alternateColor": "a5acaf",
+                "isActive": true,
+                "venue": {
+                  "id": "6501"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/lv/las-vegas-raiders",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/lv/las-vegas-raiders",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png"
+              },
+              "score": "33",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 17.0,
+                  "displayValue": "17",
+                  "period": 2
+                },
+                {
+                  "value": 13.0,
+                  "displayValue": "13",
+                  "period": 3
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "5-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "21",
+              "uid": "s:20~l:28~t:21",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "21",
+                "uid": "s:20~l:28~t:21",
+                "location": "Philadelphia",
+                "name": "Eagles",
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "shortDisplayName": "Eagles",
+                "color": "06424D",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3806"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/phi/philadelphia-eagles",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/phi/philadelphia-eagles",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              },
+              "score": "22",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 15.0,
+                  "displayValue": "15",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-5"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "31/34, 323 YDS, 2 TD, 1 INT",
+                  "value": 323.0,
+                  "athlete": {
+                    "id": "16757",
+                    "fullName": "Derek Carr",
+                    "displayName": "Derek Carr",
+                    "shortName": "D. Carr",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/16757/derek-carr"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16757.png",
+                    "jersey": "4",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "13"
+                    },
+                    "active": false
+                  },
+                  "team": {
+                    "id": "13"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "14 CAR, 69 YDS, 1 TD",
+                  "value": 69.0,
+                  "athlete": {
+                    "id": "2979843",
+                    "fullName": "Kenyan Drake",
+                    "displayName": "Kenyan Drake",
+                    "shortName": "K. Drake",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/2979843/kenyan-drake"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2979843.png",
+                    "jersey": "32",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "13"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "13"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "3 REC, 70 YDS",
+                  "value": 70.0,
+                  "athlete": {
+                    "id": "3121023",
+                    "fullName": "Dallas Goedert",
+                    "displayName": "Dallas Goedert",
+                    "shortName": "D. Goedert",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3121023/dallas-goedert"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
+                    "jersey": "88",
+                    "position": {
+                      "abbreviation": "TE"
+                    },
+                    "team": {
+                      "id": "21"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "21"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T20:05Z",
+          "broadcast": "FOX",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Las Vegas Raiders quarterback Derek Carr found inactive tight end Darren Waller on the sideline during Sunday\u2019s game against the Philadelphia Eagles to let him know \u201chow weird\u201d it was not having his top target on the field.",
+              "shortLinkText": "Raiders beat Philly, 33-22, in second game under Bisaccia"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326431/eagles-raiders",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326431",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326431",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326431",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326430",
+      "uid": "s:20~l:28~e:401326430",
+      "date": "2021-10-24T20:05Z",
+      "name": "Detroit Lions at Los Angeles Rams",
+      "shortName": "DET @ LAR",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326430",
+          "uid": "s:20~l:28~e:401326430~c:401326430",
+          "date": "2021-10-24T20:05Z",
+          "attendance": 70540,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "7065",
+            "fullName": "SoFi Stadium",
+            "address": {
+              "city": "Inglewood",
+              "state": "CA",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "14",
+              "uid": "s:20~l:28~t:14",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "14",
+                "uid": "s:20~l:28~t:14",
+                "location": "Los Angeles",
+                "name": "Rams",
+                "abbreviation": "LAR",
+                "displayName": "Los Angeles Rams",
+                "shortDisplayName": "Rams",
+                "color": "00295B",
+                "alternateColor": "ffd100",
+                "isActive": true,
+                "venue": {
+                  "id": "477"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/lar/los-angeles-rams",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/lar/los-angeles-rams",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/lar",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png"
+              },
+              "score": "28",
+              "linescores": [
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 1
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 11.0,
+                  "displayValue": "11",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-0"
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "uid": "s:20~l:28~t:8",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "8",
+                "uid": "s:20~l:28~t:8",
+                "location": "Detroit",
+                "name": "Lions",
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "shortDisplayName": "Lions",
+                "color": "035C98",
+                "alternateColor": "bbbbbb",
+                "isActive": true,
+                "venue": {
+                  "id": "3727"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/det/detroit-lions",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/det/detroit-lions",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+              },
+              "score": "19",
+              "linescores": [
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 1
+                },
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "0-7"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-4"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "FOX"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "28/41, 334 YDS, 3 TD",
+                  "value": 334.0,
+                  "athlete": {
+                    "id": "12483",
+                    "fullName": "Matthew Stafford",
+                    "displayName": "Matthew Stafford",
+                    "shortName": "M. Stafford",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/12483/matthew-stafford"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/12483.png",
+                    "jersey": "9",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "14"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "14"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "12 CAR, 57 YDS",
+                  "value": 57.0,
+                  "athlete": {
+                    "id": "2980453",
+                    "fullName": "Jamaal Williams",
+                    "displayName": "Jamaal Williams",
+                    "shortName": "J. Williams",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/2980453/jamaal-williams"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2980453.png",
+                    "jersey": "21",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "8"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "8"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "10 REC, 156 YDS, 2 TD",
+                  "value": 156.0,
+                  "athlete": {
+                    "id": "2977187",
+                    "fullName": "Cooper Kupp",
+                    "displayName": "Cooper Kupp",
+                    "shortName": "C. Kupp",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/2977187/cooper-kupp"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2977187.png",
+                    "jersey": "10",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "14"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "14"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T20:05Z",
+          "broadcast": "FOX",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Jared Goff was under immediate pressure from Aaron Donald when he dropped back late in a one-score game. He threw to the end zone while being dropped, and <a...",
+              "shortLinkText": "Stafford throws 3 TD passes, Rams edge Goff's Lions 28-19"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326430/lions-rams",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326430",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326430",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326430",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326432",
+      "uid": "s:20~l:28~e:401326432",
+      "date": "2021-10-24T20:25Z",
+      "name": "Houston Texans at Arizona Cardinals",
+      "shortName": "HOU @ ARI",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326432",
+          "uid": "s:20~l:28~e:401326432~c:401326432",
+          "date": "2021-10-24T20:25Z",
+          "attendance": 60297,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3970",
+            "fullName": "State Farm Stadium",
+            "address": {
+              "city": "Glendale",
+              "state": "AZ",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "22",
+              "uid": "s:20~l:28~t:22",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "22",
+                "uid": "s:20~l:28~t:22",
+                "location": "Arizona",
+                "name": "Cardinals",
+                "abbreviation": "ARI",
+                "displayName": "Arizona Cardinals",
+                "shortDisplayName": "Cardinals",
+                "color": "A40227",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "3970"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/ari/arizona-cardinals",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/ari/arizona-cardinals",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/ari",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png"
+              },
+              "score": "31",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 17.0,
+                  "displayValue": "17",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-0"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-0"
+                }
+              ]
+            },
+            {
+              "id": "34",
+              "uid": "s:20~l:28~t:34",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "34",
+                "uid": "s:20~l:28~t:34",
+                "location": "Houston",
+                "name": "Texans",
+                "abbreviation": "HOU",
+                "displayName": "Houston Texans",
+                "shortDisplayName": "Texans",
+                "color": "00133F",
+                "alternateColor": "c41230",
+                "isActive": true,
+                "venue": {
+                  "id": "3891"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/hou/houston-texans",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/hou/houston-texans",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/hou/houston-texans",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/hou",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png"
+              },
+              "score": "5",
+              "linescores": [
+                {
+                  "value": 2.0,
+                  "displayValue": "2",
+                  "period": 1
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-6"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-4"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "20/28, 261 YDS, 3 TD, 1 INT",
+                  "value": 261.0,
+                  "athlete": {
+                    "id": "3917315",
+                    "fullName": "Kyler Murray",
+                    "displayName": "Kyler Murray",
+                    "shortName": "K. Murray",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3917315/kyler-murray"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
+                    "jersey": "1",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "22"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "15 CAR, 81 YDS",
+                  "value": 81.0,
+                  "athlete": {
+                    "id": "3119195",
+                    "fullName": "Chase Edmonds",
+                    "displayName": "Chase Edmonds",
+                    "shortName": "C. Edmonds",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3119195/chase-edmonds"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3119195.png",
+                    "jersey": "38",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "22"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "22"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "3 REC, 66 YDS, 1 TD",
+                  "value": 66.0,
+                  "athlete": {
+                    "id": "15835",
+                    "fullName": "Zach Ertz",
+                    "displayName": "Zach Ertz",
+                    "shortName": "Z. Ertz",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/15835/zach-ertz"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15835.png",
+                    "jersey": "86",
+                    "position": {
+                      "abbreviation": "TE"
+                    },
+                    "team": {
+                      "id": "22"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "22"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T20:25Z",
+          "broadcast": "CBS",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "CBS"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Tight end Zach Ertz has been with the Cardinals for just nine days and already has the longest touchdown catch of his nine-year career, rumbling 47 yards toward the end zone to put an exclamation point on Arizona's 31-5 win over the Houston Texans...",
+              "shortLinkText": "Cardinals move to 7-0 for season, roll past Texans 31-5"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326432/texans-cardinals",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326432",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326432",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326432",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326433",
+      "uid": "s:20~l:28~e:401326433",
+      "date": "2021-10-24T20:25Z",
+      "name": "Chicago Bears at Tampa Bay Buccaneers",
+      "shortName": "CHI @ TB",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326433",
+          "uid": "s:20~l:28~e:401326433~c:401326433",
+          "date": "2021-10-24T20:25Z",
+          "attendance": 65635,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3886",
+            "fullName": "Raymond James Stadium",
+            "address": {
+              "city": "Tampa",
+              "state": "FL",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "27",
+              "uid": "s:20~l:28~t:27",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "27",
+                "uid": "s:20~l:28~t:27",
+                "location": "Tampa Bay",
+                "name": "Buccaneers",
+                "abbreviation": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "shortDisplayName": "Buccaneers",
+                "color": "A80D08",
+                "alternateColor": "3e3a35",
+                "isActive": true,
+                "venue": {
+                  "id": "3886"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/tb/tampa-bay-buccaneers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/tb/tampa-bay-buccaneers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/tb/tampa-bay-buccaneers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/tb",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png"
+              },
+              "score": "38",
+              "linescores": [
+                {
+                  "value": 21.0,
+                  "displayValue": "21",
+                  "period": 1
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "uid": "s:20~l:28~t:3",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "3",
+                "uid": "s:20~l:28~t:3",
+                "location": "Chicago",
+                "name": "Bears",
+                "abbreviation": "CHI",
+                "displayName": "Chicago Bears",
+                "shortDisplayName": "Bears",
+                "color": "152644",
+                "alternateColor": "e64100",
+                "isActive": true,
+                "venue": {
+                  "id": "3933"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/chi/chicago-bears",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/chi/chicago-bears",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/chi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png"
+              },
+              "score": "3",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "1-3"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "CBS"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "20/36, 211 YDS, 4 TD",
+                  "value": 211.0,
+                  "athlete": {
+                    "id": "2330",
+                    "fullName": "Tom Brady",
+                    "displayName": "Tom Brady",
+                    "shortName": "T. Brady",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/2330/tom-brady"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2330.png",
+                    "jersey": "12",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "27"
+                    },
+                    "active": false
+                  },
+                  "team": {
+                    "id": "27"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "18 CAR, 100 YDS",
+                  "value": 100.0,
+                  "athlete": {
+                    "id": "4035886",
+                    "fullName": "Khalil Herbert",
+                    "displayName": "Khalil Herbert",
+                    "shortName": "K. Herbert",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4035886/khalil-herbert"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035886.png",
+                    "jersey": "31",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "3"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "3"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "8 REC, 111 YDS, 1 TD",
+                  "value": 111.0,
+                  "athlete": {
+                    "id": "3116165",
+                    "fullName": "Chris Godwin Jr.",
+                    "displayName": "Chris Godwin Jr.",
+                    "shortName": "C. Godwin Jr.",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3116165/chris-godwin-jr"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
+                    "jersey": "14",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "27"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "27"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-24T20:25Z",
+          "broadcast": "CBS",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "CBS"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Tom Brady says he's not one for collecting a lot of mementos documenting his many accomplishments during an unsurpassed 22-year career. Becoming the first player to throw 600 career touchdown passes is pretty special, though.",
+              "shortLinkText": "Brady tops 600 career TD passes, Buccaneers rout Bears 38-3"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326433/bears-buccaneers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326433",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326433",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326433",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    },
+    {
+      "id": "401326434",
+      "uid": "s:20~l:28~e:401326434",
+      "date": "2021-10-25T00:20Z",
+      "name": "Indianapolis Colts at San Francisco 49ers",
+      "shortName": "IND @ SF",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 7
+      },
+      "competitions": [
+        {
+          "id": "401326434",
+          "uid": "s:20~l:28~e:401326434~c:401326434",
+          "date": "2021-10-25T00:20Z",
+          "attendance": 56576,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "4738",
+            "fullName": "Levi's Stadium",
+            "address": {
+              "city": "Santa Clara",
+              "state": "CA",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "25",
+              "uid": "s:20~l:28~t:25",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": false,
+              "team": {
+                "id": "25",
+                "uid": "s:20~l:28~t:25",
+                "location": "San Francisco",
+                "name": "49ers",
+                "abbreviation": "SF",
+                "displayName": "San Francisco 49ers",
+                "shortDisplayName": "49ers",
+                "color": "981324",
+                "alternateColor": "b3995d",
+                "isActive": true,
+                "venue": {
+                  "id": "4738"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/sf/san-francisco-49ers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/sf/san-francisco-49ers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/sf",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png"
+              },
+              "score": "18",
+              "linescores": [
+                {
+                  "value": 12.0,
+                  "displayValue": "12",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "2-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-1"
+                }
+              ]
+            },
+            {
+              "id": "11",
+              "uid": "s:20~l:28~t:11",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": true,
+              "team": {
+                "id": "11",
+                "uid": "s:20~l:28~t:11",
+                "location": "Indianapolis",
+                "name": "Colts",
+                "abbreviation": "IND",
+                "displayName": "Indianapolis Colts",
+                "shortDisplayName": "Colts",
+                "color": "00417E",
+                "alternateColor": "ffffff",
+                "isActive": true,
+                "venue": {
+                  "id": "3812"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/ind/indianapolis-colts",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/ind/indianapolis-colts",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/ind/indianapolis-colts",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/ind",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png"
+              },
+              "score": "30",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 6.0,
+                  "displayValue": "6",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "3-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-2"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-2"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "NBC"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "16/27, 181 YDS, 1 TD, 2 INT",
+                  "value": 181.0,
+                  "athlete": {
+                    "id": "16760",
+                    "fullName": "Jimmy Garoppolo",
+                    "displayName": "Jimmy Garoppolo",
+                    "shortName": "J. Garoppolo",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/16760/jimmy-garoppolo"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16760.png",
+                    "jersey": "11",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "25"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "18 CAR, 107 YDS, 1 TD",
+                  "value": 107.0,
+                  "athlete": {
+                    "id": "4241555",
+                    "fullName": "Elijah Mitchell",
+                    "displayName": "Elijah Mitchell",
+                    "shortName": "E. Mitchell",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4241555/elijah-mitchell"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241555.png",
+                    "jersey": "30",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "25"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "25"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "4 REC, 105 YDS, 1 TD",
+                  "value": 105.0,
+                  "athlete": {
+                    "id": "4035687",
+                    "fullName": "Michael Pittman Jr.",
+                    "displayName": "Michael Pittman Jr.",
+                    "shortName": "M. Pittman Jr.",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4035687/michael-pittman-jr"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035687.png",
+                    "jersey": "11",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "11"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "11"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-10-25T00:20Z",
+          "broadcast": "NBC",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "NBC"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Colts coach Frank Reich wasn't about to make the same mistake twice.",
+              "shortLinkText": "Wentz leads Colts to rain-soaked 30-18 win over 49ers"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326434/colts-49ers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326434",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326434",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326434",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    }
+  ],
+  "provider": {
+    "id": "100",
+    "name": "Draft Kings",
+    "displayName": "Draft Kings",
+    "priority": 1,
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "rel": [
+          "light"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "rel": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "week": {
+    "number": 7
+  }
+}

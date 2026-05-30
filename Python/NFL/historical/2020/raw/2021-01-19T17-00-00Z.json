@@ -1,0 +1,323 @@
+{
+  "timestamp": "2021-01-19T16:55:00Z",
+  "previous_timestamp": "2021-01-19T16:45:00Z",
+  "next_timestamp": "2021-01-19T17:05:00Z",
+  "data": [
+    {
+      "id": "23f5989b036b26a98d34763763ae1c39",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-24T23:40:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-19T16:45:33Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:45:33Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -119,
+                  "point": 3.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -101,
+                  "point": -3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:45:33Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 120
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -141
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-19T16:46:31Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:46:31Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -106,
+                  "point": 2.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:46:31Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 125
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -141
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-19T16:49:06Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:49:06Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -116,
+                  "point": 3.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 105,
+                  "point": -3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:49:06Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 129
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-19T16:45:35Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:45:35Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -122,
+                  "point": 3.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 100,
+                  "point": -3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:45:35Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 120
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "42e9beda7edacb69b315f9a778b82db3",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-24T20:05:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "Tampa Bay Buccaneers",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-19T16:45:33Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:45:33Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -120,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 100,
+                  "point": 3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:45:33Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -169
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 148
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-19T16:46:31Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:46:31Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -105,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -118,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:46:31Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -175
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-19T16:45:35Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:45:35Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -120,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -102,
+                  "point": 3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:45:35Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -179
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-19T16:49:06Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-19T16:49:06Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 105,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -116,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-19T16:49:06Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -172
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 154
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

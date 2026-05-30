@@ -1,0 +1,323 @@
+{
+  "timestamp": "2023-01-24T16:55:38Z",
+  "previous_timestamp": "2023-01-24T16:50:38Z",
+  "next_timestamp": "2023-01-24T17:00:38Z",
+  "data": [
+    {
+      "id": "166c8a494be3d90661349d34c3901068",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-29T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-24T16:51:08Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:51:08Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -142
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:51:08Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": -2.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-24T16:55:16Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:55:16Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -145
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 125
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:55:16Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -120,
+                  "point": -2.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 100,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-24T16:51:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:51:00Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -145
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 125
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:51:00Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": -2.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-24T16:49:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:49:59Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -139
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 123
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:49:59Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -107,
+                  "point": -2.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "138fcddacb309da92de0ec0d08d786bd",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-29T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Cincinnati Bengals",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-24T16:51:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:51:00Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -130
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 110
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:51:00Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": -2.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-24T16:55:16Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:55:16Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -128
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:55:16Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -111,
+                  "point": -2.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -111,
+                  "point": 2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-24T16:51:08Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:51:08Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -126
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:51:08Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -114,
+                  "point": -1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -106,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-24T16:49:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-24T16:49:59Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -128
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 113
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-24T16:49:59Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -119,
+                  "point": -1.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 106,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

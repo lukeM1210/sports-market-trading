@@ -1,0 +1,239 @@
+{
+  "timestamp": "2025-02-09T16:25:38Z",
+  "previous_timestamp": "2025-02-09T16:20:37Z",
+  "next_timestamp": "2025-02-09T16:30:38Z",
+  "data": [
+    {
+      "id": "3fd7cba821568399920fcea4dadad30d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:35:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-02-09T16:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -116
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -102
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -104,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -118,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-02-09T16:24:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:23Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:23Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -1.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-02-09T16:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -120
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -105,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-02-09T16:24:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:23Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:23Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -101,
+                  "point": -1.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -109,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-02-09T16:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -107
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 101,
+                  "point": -1.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -104,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-02-09T16:24:24Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -107
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-02-09T16:24:24Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 107,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -108,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

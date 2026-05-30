@@ -1,0 +1,165 @@
+{
+  "timestamp": "2023-02-12T16:25:37Z",
+  "previous_timestamp": "2023-02-12T16:20:38Z",
+  "next_timestamp": "2023-02-12T16:30:37Z",
+  "data": [
+    {
+      "id": "98235f33b2e4e22ef073588d0c3af6d8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-02-12T23:35:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-02-12T16:24:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-02-12T16:24:10Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 100
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-02-12T16:24:10Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-02-12T16:24:11Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-02-12T16:24:11Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -102
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -116
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-02-12T16:24:11Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": 1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -108,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-02-12T16:20:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-02-12T16:20:49Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 104
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-02-12T16:20:49Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -103,
+                  "point": 1.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -107,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-02-12T16:22:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-02-12T16:22:37Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 100
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-02-12T16:22:37Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -111,
+                  "point": 1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -111,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

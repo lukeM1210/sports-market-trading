@@ -1,0 +1,850 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "slug": "nfl",
+      "season": {
+        "year": 2021,
+        "startDate": "2021-07-17T07:00Z",
+        "endDate": "2022-02-16T07:59Z",
+        "displayName": "2021",
+        "type": {
+          "id": "2",
+          "type": 2,
+          "name": "Regular Season",
+          "abbreviation": "reg"
+        }
+      },
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "lastUpdated": "2018-06-05T12:07Z"
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "lastUpdated": "2024-07-22T16:53Z"
+        }
+      ],
+      "calendarType": "list",
+      "calendarIsWhitelist": true,
+      "calendarStartDate": "2021-07-17T07:00Z",
+      "calendarEndDate": "2022-02-16T07:59Z",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "startDate": "2021-07-17T07:00Z",
+          "endDate": "2021-09-09T06:59Z",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "alternateLabel": "HOF",
+              "detail": "Jul 17-Aug 10",
+              "value": "1",
+              "startDate": "2021-07-17T07:00Z",
+              "endDate": "2021-08-11T06:59Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "alternateLabel": "Pre Wk 1",
+              "detail": "Aug 11-17",
+              "value": "2",
+              "startDate": "2021-08-11T07:00Z",
+              "endDate": "2021-08-18T06:59Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "alternateLabel": "Pre Wk 2",
+              "detail": "Aug 18-24",
+              "value": "3",
+              "startDate": "2021-08-18T07:00Z",
+              "endDate": "2021-08-25T06:59Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "alternateLabel": "Pre Wk 3",
+              "detail": "Aug 25-31",
+              "value": "4",
+              "startDate": "2021-08-25T07:00Z",
+              "endDate": "2021-09-01T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "startDate": "2021-09-09T07:00Z",
+          "endDate": "2022-01-12T07:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Sep 9-14",
+              "value": "1",
+              "startDate": "2021-09-09T07:00Z",
+              "endDate": "2021-09-15T06:59Z"
+            },
+            {
+              "label": "Week 2",
+              "alternateLabel": "Week 2",
+              "detail": "Sep 15-21",
+              "value": "2",
+              "startDate": "2021-09-15T07:00Z",
+              "endDate": "2021-09-22T06:59Z"
+            },
+            {
+              "label": "Week 3",
+              "alternateLabel": "Week 3",
+              "detail": "Sep 22-28",
+              "value": "3",
+              "startDate": "2021-09-22T07:00Z",
+              "endDate": "2021-09-29T06:59Z"
+            },
+            {
+              "label": "Week 4",
+              "alternateLabel": "Week 4",
+              "detail": "Sep 29-Oct 5",
+              "value": "4",
+              "startDate": "2021-09-29T07:00Z",
+              "endDate": "2021-10-06T06:59Z"
+            },
+            {
+              "label": "Week 5",
+              "alternateLabel": "Week 5",
+              "detail": "Oct 6-12",
+              "value": "5",
+              "startDate": "2021-10-06T07:00Z",
+              "endDate": "2021-10-13T06:59Z"
+            },
+            {
+              "label": "Week 6",
+              "alternateLabel": "Week 6",
+              "detail": "Oct 13-19",
+              "value": "6",
+              "startDate": "2021-10-13T07:00Z",
+              "endDate": "2021-10-20T06:59Z"
+            },
+            {
+              "label": "Week 7",
+              "alternateLabel": "Week 7",
+              "detail": "Oct 20-26",
+              "value": "7",
+              "startDate": "2021-10-20T07:00Z",
+              "endDate": "2021-10-27T06:59Z"
+            },
+            {
+              "label": "Week 8",
+              "alternateLabel": "Week 8",
+              "detail": "Oct 27-Nov 2",
+              "value": "8",
+              "startDate": "2021-10-27T07:00Z",
+              "endDate": "2021-11-03T06:59Z"
+            },
+            {
+              "label": "Week 9",
+              "alternateLabel": "Week 9",
+              "detail": "Nov 3-9",
+              "value": "9",
+              "startDate": "2021-11-03T07:00Z",
+              "endDate": "2021-11-10T07:59Z"
+            },
+            {
+              "label": "Week 10",
+              "alternateLabel": "Week 10",
+              "detail": "Nov 10-16",
+              "value": "10",
+              "startDate": "2021-11-10T08:00Z",
+              "endDate": "2021-11-17T07:59Z"
+            },
+            {
+              "label": "Week 11",
+              "alternateLabel": "Week 11",
+              "detail": "Nov 17-23",
+              "value": "11",
+              "startDate": "2021-11-17T08:00Z",
+              "endDate": "2021-11-24T07:59Z"
+            },
+            {
+              "label": "Week 12",
+              "alternateLabel": "Week 12",
+              "detail": "Nov 24-30",
+              "value": "12",
+              "startDate": "2021-11-24T08:00Z",
+              "endDate": "2021-12-01T07:59Z"
+            },
+            {
+              "label": "Week 13",
+              "alternateLabel": "Week 13",
+              "detail": "Dec 1-7",
+              "value": "13",
+              "startDate": "2021-12-01T08:00Z",
+              "endDate": "2021-12-08T07:59Z"
+            },
+            {
+              "label": "Week 14",
+              "alternateLabel": "Week 14",
+              "detail": "Dec 8-14",
+              "value": "14",
+              "startDate": "2021-12-08T08:00Z",
+              "endDate": "2021-12-15T07:59Z"
+            },
+            {
+              "label": "Week 15",
+              "alternateLabel": "Week 15",
+              "detail": "Dec 15-21",
+              "value": "15",
+              "startDate": "2021-12-15T08:00Z",
+              "endDate": "2021-12-22T07:59Z"
+            },
+            {
+              "label": "Week 16",
+              "alternateLabel": "Week 16",
+              "detail": "Dec 22-28",
+              "value": "16",
+              "startDate": "2021-12-22T08:00Z",
+              "endDate": "2021-12-29T07:59Z"
+            },
+            {
+              "label": "Week 17",
+              "alternateLabel": "Week 17",
+              "detail": "Dec 29-Jan 4",
+              "value": "17",
+              "startDate": "2021-12-29T08:00Z",
+              "endDate": "2022-01-05T07:59Z"
+            },
+            {
+              "label": "Week 18",
+              "alternateLabel": "Week 18",
+              "detail": "Jan 5-11",
+              "value": "18",
+              "startDate": "2022-01-05T08:00Z",
+              "endDate": "2022-01-12T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Postseason",
+          "value": "3",
+          "startDate": "2022-01-12T08:00Z",
+          "endDate": "2022-02-16T07:59Z",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "alternateLabel": "Wild Card",
+              "detail": "Jan 12-18",
+              "value": "1",
+              "startDate": "2022-01-12T08:00Z",
+              "endDate": "2022-01-19T07:59Z"
+            },
+            {
+              "label": "Divisional Round",
+              "alternateLabel": "Div Rd",
+              "detail": "Jan 19-25",
+              "value": "2",
+              "startDate": "2022-01-19T08:00Z",
+              "endDate": "2022-01-26T07:59Z"
+            },
+            {
+              "label": "Conference Championship",
+              "alternateLabel": "Conf Champ",
+              "detail": "Jan 26-Feb 1",
+              "value": "3",
+              "startDate": "2022-01-26T08:00Z",
+              "endDate": "2022-02-02T07:59Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "alternateLabel": "Pro Bowl",
+              "detail": "Feb 2-8",
+              "value": "4",
+              "startDate": "2022-02-02T08:00Z",
+              "endDate": "2022-02-09T07:59Z"
+            },
+            {
+              "label": "Super Bowl",
+              "alternateLabel": "Super Bowl",
+              "detail": "Feb 9-15",
+              "value": "5",
+              "startDate": "2022-02-09T08:00Z",
+              "endDate": "2022-02-16T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4",
+          "startDate": "2022-02-16T08:00Z",
+          "endDate": "2022-08-01T06:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Feb 16-Jul 31",
+              "value": "1",
+              "startDate": "2022-02-16T08:00Z",
+              "endDate": "2022-08-01T06:59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "401326362",
+      "uid": "s:20~l:28~e:401326362",
+      "date": "2021-09-21T00:15Z",
+      "name": "Detroit Lions at Green Bay Packers",
+      "shortName": "DET @ GB",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 2
+      },
+      "competitions": [
+        {
+          "id": "401326362",
+          "uid": "s:20~l:28~e:401326362~c:401326362",
+          "date": "2021-09-21T00:15Z",
+          "attendance": 77240,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3798",
+            "fullName": "Lambeau Field",
+            "address": {
+              "city": "Green Bay",
+              "state": "WI",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "9",
+              "uid": "s:20~l:28~t:9",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "9",
+                "uid": "s:20~l:28~t:9",
+                "location": "Green Bay",
+                "name": "Packers",
+                "abbreviation": "GB",
+                "displayName": "Green Bay Packers",
+                "shortDisplayName": "Packers",
+                "color": "204E32",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3798"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/gb/green-bay-packers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/gb/green-bay-packers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/gb",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png"
+              },
+              "score": "35",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 2
+                },
+                {
+                  "value": 14.0,
+                  "displayValue": "14",
+                  "period": 3
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "1-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "1-0"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-1"
+                }
+              ]
+            },
+            {
+              "id": "8",
+              "uid": "s:20~l:28~t:8",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "8",
+                "uid": "s:20~l:28~t:8",
+                "location": "Detroit",
+                "name": "Lions",
+                "abbreviation": "DET",
+                "displayName": "Detroit Lions",
+                "shortDisplayName": "Lions",
+                "color": "035C98",
+                "alternateColor": "bbbbbb",
+                "isActive": true,
+                "venue": {
+                  "id": "3727"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/det/detroit-lions",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/det/detroit-lions",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/det",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png"
+              },
+              "score": "17",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 2
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "0-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "0-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "0-1"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "ESPN"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "22/27, 255 YDS, 4 TD",
+                  "value": 255.0,
+                  "athlete": {
+                    "id": "8439",
+                    "fullName": "Aaron Rodgers",
+                    "displayName": "Aaron Rodgers",
+                    "shortName": "A. Rodgers",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/8439/aaron-rodgers"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
+                    "jersey": "8",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "9"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "17 CAR, 67 YDS, 1 TD",
+                  "value": 67.0,
+                  "athlete": {
+                    "id": "3042519",
+                    "fullName": "Aaron Jones Sr.",
+                    "displayName": "Aaron Jones Sr.",
+                    "shortName": "A. Jones Sr.",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3042519/aaron-jones-sr"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3042519.png",
+                    "jersey": "33",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "9"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "9"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "8 REC, 121 YDS",
+                  "value": 121.0,
+                  "athlete": {
+                    "id": "16800",
+                    "fullName": "Davante Adams",
+                    "displayName": "Davante Adams",
+                    "shortName": "D. Adams",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/16800/davante-adams"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16800.png",
+                    "jersey": "17",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "9"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "9"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2021-09-21T00:15Z",
+          "broadcast": "ESPN",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "ESPN",
+                "logo": "https://a.espncdn.com/guid/335fd2d2-97b9-336b-81ee-573eb6bdcffc/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 While celebrating one of his four touchdowns, Aaron Jones lost a necklace he wears with a little black football containing some of the ashes of his late father.",
+              "shortLinkText": "Packers dominate 2nd half, bounce back to beat Lions 35-17"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326362/lions-packers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326362",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326362",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326362",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    }
+  ],
+  "provider": {
+    "id": "100",
+    "name": "Draft Kings",
+    "displayName": "Draft Kings",
+    "priority": 1,
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "rel": [
+          "light"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "rel": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "week": {
+    "number": 2
+  }
+}

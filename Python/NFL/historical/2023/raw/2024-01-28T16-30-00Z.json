@@ -1,0 +1,659 @@
+{
+  "timestamp": "2024-01-28T16:25:38Z",
+  "previous_timestamp": "2024-01-28T16:20:38Z",
+  "next_timestamp": "2024-01-28T16:30:38Z",
+  "data": [
+    {
+      "id": "61dcc385d9c0927b9392d04c3b944198",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-28T20:06:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-28T16:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -205
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 170
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -112,
+                  "point": -4.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -108,
+                  "point": 4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -220
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 190
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -105,
+                  "point": -4.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-28T16:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -214
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 187
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -101,
+                  "point": -4.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -109,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -215
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 180
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -105,
+                  "point": -4.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a37cd2c4037d3d5a79c0d014ff6357ee",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-28T23:31:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Detroit Lions",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 285
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -355
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -120,
+                  "point": 7.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -102,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 290
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -360
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 100,
+                  "point": 7.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -120,
+                  "point": -7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-28T16:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 297
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -357
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -109,
+                  "point": 7.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -101,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-28T16:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 270
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -340
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -120,
+                  "point": 7.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 100,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e89a34588d65a68265c104373ffdc28a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Detroit Lions",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -240
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 198
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -115,
+                  "point": -4.5
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -105,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -250
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 210
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 100,
+                  "point": -6.0
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -120,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b6e6703ec11fa7058cca1e8300fc757f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -112
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -104,
+                  "point": -1.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -118,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -113
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -107
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -105,
+                  "point": -1.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1e5633073b585f9550959cc85872c68d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Detroit Lions",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 152
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -180
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -110,
+                  "point": 3.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 150
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -170
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -105,
+                  "point": 3.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "821066e2d2f7a99b660ffc6aec1cb85f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:31:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-28T16:24:02Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 124
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -146
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:02Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -120,
+                  "point": 3.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -102,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-28T16:24:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 130
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -150
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-28T16:24:00Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 100,
+                  "point": 2.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -120,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

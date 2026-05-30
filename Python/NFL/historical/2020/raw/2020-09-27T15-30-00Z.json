@@ -1,0 +1,2377 @@
+{
+  "timestamp": "2020-09-27T15:25:00Z",
+  "previous_timestamp": "2020-09-27T15:15:00Z",
+  "next_timestamp": "2020-09-27T15:35:00Z",
+  "data": [
+    {
+      "id": "95d4dc331a83c8544c739e87de07d98d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T20:05:00Z",
+      "home_team": "Indianapolis Colts",
+      "away_team": "New York Jets",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -588
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 450
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": -11.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -110,
+                  "point": 11.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -588
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 475
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": -11.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -110,
+                  "point": 11.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -625
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 470
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 100,
+                  "point": -12.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -120,
+                  "point": 12.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -625
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 476
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 104,
+                  "point": -12.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -115,
+                  "point": 12.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0f5f53ea7e845357c9cb6822f1ecb763",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-28T00:20:00Z",
+      "home_team": "New Orleans Saints",
+      "away_team": "Green Bay Packers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 146
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -175
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 105,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -125,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 150
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -172
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": -114,
+                  "point": 3.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -106,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 152
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -175
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 110,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -132,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 152
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -169
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Green Bay Packers",
+                  "price": 109,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -120,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f8caf31bff40c37bdaf7a9082a6427be",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Cincinnati Bengals",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 194
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -233
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 200
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -227
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 196
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -227
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -111,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -111,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 210
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -238
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -102,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -108,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3e0c353ef9cc619a8beb3dc62b89e89",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Minnesota Vikings",
+      "away_team": "Tennessee Titans",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 130
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -154
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -120,
+                  "point": 3.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 100,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 123
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -141
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -118,
+                  "point": 3.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -103,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 127
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -149
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -109,
+                  "point": 2.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -112,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 134
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -147
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 104,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d58a209d766f7dd008699deb3736173",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Pittsburgh Steelers",
+      "away_team": "Houston Texans",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 165
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -192
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -110,
+                  "point": 3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -110,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 150
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -179
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -115,
+                  "point": 3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -105,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 160
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -182
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -115,
+                  "point": 3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -105,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 165
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -185
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -106,
+                  "point": 3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -103,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4d7c42220288dca2cf7558ed1990f2bb",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Cleveland Browns",
+      "away_team": "Washington Football Team",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -312
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 265
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -110,
+                  "point": -7.0
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -110,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -345
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 275
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -105,
+                  "point": -7.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -115,
+                  "point": 7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -333
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 270
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -111,
+                  "point": -7.0
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -111,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -333
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 279
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": 105,
+                  "point": -7.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -116,
+                  "point": 7.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bf8328c6c4e7bf0d716b6b5e229c167c",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Atlanta Falcons",
+      "away_team": "Chicago Bears",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -135
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": 120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -110,
+                  "point": -2.5
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": -110,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -133
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": 114
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -110,
+                  "point": -2.5
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": -110,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -125
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": 104
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -111,
+                  "point": -2.5
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": -111,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -132
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": 120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -106,
+                  "point": -2.5
+                },
+                {
+                  "name": "Chicago Bears",
+                  "price": -103,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "92a3aa49e99d9aa09c80532343902926",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -123
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -108,
+                  "point": -2.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -112,
+                  "point": 2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -120
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 102
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": -1.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -110,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -120
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -1.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -120
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 109
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -112,
+                  "point": -1.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 102,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "493fea3bb315f11602bc38c5409e96c9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T20:05:00Z",
+      "home_team": "Los Angeles Chargers",
+      "away_team": "Carolina Panthers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 235
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -270
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -110,
+                  "point": 6.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -110,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 240
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -294
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -115,
+                  "point": 6.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -105,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 230
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -278
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -111,
+                  "point": 6.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -111,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 244
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -286
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -106,
+                  "point": 6.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -104,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d66515f905d51a351a540c951692f1a4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T20:25:00Z",
+      "home_team": "Arizona Cardinals",
+      "away_team": "Detroit Lions",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -233
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 200
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -110,
+                  "point": -5.0
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -110,
+                  "point": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -250
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 205
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -116,
+                  "point": -5.0
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -104,
+                  "point": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -238
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 198
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -110,
+                  "point": -5.0
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -110,
+                  "point": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -233
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": 205
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -109,
+                  "point": -5.0
+                },
+                {
+                  "name": "Detroit Lions",
+                  "price": -101,
+                  "point": 5.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4449361911697bab678547edb0acd4a1",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-29T00:15:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 155
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110,
+                  "point": -3.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 156
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -111,
+                  "point": -3.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -111,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 152
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110,
+                  "point": -3.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -172
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 153
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 100,
+                  "point": -3.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5dbd0f21114a27e787053a18360f21d9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T20:25:00Z",
+      "home_team": "Seattle Seahawks",
+      "away_team": "Dallas Cowboys",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 215
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -250
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 198
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -238
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 200
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -244
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -109,
+                  "point": 5.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -112,
+                  "point": -5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 197
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -222
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -111,
+                  "point": 5.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 100,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7a22bb8a0286abb87123177224827249",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T20:25:00Z",
+      "home_team": "Denver Broncos",
+      "away_team": "Tampa Bay Buccaneers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 205
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -250
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 204
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -244
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -106,
+                  "point": 5.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -115,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 200
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -233
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 214
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -244
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -101,
+                  "point": 5.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -109,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "389f043f17bbe9c66b2f30d6207fd3fb",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "New York Giants",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 152
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -172
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -119,
+                  "point": 3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -101,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 150
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -179
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 100,
+                  "point": 3.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -120,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 148
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -167
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -116,
+                  "point": 3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 153
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -169
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -114,
+                  "point": 3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 104,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d79c4c53091693753554bf930c673d7c",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2020-09-27T17:00:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "Las Vegas Raiders",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2020-09-27T15:16:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 250
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -312
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:47Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -105,
+                  "point": 6.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -115,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2020-09-27T15:16:49Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 225
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -263
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:49Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -110,
+                  "point": 6.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -110,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2020-09-27T15:16:46Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 250
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -303
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:16:46Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 102,
+                  "point": 6.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -122,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2020-09-27T15:18:42Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 243
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -278
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2020-09-27T15:18:42Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 100,
+                  "point": 6.5
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -110,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "timestamp": "2022-01-23T16:25:00Z",
+  "previous_timestamp": "2022-01-23T16:15:00Z",
+  "next_timestamp": "2022-01-23T16:35:00Z",
+  "data": [
+    {
+      "id": "0963803fde75fc06fae773fbce4bf076",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-23T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-23T16:16:17Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:16:17Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -106,
+                  "point": 1.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -1.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:16:17Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -102
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -119
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-23T16:17:49Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:49Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -1.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:49Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 106
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -123
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-23T16:17:47Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:47Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 100,
+                  "point": 1.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -111,
+                  "point": -1.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:47Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 106
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -118
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-23T16:17:50Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:50Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": 1.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -1.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:50Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 100
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9b57c09caaa462758b88048c3c94244b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-23T20:00:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-23T16:16:17Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:16:17Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -116,
+                  "point": 3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -104,
+                  "point": -3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:16:17Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 125
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -147
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-23T16:17:49Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:49Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -104,
+                  "point": 2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -118,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:49Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 120
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-23T16:17:50Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:50Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 100,
+                  "point": 2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -120,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:50Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 120
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -141
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-23T16:17:47Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-23T16:17:47Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 106,
+                  "point": 2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -118,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-23T16:17:47Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 131
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -145
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

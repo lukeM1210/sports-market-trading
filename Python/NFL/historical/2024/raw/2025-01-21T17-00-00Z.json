@@ -1,0 +1,751 @@
+{
+  "timestamp": "2025-01-21T16:55:38Z",
+  "previous_timestamp": "2025-01-21T16:50:38Z",
+  "next_timestamp": "2025-01-21T17:00:38Z",
+  "data": [
+    {
+      "id": "1828ad92c570cf68cb77f7754e9c6a5a",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Washington Commanders",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -290
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 235
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -102,
+                  "point": -6.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -120,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -290
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 245
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -111,
+                  "point": -6.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -109,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -285
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 230
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -112,
+                  "point": -6.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -108,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -277
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 234
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -117,
+                  "point": -5.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 104,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -265
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 250
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -113,
+                  "point": -5.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 106,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -268
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 253
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 100,
+                  "point": -6.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -118,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d43eaaa8d1f21ca6d9822bca070a3d30",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-26T23:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 108
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -126
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -105,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 111
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -131
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": 2.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 105
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -125
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -105,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 113
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -128
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -103,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -109,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 113
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -116
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -101,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -105,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 119
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -125
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 103,
+                  "point": 1.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -108,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d90bef2fcd891c33dc2932f0fb7c1786",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -118
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -106,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -114,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": -2.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": 2.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "885a39a6a793bebb4b8b6533d69a505b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -230
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 190
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -4.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -105,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -4.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -105,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3fd7cba821568399920fcea4dadad30d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -104
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -104,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -118,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -1.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bd4955e110d816bbdff723b41d29d698",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-02-09T23:30:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-21T16:54:53Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -220
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 184
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:53Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -4.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -110,
+                  "point": 4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-21T16:54:52Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2025-01-21T16:54:52Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -4.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -105,
+                  "point": 4.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

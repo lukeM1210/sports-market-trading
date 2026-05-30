@@ -1,0 +1,2535 @@
+{
+  "timestamp": "2024-01-05T01:25:39Z",
+  "previous_timestamp": "2024-01-05T01:20:38Z",
+  "next_timestamp": "2024-01-05T01:30:38Z",
+  "data": [
+    {
+      "id": "f1db1ea65e63375c8f6f9766dac5d4f7",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-06T21:31:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Pittsburgh Steelers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 164
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -196
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -115,
+                  "point": 4.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -105,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 170
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -196
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -115,
+                  "point": 4.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -105,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 160
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -192
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -112,
+                  "point": 3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 160
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -191
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -119,
+                  "point": 4.0
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 102,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e8d909625844e0aea3dad1beee6712f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T01:16:00Z",
+      "home_team": "Indianapolis Colts",
+      "away_team": "Houston Texans",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -118
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -110,
+                  "point": -1.5
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -120
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 100
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -112,
+                  "point": -1.0
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -108,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -125
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -110,
+                  "point": -1.5
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -121
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -115,
+                  "point": -1.0
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 102,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "794e49c4f03306ab9c79cb84fcc2b0ac",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "New Orleans Saints",
+      "away_team": "Atlanta Falcons",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 140
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -166
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -108,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -112,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 147
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -167
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -106,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -114,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 140
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -166
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -104,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -118,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 148
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -168
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -103,
+                  "point": 3.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -109,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "50c6ec417a0a3cb00945bee203ecccad",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "Carolina Panthers",
+      "away_team": "Tampa Bay Buccaneers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 195
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -238
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -110,
+                  "point": 4.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 195
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -227
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -111,
+                  "point": 4.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -109,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 198
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -240
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -105,
+                  "point": 4.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -115,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 192
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -222
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -109,
+                  "point": 4.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -103,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b51ff34c488e8470c3d975a781cc638d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Cleveland Browns",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -295
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 240
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -105,
+                  "point": -7.0
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -115,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -305
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 245
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -105,
+                  "point": -7.0
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -115,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -312
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 260
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -106,
+                  "point": -7.0
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -114,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -302
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 242
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -101,
+                  "point": -7.0
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -115,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "46b392b972587cb9f66805dcea8dcac9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Minnesota Vikings",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -174
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 146
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -115,
+                  "point": -3.0
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -105,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -180
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 150
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -122,
+                  "point": -3.0
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 102,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -175
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 155
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -116,
+                  "point": -3.0
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -104,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -185
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": 155
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -102,
+                  "point": -3.5
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -114,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77acb65d6a0314b676df5b4832ef45a3",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "Tennessee Titans",
+      "away_team": "Jacksonville Jaguars",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -190
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 160
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -108,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -112,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -192
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 160
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -108,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -112,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -189
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 165
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -112,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -108,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -194
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 162
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -112,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -104,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fb5a05459a7e5616f95e2caa7732c20f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T18:01:00Z",
+      "home_team": "New England Patriots",
+      "away_team": "New York Jets",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -135
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 114
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -110,
+                  "point": -2.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -110,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -128
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 109
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -114,
+                  "point": -1.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -106,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -126
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 108
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -106,
+                  "point": -1.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -114,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": -126
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 112
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "New England Patriots",
+                  "price": 103,
+                  "point": -2.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -116,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c275e949047e5983348e5431f78e4013",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "Arizona Cardinals",
+      "away_team": "Seattle Seahawks",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": 124
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -146
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -105,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": 124
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -148
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -118,
+                  "point": 3.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -102,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": 138
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -159
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -110,
+                  "point": 3.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -110,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": 137
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -155
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -108,
+                  "point": 3.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -104,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2b2da592b91fb61473aed5b4fe975254",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "Green Bay Packers",
+      "away_team": "Chicago Bears",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 136
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -162
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -112,
+                  "point": 3.0
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -108,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 128
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -147
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -105,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 140
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -166
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -105,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 126
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -148
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 100,
+                  "point": 2.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -117,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d7e8bbb2997c341248c04ec59abb94fb",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "Washington Commanders",
+      "away_team": "Dallas Cowboys",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -850
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 575
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -110,
+                  "point": -13.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -110,
+                  "point": 13.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -833
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 580
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -106,
+                  "point": -13.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -114,
+                  "point": 13.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -950
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 640
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -104,
+                  "point": -13.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -118,
+                  "point": 13.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -745
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 538
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 105,
+                  "point": -13.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -117,
+                  "point": 13.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc55919e69edfb7f2749f3430f5b4b26",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "Las Vegas Raiders",
+      "away_team": "Denver Broncos",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 130
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -154
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -102,
+                  "point": 2.5
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -120,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 136
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -162
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -105,
+                  "point": -3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 135
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -156
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 105,
+                  "point": 2.5
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -125,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 140
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -159
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 109,
+                  "point": 2.5
+                },
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -122,
+                  "point": -2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a50417b93fb8ac1e9653946bb4850eb4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "Los Angeles Chargers",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 146
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -174
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": 3.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 154
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -185
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": 3.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 160
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -179
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": 3.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -108,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 158
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -181
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 3.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -102,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "52c6f0c38ee6458d03e5caffe56af385",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 164
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -198
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -108,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -112,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 175
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -204
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 176
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -210
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 177
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -214
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -101,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -116,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "66c7e39643ecae341addae9fff981d0b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-07T21:26:00Z",
+      "home_team": "New York Giants",
+      "away_team": "Philadelphia Eagles",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 185
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -225
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -110,
+                  "point": 4.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 195
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -227
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -116,
+                  "point": 5.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -104,
+                  "point": -5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 200
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -245
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -122,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 100,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 186
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -216
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -115,
+                  "point": 5.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 103,
+                  "point": -5.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4ede93bcf0120eff85ceba01144694b9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-01-08T01:21:00Z",
+      "home_team": "Miami Dolphins",
+      "away_team": "Buffalo Bills",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-01-05T01:25:04Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -152
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 128
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:04Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -112,
+                  "point": -2.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -108,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-01-05T01:25:30Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -155
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:30Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -120,
+                  "point": -2.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 100,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-01-05T01:23:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -143
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:23:59Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -116,
+                  "point": -2.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -104,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-01-05T01:25:14Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -143
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 127
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-01-05T01:25:14Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -113,
+                  "point": -2.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 101,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

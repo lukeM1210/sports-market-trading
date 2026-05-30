@@ -1,0 +1,165 @@
+{
+  "timestamp": "2024-02-11T16:25:38Z",
+  "previous_timestamp": "2024-02-11T16:20:38Z",
+  "next_timestamp": "2024-02-11T16:30:38Z",
+  "data": [
+    {
+      "id": "821066e2d2f7a99b660ffc6aec1cb85f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2024-02-11T23:35:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2024-02-11T16:16:33Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-02-11T16:16:33Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 110
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -130
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-02-11T16:16:33Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -105,
+                  "point": 1.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-02-11T16:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 106
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -126
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": 2.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -110,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2024-02-11T16:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 102
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -122
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": 2.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -108,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-02-11T16:23:47Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": 118
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -131
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2024-02-11T16:23:47Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -102,
+                  "point": 2.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -108,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

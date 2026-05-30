@@ -1,0 +1,848 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "slug": "nfl",
+      "season": {
+        "year": 2024,
+        "startDate": "2024-08-01T07:00Z",
+        "endDate": "2025-02-15T07:59Z",
+        "displayName": "2024",
+        "type": {
+          "id": "2",
+          "type": 2,
+          "name": "Regular Season",
+          "abbreviation": "reg"
+        }
+      },
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "lastUpdated": "2018-06-05T12:07Z"
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "lastUpdated": "2024-07-22T16:53Z"
+        }
+      ],
+      "calendarType": "list",
+      "calendarIsWhitelist": true,
+      "calendarStartDate": "2024-08-01T07:00Z",
+      "calendarEndDate": "2025-02-15T07:59Z",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "startDate": "2024-08-01T07:00Z",
+          "endDate": "2024-09-05T06:59Z",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "alternateLabel": "HOF",
+              "detail": "Aug 1-7",
+              "value": "1",
+              "startDate": "2024-08-01T07:00Z",
+              "endDate": "2024-08-08T06:59Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "alternateLabel": "Pre Wk 1",
+              "detail": "Aug 8-14",
+              "value": "2",
+              "startDate": "2024-08-08T07:00Z",
+              "endDate": "2024-08-15T06:59Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "alternateLabel": "Pre Wk 2",
+              "detail": "Aug 15-21",
+              "value": "3",
+              "startDate": "2024-08-15T07:00Z",
+              "endDate": "2024-08-22T06:59Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "alternateLabel": "Pre Wk 3",
+              "detail": "Aug 22-Sep 4",
+              "value": "4",
+              "startDate": "2024-08-22T07:00Z",
+              "endDate": "2024-09-05T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "startDate": "2024-09-05T07:00Z",
+          "endDate": "2025-01-08T07:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Sep 5-10",
+              "value": "1",
+              "startDate": "2024-09-05T07:00Z",
+              "endDate": "2024-09-11T06:59Z"
+            },
+            {
+              "label": "Week 2",
+              "alternateLabel": "Week 2",
+              "detail": "Sep 11-17",
+              "value": "2",
+              "startDate": "2024-09-11T07:00Z",
+              "endDate": "2024-09-18T06:59Z"
+            },
+            {
+              "label": "Week 3",
+              "alternateLabel": "Week 3",
+              "detail": "Sep 18-24",
+              "value": "3",
+              "startDate": "2024-09-18T07:00Z",
+              "endDate": "2024-09-25T06:59Z"
+            },
+            {
+              "label": "Week 4",
+              "alternateLabel": "Week 4",
+              "detail": "Sep 25-Oct 1",
+              "value": "4",
+              "startDate": "2024-09-25T07:00Z",
+              "endDate": "2024-10-02T06:59Z"
+            },
+            {
+              "label": "Week 5",
+              "alternateLabel": "Week 5",
+              "detail": "Oct 2-8",
+              "value": "5",
+              "startDate": "2024-10-02T07:00Z",
+              "endDate": "2024-10-09T06:59Z"
+            },
+            {
+              "label": "Week 6",
+              "alternateLabel": "Week 6",
+              "detail": "Oct 9-15",
+              "value": "6",
+              "startDate": "2024-10-09T07:00Z",
+              "endDate": "2024-10-16T06:59Z"
+            },
+            {
+              "label": "Week 7",
+              "alternateLabel": "Week 7",
+              "detail": "Oct 16-22",
+              "value": "7",
+              "startDate": "2024-10-16T07:00Z",
+              "endDate": "2024-10-23T06:59Z"
+            },
+            {
+              "label": "Week 8",
+              "alternateLabel": "Week 8",
+              "detail": "Oct 23-29",
+              "value": "8",
+              "startDate": "2024-10-23T07:00Z",
+              "endDate": "2024-10-30T06:59Z"
+            },
+            {
+              "label": "Week 9",
+              "alternateLabel": "Week 9",
+              "detail": "Oct 30-Nov 5",
+              "value": "9",
+              "startDate": "2024-10-30T07:00Z",
+              "endDate": "2024-11-06T07:59Z"
+            },
+            {
+              "label": "Week 10",
+              "alternateLabel": "Week 10",
+              "detail": "Nov 6-12",
+              "value": "10",
+              "startDate": "2024-11-06T08:00Z",
+              "endDate": "2024-11-13T07:59Z"
+            },
+            {
+              "label": "Week 11",
+              "alternateLabel": "Week 11",
+              "detail": "Nov 13-19",
+              "value": "11",
+              "startDate": "2024-11-13T08:00Z",
+              "endDate": "2024-11-20T07:59Z"
+            },
+            {
+              "label": "Week 12",
+              "alternateLabel": "Week 12",
+              "detail": "Nov 20-26",
+              "value": "12",
+              "startDate": "2024-11-20T08:00Z",
+              "endDate": "2024-11-27T07:59Z"
+            },
+            {
+              "label": "Week 13",
+              "alternateLabel": "Week 13",
+              "detail": "Nov 27-Dec 3",
+              "value": "13",
+              "startDate": "2024-11-27T08:00Z",
+              "endDate": "2024-12-04T07:59Z"
+            },
+            {
+              "label": "Week 14",
+              "alternateLabel": "Week 14",
+              "detail": "Dec 4-10",
+              "value": "14",
+              "startDate": "2024-12-04T08:00Z",
+              "endDate": "2024-12-11T07:59Z"
+            },
+            {
+              "label": "Week 15",
+              "alternateLabel": "Week 15",
+              "detail": "Dec 11-17",
+              "value": "15",
+              "startDate": "2024-12-11T08:00Z",
+              "endDate": "2024-12-18T07:59Z"
+            },
+            {
+              "label": "Week 16",
+              "alternateLabel": "Week 16",
+              "detail": "Dec 18-24",
+              "value": "16",
+              "startDate": "2024-12-18T08:00Z",
+              "endDate": "2024-12-25T07:59Z"
+            },
+            {
+              "label": "Week 17",
+              "alternateLabel": "Week 17",
+              "detail": "Dec 25-31",
+              "value": "17",
+              "startDate": "2024-12-25T08:00Z",
+              "endDate": "2025-01-01T07:59Z"
+            },
+            {
+              "label": "Week 18",
+              "alternateLabel": "Week 18",
+              "detail": "Jan 1-7",
+              "value": "18",
+              "startDate": "2025-01-01T08:00Z",
+              "endDate": "2025-01-08T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Postseason",
+          "value": "3",
+          "startDate": "2025-01-08T08:00Z",
+          "endDate": "2025-02-15T07:59Z",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "alternateLabel": "Wild Card",
+              "detail": "Jan 8-15",
+              "value": "1",
+              "startDate": "2025-01-08T08:00Z",
+              "endDate": "2025-01-16T07:59Z"
+            },
+            {
+              "label": "Divisional Round",
+              "alternateLabel": "Div Rd",
+              "detail": "Jan 16-22",
+              "value": "2",
+              "startDate": "2025-01-16T08:00Z",
+              "endDate": "2025-01-23T07:59Z"
+            },
+            {
+              "label": "Conference Championship",
+              "alternateLabel": "Conf Champ",
+              "detail": "Jan 23-29",
+              "value": "3",
+              "startDate": "2025-01-23T08:00Z",
+              "endDate": "2025-01-30T07:59Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "alternateLabel": "Pro Bowl",
+              "detail": "Jan 30-Feb 5",
+              "value": "4",
+              "startDate": "2025-01-30T08:00Z",
+              "endDate": "2025-02-06T07:59Z"
+            },
+            {
+              "label": "Super Bowl",
+              "alternateLabel": "Super Bowl",
+              "detail": "Feb 6-13",
+              "value": "5",
+              "startDate": "2025-02-06T08:00Z",
+              "endDate": "2025-02-14T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4",
+          "startDate": "2025-02-15T08:00Z",
+          "endDate": "2025-07-31T06:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Feb 14-Jul 30",
+              "value": "1",
+              "startDate": "2025-02-14T08:00Z",
+              "endDate": "2025-07-31T06:59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "401671813",
+      "uid": "s:20~l:28~e:401671813",
+      "date": "2024-11-15T01:15Z",
+      "name": "Washington Commanders at Philadelphia Eagles",
+      "shortName": "WSH @ PHI",
+      "season": {
+        "year": 2024,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 11
+      },
+      "competitions": [
+        {
+          "id": "401671813",
+          "uid": "s:20~l:28~e:401671813~c:401671813",
+          "date": "2024-11-15T01:15Z",
+          "attendance": 69879,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3806",
+            "fullName": "Lincoln Financial Field",
+            "address": {
+              "city": "Philadelphia",
+              "state": "PA",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "21",
+              "uid": "s:20~l:28~t:21",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "21",
+                "uid": "s:20~l:28~t:21",
+                "location": "Philadelphia",
+                "name": "Eagles",
+                "abbreviation": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "shortDisplayName": "Eagles",
+                "color": "06424d",
+                "alternateColor": "000000",
+                "isActive": true,
+                "venue": {
+                  "id": "3806"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/phi/philadelphia-eagles",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/phi/philadelphia-eagles",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/phi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png"
+              },
+              "score": "26",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 20.0,
+                  "displayValue": "20",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-2"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-1"
+                }
+              ]
+            },
+            {
+              "id": "28",
+              "uid": "s:20~l:28~t:28",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "28",
+                "uid": "s:20~l:28~t:28",
+                "location": "Washington",
+                "name": "Commanders",
+                "abbreviation": "WSH",
+                "displayName": "Washington Commanders",
+                "shortDisplayName": "Commanders",
+                "color": "5a1414",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3719"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/wsh/washington-commanders",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/wsh/washington-commanders",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/wsh/washington-commanders",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/wsh",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png"
+              },
+              "score": "18",
+              "linescores": [
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 8.0,
+                  "displayValue": "8",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-4"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-3"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "Prime Video"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "18/28, 221 YDS",
+                  "value": 221.0,
+                  "athlete": {
+                    "id": "4040715",
+                    "fullName": "Jalen Hurts",
+                    "displayName": "Jalen Hurts",
+                    "shortName": "J. Hurts",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4040715/jalen-hurts"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
+                    "jersey": "1",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "21"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "26 CAR, 146 YDS, 2 TD",
+                  "value": 146.0,
+                  "athlete": {
+                    "id": "3929630",
+                    "fullName": "Saquon Barkley",
+                    "displayName": "Saquon Barkley",
+                    "shortName": "S. Barkley",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3929630/saquon-barkley"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3929630.png",
+                    "jersey": "26",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "21"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "21"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "8 REC, 89 YDS",
+                  "value": 89.0,
+                  "athlete": {
+                    "id": "3068267",
+                    "fullName": "Austin Ekeler",
+                    "displayName": "Austin Ekeler",
+                    "shortName": "A. Ekeler",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3068267/austin-ekeler"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3068267.png",
+                    "jersey": "30",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "28"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "28"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2024-11-15T01:15Z",
+          "broadcast": "Prime Video",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "4",
+                "shortName": "Streaming"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "Prime Video"
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "highlights": [],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 Jalen Hurts rolled over, face down, and grabbed his helmet.",
+              "shortLinkText": "Saquon Barkley runs for 2 TDs, Eagles beat Commanders 26-18 to stretch NFC East lead"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401671813/commanders-eagles",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401671813",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401671813",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401671813",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    }
+  ],
+  "provider": {
+    "id": "100",
+    "name": "Draft Kings",
+    "displayName": "Draft Kings",
+    "priority": 1,
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "rel": [
+          "light"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "rel": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "week": {
+    "number": 11
+  }
+}

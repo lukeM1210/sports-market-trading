@@ -1,0 +1,323 @@
+{
+  "timestamp": "2023-01-22T16:25:38Z",
+  "previous_timestamp": "2023-01-22T16:20:38Z",
+  "next_timestamp": "2023-01-22T16:30:37Z",
+  "data": [
+    {
+      "id": "489f2ff75b6bce303b76e7e9a2a9f8b7",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-22T20:00:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Cincinnati Bengals",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-22T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -245
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 205
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -5.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -105,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-22T16:23:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:23:38Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -256
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 212
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:23:38Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -114,
+                  "point": -5.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -108,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-22T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -255
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 205
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -5.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -105,
+                  "point": 5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-22T16:21:27Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:21:27Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -252
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 220
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:21:27Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -101,
+                  "point": -6.0
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -109,
+                  "point": 6.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a8a73adf29fc1d8ad03c12473300513e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-22T23:30:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Dallas Cowboys",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-22T16:23:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:23:38Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 170
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -196
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:23:38Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -111,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -111,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-22T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 168
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -200
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -105,
+                  "point": 3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-22T16:24:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 165
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -195
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:24:52Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -105,
+                  "point": 3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": -3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-22T16:21:27Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-22T16:21:27Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 177
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -199
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-22T16:21:27Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -108,
+                  "point": 4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -103,
+                  "point": -4.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

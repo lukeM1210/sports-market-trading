@@ -1,0 +1,955 @@
+{
+  "timestamp": "2023-01-10T16:55:38Z",
+  "previous_timestamp": "2023-01-10T16:50:38Z",
+  "next_timestamp": "2023-01-10T17:00:38Z",
+  "data": [
+    {
+      "id": "13fcf6f375fca63888b1d2bb3f75f470",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-14T21:30:00Z",
+      "home_team": "San Francisco 49ers",
+      "away_team": "Seattle Seahawks",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -500
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 385
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104,
+                  "point": -10.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -118,
+                  "point": 10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -520
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 410
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 100,
+                  "point": -10.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -120,
+                  "point": 10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -476
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 384
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -105,
+                  "point": -10.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -115,
+                  "point": 10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -455
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 366
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 109,
+                  "point": -10.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -123,
+                  "point": 10.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2337981373d7b9faa36b4b95556fe3c9",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-15T01:15:00Z",
+      "home_team": "Jacksonville Jaguars",
+      "away_team": "Los Angeles Chargers",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -104
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -112
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -115,
+                  "point": 1.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -105,
+                  "point": -1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -101
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -119
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -112,
+                  "point": 1.0
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -109,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -101
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -110
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -111,
+                  "point": 1.0
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -101,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 100
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -105,
+                  "point": 1.0
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -115,
+                  "point": -1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e239a6d0f5742b39fb4ced571d962ae",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-15T18:05:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Miami Dolphins",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -560
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 430
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -110,
+                  "point": -10.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -110,
+                  "point": 10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -588
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 460
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -111,
+                  "point": -10.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -111,
+                  "point": 10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -590
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 440
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -10.5
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -105,
+                  "point": 10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -570
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": 443
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -102,
+                  "point": -11.0
+                },
+                {
+                  "name": "Miami Dolphins",
+                  "price": -110,
+                  "point": 11.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7bac4aa6cf7cc58b6a6e06a86d31820d",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-15T21:40:00Z",
+      "home_team": "Minnesota Vikings",
+      "away_team": "New York Giants",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -155
+                },
+                {
+                  "name": "New York Giants",
+                  "price": 135
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -110,
+                  "point": -3.0
+                },
+                {
+                  "name": "New York Giants",
+                  "price": -110,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -166
+                },
+                {
+                  "name": "New York Giants",
+                  "price": 140
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -114,
+                  "point": -3.0
+                },
+                {
+                  "name": "New York Giants",
+                  "price": -106,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -163
+                },
+                {
+                  "name": "New York Giants",
+                  "price": 145
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -106,
+                  "point": -3.0
+                },
+                {
+                  "name": "New York Giants",
+                  "price": -106,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -164
+                },
+                {
+                  "name": "New York Giants",
+                  "price": 143
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -112,
+                  "point": -3.0
+                },
+                {
+                  "name": "New York Giants",
+                  "price": -109,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0aec53005b21a51e601f448c12ee86cf",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-16T01:15:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Baltimore Ravens",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 230
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -275
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110,
+                  "point": 6.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 250
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -303
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -111,
+                  "point": 6.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -111,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 235
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -290
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -106,
+                  "point": 6.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -114,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 249
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -293
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -104,
+                  "point": 6.5
+                },
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -108,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40b8039cd0a9fecc9f7438350ff63ce0",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2023-01-17T01:15:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Dallas Cowboys",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2023-01-10T16:54:10Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -141
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:10Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -115,
+                  "point": -2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2023-01-10T16:54:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -144
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 129
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:54:48Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -114,
+                  "point": -2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 102,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2023-01-10T16:50:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -148
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 126
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:50:37Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -118,
+                  "point": -2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -104,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2023-01-10T16:55:29Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -140
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 120
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2023-01-10T16:55:29Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -115,
+                  "point": -2.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "timestamp": "2021-01-05T16:55:00Z",
+  "previous_timestamp": "2021-01-05T16:45:00Z",
+  "next_timestamp": "2021-01-05T17:05:00Z",
+  "data": [
+    {
+      "id": "0ad43de90bd74b95591691887b13285e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-09T18:05:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Indianapolis Colts",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -323
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 260
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -118,
+                  "point": -6.5
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -104,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -303
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 260
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -6.5
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -106,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -312
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 255
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -114,
+                  "point": -6.5
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -108,
+                  "point": 6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-05T16:45:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -294
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": 254
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": 111,
+                  "point": -7.0
+                },
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -123,
+                  "point": 7.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44724bc8d245e6417778b569e2be00a8",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-09T21:40:00Z",
+      "home_team": "Seattle Seahawks",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 190
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -233
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -106,
+                  "point": 4.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -114,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 180
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -208
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -112,
+                  "point": 4.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -109,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 185
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -217
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -108,
+                  "point": 4.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -114,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-05T16:45:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 190
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -213
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -103,
+                  "point": 4.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -108,
+                  "point": -4.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "616dc178613a3ec8478e0a4ee0b7901f",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-10T18:05:00Z",
+      "home_team": "Tennessee Titans",
+      "away_team": "Baltimore Ravens",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -185
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 156
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -110,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -192
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 165
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -111,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -111,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 155
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -118,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -104,
+                  "point": 3.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-05T16:45:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -182
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 162
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": 102,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -112,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4f8ba884819ff75823d7cd6d158b7ba",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-10T21:41:00Z",
+      "home_team": "New Orleans Saints",
+      "away_team": "Chicago Bears",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 395
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -500
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -125,
+                  "point": 10.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": 104,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 385
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -500
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -105,
+                  "point": 9.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -115,
+                  "point": -9.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 390
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -476
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -108,
+                  "point": 9.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -114,
+                  "point": -9.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-05T16:45:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 394
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -476
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -118,
+                  "point": 10.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": 106,
+                  "point": -10.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87d1a35e54c4e9ab175a861973a7dc69",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-11T01:16:00Z",
+      "home_team": "Pittsburgh Steelers",
+      "away_team": "Cleveland Browns",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": 210
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -250
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -111,
+                  "point": 5.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -111,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": 210
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -256
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": 215
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -250
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Cleveland Browns",
+                  "price": -110,
+                  "point": 5.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -110,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2c3336361a6691a82e23621f07aa8dde",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-01-10T01:15:00Z",
+      "home_team": "Washington Football Team",
+      "away_team": "Tampa Bay Buccaneers",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-05T16:48:17Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -417
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 330
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:48:17Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -104,
+                  "point": -9.0
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -116,
+                  "point": 9.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-05T16:47:48Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -400
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 320
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:47:48Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -8.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -110,
+                  "point": 8.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-05T16:45:52Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -400
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 330
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:52Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -108,
+                  "point": -8.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -114,
+                  "point": 8.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-05T16:45:43Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -400
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": 332
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-05T16:45:43Z",
+              "outcomes": [
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 103,
+                  "point": -9.0
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -114,
+                  "point": 9.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

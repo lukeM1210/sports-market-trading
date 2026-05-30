@@ -1,0 +1,323 @@
+{
+  "timestamp": "2022-01-25T16:55:00Z",
+  "previous_timestamp": "2022-01-25T16:45:00Z",
+  "next_timestamp": "2022-01-25T17:05:00Z",
+  "data": [
+    {
+      "id": "370f0d0f71f702827dcc091787a09c02",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-30T23:30:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-25T16:47:50Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:47:50Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": -3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -115,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:47:50Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -169
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-25T16:45:47Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:47Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 100,
+                  "point": -3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -120,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:47Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -175
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 154
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-25T16:45:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:27Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -102,
+                  "point": -3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -120,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:27Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -175
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 146
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-25T16:45:56Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:56Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 102,
+                  "point": -3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -114,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:56Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -179
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 159
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5b49cc44ecd9b5fea96e799623df4495",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-30T20:00:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Cincinnati Bengals",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-25T16:45:47Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:47Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -115,
+                  "point": 7.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -105,
+                  "point": -7.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:47Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 280
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -357
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-25T16:47:50Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:47:50Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": 7.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:47:50Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 270
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -345
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-25T16:45:56Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:56Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -103,
+                  "point": 7.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -108,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:56Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 283
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -333
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-25T16:45:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-25T16:45:27Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -108,
+                  "point": 7.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -112,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-25T16:45:27Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 275
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -345
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

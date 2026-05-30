@@ -1,0 +1,165 @@
+{
+  "timestamp": "2022-02-13T16:25:00Z",
+  "previous_timestamp": "2022-02-13T16:15:00Z",
+  "next_timestamp": "2022-02-13T16:35:00Z",
+  "data": [
+    {
+      "id": "62232593efa227f6b1319f12f0439402",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-02-13T23:30:00Z",
+      "home_team": "Cincinnati Bengals",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-02-13T16:18:00Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-02-13T16:18:00Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -112,
+                  "point": 4.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -108,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-02-13T16:18:00Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 172
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -204
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-02-13T16:18:02Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-02-13T16:18:02Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -110,
+                  "point": 4.0
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -110,
+                  "point": -4.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-02-13T16:18:02Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 160
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -189
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-02-13T16:11:51Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-02-13T16:11:51Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -111,
+                  "point": 4.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -111,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-02-13T16:11:51Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 180
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-02-13T16:15:31Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-02-13T16:15:31Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 100,
+                  "point": 4.5
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -111,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-02-13T16:15:31Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": 192
+                },
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -217
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

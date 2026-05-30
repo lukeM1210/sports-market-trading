@@ -1,16 +1,16 @@
 """
-Processes raw historical odds snapshots into a per-team-game dataset with:
-  - De-vigged consensus implied probability (open & close)
-  - ML movement % and movement bucket
-  - Consensus spread (open & close) and spread movement
-  - Prediction market implied prob (Kalshi + Polymarket, tracked separately)
-  - ML result (W/L) and ATS result (W/L/P) from ESPN scores
+Processes raw historical odds snapshots into a per-team-game dataset.
 
-Run after nfl_history_backfill.py and nfl_scores.py.
-Output: Python/NFL/historical/nfl_2025_dataset.csv
+Usage:
+    python nfl_model.py              # builds all seasons that have raw data
+    python nfl_model.py --year 2023
+    python nfl_model.py --year 2022 2023 2024
+
+Output: Python/NFL/historical/nfl_{year}_dataset.csv
 """
 
 import json
+import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 import pandas as pd
@@ -18,8 +18,6 @@ import pandas as pd
 from nfl_scores import get_nfl_season_scores
 
 BASE = Path(__file__).parent
-RAW_DIR = BASE / "NFL" / "historical" / "raw"
-OUT_PATH = BASE / "NFL" / "historical" / "nfl_2025_dataset.csv"
 
 SHARP_BOOKS = ["pinnacle", "fanduel", "draftkings", "prophetx", "betonlineag", "novig"]
 PREDICTION_MARKETS = ["kalshi", "polymarket"]
@@ -100,6 +98,21 @@ def consensus_devigged_prob(event: dict, team: str, opponent: str, books: list[s
     return round(sum(probs) / len(probs), 4) if probs else None
 
 
+def consensus_american_odds(event: dict, team: str, books: list[str]) -> float | None:
+    """Average raw American odds for team across the given books (before de-vigging)."""
+    odds_list = []
+    for bm in event.get("bookmakers", []):
+        if bm["key"] not in books:
+            continue
+        mkt = next((m for m in bm["markets"] if m["key"] == "h2h"), None)
+        if not mkt:
+            continue
+        for o in mkt["outcomes"]:
+            if o["name"] == team:
+                odds_list.append(float(o["price"]))
+    return round(sum(odds_list) / len(odds_list), 1) if odds_list else None
+
+
 def consensus_spread(event: dict, team: str, books: list[str]) -> float | None:
     """Average spread point for team across the given books."""
     points = []
@@ -119,11 +132,21 @@ def consensus_spread(event: dict, team: str, books: list[str]) -> float | None:
 # Snapshot loading
 # ---------------------------------------------------------------------------
 
-def load_all_snapshots() -> dict[datetime, list[dict]]:
-    """Load all cached JSON snapshots. Returns {utc_datetime: [event, ...]}."""
+def raw_dir(year: str) -> Path:
+    return BASE / "NFL" / "historical" / year / "raw"
+
+
+def out_path(year: str) -> Path:
+    return BASE / "NFL" / "historical" / f"nfl_{year}_dataset.csv"
+
+
+def load_all_snapshots(year: str) -> dict[datetime, list[dict]]:
+    """Load all cached JSON snapshots for a season. Returns {utc_datetime: [event, ...]}."""
     snapshots = {}
-    for f in sorted(RAW_DIR.glob("*.json")):
-        # Filename: 2025-09-02T16-00-00Z.json  →  2025-09-02T16:00:00Z
+    rdir = raw_dir(year)
+    if not rdir.exists():
+        return snapshots
+    for f in sorted(rdir.glob("*.json")):
         stem = f.stem  # e.g. "2025-09-02T16-00-00Z"
         date_part = stem[:10]
         time_part = stem[11:].rstrip("Z").replace("-", ":")
@@ -209,11 +232,11 @@ def match_score(home: str, away: str, scores: dict) -> dict | None:
 # Main build
 # ---------------------------------------------------------------------------
 
-def build_dataset() -> pd.DataFrame:
-    print("Loading snapshots...")
-    snapshots = load_all_snapshots()
+def build_dataset(year: str = "2025") -> pd.DataFrame:
+    print(f"Loading {year} snapshots...")
+    snapshots = load_all_snapshots(year)
     if not snapshots:
-        print("No snapshots found. Run nfl_history_backfill.py first.")
+        print(f"No snapshots found for {year}. Run nfl_history_backfill.py --year {year} first.")
         return pd.DataFrame()
 
     print(f"Loaded {len(snapshots)} snapshots.")
@@ -233,8 +256,8 @@ def build_dataset() -> pd.DataFrame:
 
     print(f"Found {len(event_open)} unique events.")
 
-    print("Fetching NFL scores from ESPN...")
-    scores = get_nfl_season_scores()
+    print(f"Fetching NFL {year} scores from ESPN...")
+    scores = get_nfl_season_scores(year)
     print(f"Got {len(scores)} game scores.")
 
     rows = []
@@ -328,6 +351,7 @@ def build_dataset() -> pd.DataFrame:
                 "spread_movement": spread_mov,
                 "open_prob_pm": open_prob_pm,
                 "close_prob_pm": close_prob_pm,
+                "close_odds_american": consensus_american_odds(close_ev, team, SHARP_BOOKS),
                 "ml_result": ml_result,
                 "ats_result": ats_result,
             })
@@ -344,15 +368,27 @@ def build_dataset() -> pd.DataFrame:
     )
     df = df.drop(columns=["abs_movement"])
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(OUT_PATH, index=False)
+    op = out_path(year)
+    op.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(op, index=False)
     resolved = df[df["ml_result"].isin(["W", "L", "T"])]
-    print(f"Saved {len(df)} team-game rows ({len(resolved)} with results) → {OUT_PATH}")
+    print(f"Saved {len(df)} team-game rows ({len(resolved)} with results) → {op}")
     return df
 
 
+NFL_SEASONS = ["2020", "2021", "2022", "2023", "2024", "2025"]
+
+
 if __name__ == "__main__":
-    df = build_dataset()
-    if not df.empty:
-        print("\nSample:")
-        print(df[["game_date", "team", "ml_movement_pct", "movement_bucket", "ml_result", "ats_result"]].head(10).to_string())
+    args = sys.argv[1:]
+    if "--year" in args:
+        idx = args.index("--year")
+        years = args[idx + 1:] or NFL_SEASONS
+    else:
+        years = NFL_SEASONS
+
+    for y in sorted(years):
+        df = build_dataset(y)
+        if not df.empty:
+            print(f"\n{y} sample:")
+            print(df[["game_date", "team", "ml_movement_pct", "movement_bucket", "ml_result", "ats_result"]].head(5).to_string())

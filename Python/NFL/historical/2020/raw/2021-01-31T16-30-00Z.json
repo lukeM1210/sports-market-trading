@@ -1,0 +1,165 @@
+{
+  "timestamp": "2021-01-31T16:25:00Z",
+  "previous_timestamp": "2021-01-31T16:15:00Z",
+  "next_timestamp": "2021-01-31T16:35:00Z",
+  "data": [
+    {
+      "id": "99f4df1ec9baac558536e5f5bf426c47",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2021-02-07T23:30:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2021-01-31T16:16:34Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2021-01-31T16:16:34Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -167
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 148
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2021-01-31T16:16:34Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -103,
+                  "point": -3.5
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -118,
+                  "point": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2021-01-31T16:15:18Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-31T16:15:18Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -120,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 100,
+                  "point": 3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-31T16:15:18Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -169
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 147
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2021-01-31T16:15:18Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-31T16:15:18Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -114,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 102,
+                  "point": 3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-31T16:15:18Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -167
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2021-01-31T16:15:20Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2021-01-31T16:15:20Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -122,
+                  "point": -3.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 100,
+                  "point": 3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2021-01-31T16:15:20Z",
+              "outcomes": [
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -175
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": 146
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

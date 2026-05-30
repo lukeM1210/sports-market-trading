@@ -1,0 +1,2345 @@
+{
+  "timestamp": "2022-01-04T16:55:00Z",
+  "previous_timestamp": "2022-01-04T16:45:00Z",
+  "next_timestamp": "2022-01-04T17:05:00Z",
+  "data": [
+    {
+      "id": "14a8edc98fc58e8f6ae30aaed7b5c1fc",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Miami Dolphins",
+      "away_team": "New England Patriots",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": -115,
+                  "point": 7.0
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -105,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": 255
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -312
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": -115,
+                  "point": 7.0
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -105,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": 235
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -303
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": -105,
+                  "point": 7.0
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -106,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": 258
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -303
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": -110,
+                  "point": 7.0
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -110,
+                  "point": -7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Miami Dolphins",
+                  "price": 245
+                },
+                {
+                  "name": "New England Patriots",
+                  "price": -303
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a84b431e86647a9698859ae4b1cb62f2",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Jacksonville Jaguars",
+      "away_team": "Indianapolis Colts",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -105,
+                  "point": -16.0
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -115,
+                  "point": 16.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -1111
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 675
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -104,
+                  "point": -15.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -108,
+                  "point": 15.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -1111
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 750
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": -15.0
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -110,
+                  "point": 15.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -1000
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 650
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -110,
+                  "point": -15.5
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": -110,
+                  "point": 15.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Indianapolis Colts",
+                  "price": -1111
+                },
+                {
+                  "name": "Jacksonville Jaguars",
+                  "price": 730
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11511284da753651fefdfbc08cf51e2c",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "New York Jets",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -105,
+                  "point": -17.0
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -115,
+                  "point": 17.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -1429
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -111,
+                  "point": -16.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -111,
+                  "point": 16.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -909
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 615
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -112,
+                  "point": -16.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 100,
+                  "point": 16.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -1250
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 819
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -115,
+                  "point": -16.5
+                },
+                {
+                  "name": "New York Jets",
+                  "price": -105,
+                  "point": 16.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Buffalo Bills",
+                  "price": -1429
+                },
+                {
+                  "name": "New York Jets",
+                  "price": 810
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "469d0b84d522b6ba7c7089fc73a81e53",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Houston Texans",
+      "away_team": "Tennessee Titans",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -109,
+                  "point": 10.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -112,
+                  "point": -10.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 420
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -526
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -115,
+                  "point": 10.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -105,
+                  "point": -10.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 385
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -526
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -115,
+                  "point": 11.0
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": 104,
+                  "point": -11.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 411
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -526
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -110,
+                  "point": 10.5
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -110,
+                  "point": -10.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 420
+                },
+                {
+                  "name": "Tennessee Titans",
+                  "price": -556
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fd20bf64bde9c41529eff98f34e8360b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "New York Giants",
+      "away_team": "Washington Football Team",
+      "bookmakers": [
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 101,
+                  "point": 6.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -114,
+                  "point": -6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 250
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -294
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -108,
+                  "point": 6.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -114,
+                  "point": -6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 245
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -294
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -105,
+                  "point": 6.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -115,
+                  "point": -6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 225
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -278
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": -106,
+                  "point": 6.5
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -114,
+                  "point": -6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "New York Giants",
+                  "price": 250
+                },
+                {
+                  "name": "Washington Football Team",
+                  "price": -312
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "db65d83c1b4b4d7eed4a953ee05ff059",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Atlanta Falcons",
+      "away_team": "New Orleans Saints",
+      "bookmakers": [
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 101,
+                  "point": 4.0
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -112,
+                  "point": -4.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 182
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -208
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -112,
+                  "point": 4.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -109,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 180
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -213
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -110,
+                  "point": 4.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -110,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 175
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -208
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": -112,
+                  "point": 4.5
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -108,
+                  "point": -4.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Atlanta Falcons",
+                  "price": 172
+                },
+                {
+                  "name": "New Orleans Saints",
+                  "price": -204
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0e9f9370d138d4fdef46aadd8dbf72ec",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Arizona Cardinals",
+      "away_team": "Seattle Seahawks",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -115,
+                  "point": -6.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -105,
+                  "point": 6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -278
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 230
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -114,
+                  "point": -6.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 102,
+                  "point": 6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -294
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -114,
+                  "point": -6.5
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -106,
+                  "point": 6.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -294
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 235
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -105,
+                  "point": -7.0
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": -115,
+                  "point": 7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Arizona Cardinals",
+                  "price": -278
+                },
+                {
+                  "name": "Seattle Seahawks",
+                  "price": 225
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1361c7d4506dfd8ca1e2a22a3f59df09",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-10T01:20:00Z",
+      "home_team": "Las Vegas Raiders",
+      "away_team": "Los Angeles Chargers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -115,
+                  "point": 3.0
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -105,
+                  "point": -3.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 125
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -145
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 103,
+                  "point": 2.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -114,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 125
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -139
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -105,
+                  "point": 2.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -115,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 121
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": -106,
+                  "point": 2.5
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -114,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Las Vegas Raiders",
+                  "price": 120
+                },
+                {
+                  "name": "Los Angeles Chargers",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "44694e6293010b0b9f85d557a8b7c644",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-08T21:30:00Z",
+      "home_team": "Denver Broncos",
+      "away_team": "Kansas City Chiefs",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -105,
+                  "point": 10.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -10.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 360
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -105,
+                  "point": 10.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -106,
+                  "point": -10.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 365
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -455
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -110,
+                  "point": 10.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -10.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 370
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -476
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": -111,
+                  "point": 10.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -111,
+                  "point": -10.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Denver Broncos",
+                  "price": 355
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -435
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04dbadcea53d7d51ef5ede96914a6890",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Los Angeles Rams",
+      "away_team": "San Francisco 49ers",
+      "bookmakers": [
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -111,
+                  "point": -3.5
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -111,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -196
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 170
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -108,
+                  "point": -4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -104,
+                  "point": 4.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -204
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 178
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -112,
+                  "point": -4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -108,
+                  "point": 4.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -196
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 166
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -196
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": 165
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -115,
+                  "point": -4.0
+                },
+                {
+                  "name": "San Francisco 49ers",
+                  "price": -105,
+                  "point": 4.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "672e109ed4d235a5502ce414277db27e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T21:25:00Z",
+      "home_team": "Tampa Bay Buccaneers",
+      "away_team": "Carolina Panthers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -110,
+                  "point": 8.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -8.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 290
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -385
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -111,
+                  "point": 8.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -111,
+                  "point": -8.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -110,
+                  "point": 8.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -110,
+                  "point": -8.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 295
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -357
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": -105,
+                  "point": 8.0
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -106,
+                  "point": -8.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Carolina Panthers",
+                  "price": 301
+                },
+                {
+                  "name": "Tampa Bay Buccaneers",
+                  "price": -357
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9305c8a793951a42dea4d5c5a49cefd1",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T01:15:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Dallas Cowboys",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -110,
+                  "point": -7.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": 7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -312
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -102,
+                  "point": -7.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -119,
+                  "point": 7.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -303
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -110,
+                  "point": -7.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -110,
+                  "point": 7.0
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -303
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 240
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2022-01-04T16:48:25Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": 107,
+                  "point": -7.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -119,
+                  "point": 7.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:48:25Z",
+              "outcomes": [
+                {
+                  "name": "Dallas Cowboys",
+                  "price": -303
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 258
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b158083c5706ac3c2648b3c8173a90e0",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Minnesota Vikings",
+      "away_team": "Chicago Bears",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -110,
+                  "point": 2.5
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -110,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 120
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -110,
+                  "point": 2.5
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -110,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 120
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -141
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": -111,
+                  "point": 2.5
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -111,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Chicago Bears",
+                  "price": 120
+                },
+                {
+                  "name": "Minnesota Vikings",
+                  "price": -141
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d5e256835005a9281ae0ad53e623375e",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Green Bay Packers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -110,
+                  "point": 2.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -110,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 115
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -135
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -111,
+                  "point": 2.0
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -111,
+                  "point": -2.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -105,
+                  "point": 2.5
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -115,
+                  "point": -2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 120
+                },
+                {
+                  "name": "Green Bay Packers",
+                  "price": -143
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "89eb172ec451fa98fcff7b2313f501e4",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Baltimore Ravens",
+      "away_team": "Pittsburgh Steelers",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110,
+                  "point": -3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -110,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 155
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -111,
+                  "point": -3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -111,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -196
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 169
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -106,
+                  "point": -3.5
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": -114,
+                  "point": 3.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -179
+                },
+                {
+                  "name": "Pittsburgh Steelers",
+                  "price": 150
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9402c475672bebad4b15cb8a82a286b",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2022-01-09T18:00:00Z",
+      "home_team": "Cleveland Browns",
+      "away_team": "Cincinnati Bengals",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2022-01-04T16:46:41Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -114,
+                  "point": -2.5
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -106,
+                  "point": 2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:46:41Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -133
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 114
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2022-01-04T16:47:27Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:27Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -112,
+                  "point": -2.5
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -109,
+                  "point": 2.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2022-01-04T16:47:23Z",
+          "markets": [
+            {
+              "key": "spreads",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -115,
+                  "point": -2.5
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": -105,
+                  "point": 2.5
+                }
+              ]
+            },
+            {
+              "key": "h2h",
+              "last_update": "2022-01-04T16:47:23Z",
+              "outcomes": [
+                {
+                  "name": "Cincinnati Bengals",
+                  "price": -135
+                },
+                {
+                  "name": "Cleveland Browns",
+                  "price": 115
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

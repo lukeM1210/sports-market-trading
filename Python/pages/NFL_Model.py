@@ -6,17 +6,40 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="NFL Model", layout="wide")
 
 BASE = Path(__file__).parent.parent
-DATASET = BASE / "NFL" / "historical" / "nfl_2025_dataset.csv"
+HIST_DIR = BASE / "NFL" / "historical"
 
-st.title("NFL Line Movement Model")
-st.caption("2025-26 season · Sharp consensus (Pinnacle, FanDuel, DraftKings, ProphetX, BetOnline, NoVig)")
+# Discover which season datasets exist on disk
+available_years = sorted(
+    [p.stem.replace("nfl_", "").replace("_dataset", "")
+     for p in HIST_DIR.glob("nfl_*_dataset.csv")],
+    reverse=True,
+)
 
-if not DATASET.exists():
-    st.warning("Dataset not built yet.")
-    st.code("python nfl_history_backfill.py\npython nfl_model.py", language="bash")
+if not available_years:
+    st.title("NFL Line Movement Model")
+    st.warning("No dataset found. Build one first:")
+    st.code("python nfl_history_backfill.py --year 2024\npython nfl_model.py --year 2024", language="bash")
     st.stop()
 
-df = pd.read_csv(DATASET)
+ALL_SEASONS = "All Seasons"
+selected_year = st.sidebar.selectbox("Season", [ALL_SEASONS] + available_years, index=0)
+
+def load_df(year: str) -> pd.DataFrame:
+    path = HIST_DIR / f"nfl_{year}_dataset.csv"
+    d = pd.read_csv(path)
+    d["season"] = year
+    return d
+
+if selected_year == ALL_SEASONS:
+    df = pd.concat([load_df(y) for y in available_years], ignore_index=True)
+    season_label = f"{available_years[-1]}–{available_years[0]}"
+else:
+    df = load_df(selected_year)
+    season_label = f"{selected_year}-{str(int(selected_year)+1)[-2:]}"
+
+st.title("NFL Line Movement Model")
+st.caption(f"{season_label} season · Sharp consensus (Pinnacle, FanDuel, DraftKings, ProphetX, BetOnline, NoVig)")
+
 df["ml_movement_pct"] = pd.to_numeric(df["ml_movement_pct"], errors="coerce")
 df["open_prob_sharp"] = pd.to_numeric(df["open_prob_sharp"], errors="coerce")
 df["close_prob_sharp"] = pd.to_numeric(df["close_prob_sharp"], errors="coerce")
@@ -151,6 +174,74 @@ st.dataframe(
     hide_index=True,
     use_container_width=True,
 )
+
+# ---------------------------------------------------------------------------
+# ROI chart — $100/game flat bet on shortening teams
+# ---------------------------------------------------------------------------
+st.markdown("---")
+st.subheader("Profitability — $100 Flat Bet per Game (Shortening Teams)")
+st.caption("Net profit if you bet $100 on every shortening team at their sharp consensus closing odds.")
+
+def bet_profit(row) -> float | None:
+    odds = row.get("close_odds_american")
+    if pd.isna(odds):
+        return None
+    if row["ml_result"] == "W":
+        return (odds / 100 * 100) if odds >= 100 else (10000 / abs(odds))
+    if row["ml_result"] == "L":
+        return -100.0
+    return None
+
+if "close_odds_american" not in shortening.columns:
+    st.info("Re-run nfl_model.py to enable profitability analysis.")
+else:
+    roi_data = shortening[shortening["ml_result"].isin(["W", "L"])].copy()
+    roi_data["close_odds_american"] = pd.to_numeric(roi_data["close_odds_american"], errors="coerce")
+    roi_data["profit"] = roi_data.apply(bet_profit, axis=1)
+    roi_data = roi_data.dropna(subset=["profit"])
+
+    roi_rows = []
+    for bucket in BUCKET_ORDER:
+        grp = roi_data[roi_data["movement_bucket"] == bucket]
+        n = len(grp)
+        net = grp["profit"].sum()
+        wagered = n * 100
+        roi_pct = net / wagered * 100 if wagered else 0
+        roi_rows.append({
+            "Bucket": bucket,
+            "Games": n,
+            "Net Profit": round(net, 2),
+            "Total Wagered": wagered,
+            "ROI %": round(roi_pct, 1),
+        })
+    roi_tbl = pd.DataFrame(roi_rows)
+
+    roi_colors = ["#00c853" if r > 0 else "#d50000" for r in roi_tbl["ROI %"]]
+    fig_roi = go.Figure(go.Bar(
+        x=roi_tbl["Bucket"],
+        y=roi_tbl["ROI %"],
+        marker_color=roi_colors,
+        text=[f"{r:+.1f}%<br>(${n:+,.0f} on {g} games)"
+              for r, n, g in zip(roi_tbl["ROI %"], roi_tbl["Net Profit"], roi_tbl["Games"])],
+        textposition="outside",
+        cliponaxis=False,
+    ))
+    fig_roi.add_hline(y=0, line_dash="dash", line_color="white", opacity=0.4)
+    fig_roi.update_layout(
+        template="plotly_dark",
+        yaxis=dict(title="ROI %"),
+        xaxis=dict(title="Movement Bucket"),
+        height=350,
+        margin=dict(t=20, b=10),
+    )
+    st.plotly_chart(fig_roi, use_container_width=True, key="roi_chart")
+    st.dataframe(
+        roi_tbl.style
+               .format({"Net Profit": "${:+,.2f}", "Total Wagered": "${:,.0f}", "ROI %": "{:+.1f}%"})
+               .background_gradient(subset=["ROI %"], cmap="RdYlGn", vmin=-15, vmax=15),
+        hide_index=True,
+        use_container_width=True,
+    )
 
 # ---------------------------------------------------------------------------
 # ATS buckets — spread-favorable teams (point movement)

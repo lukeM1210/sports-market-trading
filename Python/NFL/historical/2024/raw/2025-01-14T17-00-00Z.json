@@ -1,0 +1,935 @@
+{
+  "timestamp": "2025-01-14T16:55:38Z",
+  "previous_timestamp": "2025-01-14T16:50:38Z",
+  "next_timestamp": "2025-01-14T17:00:38Z",
+  "data": [
+    {
+      "id": "8e69ba9c62b475e7c9dda2260f7e5a87",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-18T21:30:00Z",
+      "home_team": "Kansas City Chiefs",
+      "away_team": "Houston Texans",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 350
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -460
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -105,
+                  "point": 7.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-14T16:54:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 393
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -483
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -118,
+                  "point": 9.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -102,
+                  "point": -9.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 353
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -445
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -108,
+                  "point": 8.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -104,
+                  "point": -8.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 320
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -410
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -105,
+                  "point": 7.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -115,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 367
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -492
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -101,
+                  "point": 7.5
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -110,
+                  "point": -7.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": 375
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -440
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Houston Texans",
+                  "price": -105,
+                  "point": 8.0
+                },
+                {
+                  "name": "Kansas City Chiefs",
+                  "price": -102,
+                  "point": -8.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f86739438df6c6481fdec0d16c189023",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T01:00:00Z",
+      "home_team": "Detroit Lions",
+      "away_team": "Washington Commanders",
+      "bookmakers": [
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -550
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 410
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -108,
+                  "point": -9.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -112,
+                  "point": 9.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -520
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 400
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -115,
+                  "point": -8.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -105,
+                  "point": 8.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-14T16:54:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -535
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 430
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -107,
+                  "point": -9.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -113,
+                  "point": 9.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -524
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 421
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": 103,
+                  "point": -10.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": -113,
+                  "point": 10.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -506
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 443
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -107,
+                  "point": -9.5
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 100,
+                  "point": 9.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -495
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 430
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Detroit Lions",
+                  "price": -108,
+                  "point": -9.0
+                },
+                {
+                  "name": "Washington Commanders",
+                  "price": 103,
+                  "point": 9.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0c95381e5634e6c64aa5ca079e669dea",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T20:00:00Z",
+      "home_team": "Philadelphia Eagles",
+      "away_team": "Los Angeles Rams",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 225
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -275
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-14T16:54:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 225
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -265
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -104,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -116,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 226
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -267
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 103,
+                  "point": 5.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -115,
+                  "point": -5.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 210
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -258
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -112,
+                  "point": 6.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -108,
+                  "point": -6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 234
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -288
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -123,
+                  "point": 6.5
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -107,
+                  "point": -6.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": 235
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": -260
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Los Angeles Rams",
+                  "price": -105,
+                  "point": 6.0
+                },
+                {
+                  "name": "Philadelphia Eagles",
+                  "price": 102,
+                  "point": -6.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e2845c7119bd64fe725e9f9495032d72",
+      "sport_key": "americanfootball_nfl",
+      "sport_title": "NFL",
+      "commence_time": "2025-01-19T23:30:00Z",
+      "home_team": "Buffalo Bills",
+      "away_team": "Baltimore Ravens",
+      "bookmakers": [
+        {
+          "key": "fanduel",
+          "title": "FanDuel",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -116
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -102
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -102,
+                  "point": -1.5
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -120,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2025-01-14T16:54:36Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -113
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -107
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:36Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -106,
+                  "point": -1.0
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -114,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -117
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": 104
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -109,
+                  "point": -1.0
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -103,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "draftkings",
+          "title": "DraftKings",
+          "last_update": "2025-01-14T16:54:37Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -115
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:37Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -102,
+                  "point": -1.5
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -118,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "novig",
+          "title": "Novig",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -109
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": 101
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -105,
+                  "point": -1.5
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -114,
+                  "point": 1.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "prophetx",
+          "title": "ProphetX",
+          "last_update": "2025-01-14T16:54:38Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -110
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": 105
+                }
+              ]
+            },
+            {
+              "key": "spreads",
+              "last_update": "2025-01-14T16:54:38Z",
+              "outcomes": [
+                {
+                  "name": "Baltimore Ravens",
+                  "price": -101,
+                  "point": -1.0
+                },
+                {
+                  "name": "Buffalo Bills",
+                  "price": -104,
+                  "point": 1.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

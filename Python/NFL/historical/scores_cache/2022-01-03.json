@@ -1,0 +1,850 @@
+{
+  "leagues": [
+    {
+      "id": "28",
+      "uid": "s:20~l:28",
+      "name": "National Football League",
+      "abbreviation": "NFL",
+      "slug": "nfl",
+      "season": {
+        "year": 2021,
+        "startDate": "2021-07-17T07:00Z",
+        "endDate": "2022-02-16T07:59Z",
+        "displayName": "2021",
+        "type": {
+          "id": "2",
+          "type": 2,
+          "name": "Regular Season",
+          "abbreviation": "reg"
+        }
+      },
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "lastUpdated": "2018-06-05T12:07Z"
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "lastUpdated": "2024-07-22T16:53Z"
+        }
+      ],
+      "calendarType": "list",
+      "calendarIsWhitelist": true,
+      "calendarStartDate": "2021-07-17T07:00Z",
+      "calendarEndDate": "2022-02-16T07:59Z",
+      "calendar": [
+        {
+          "label": "Preseason",
+          "value": "1",
+          "startDate": "2021-07-17T07:00Z",
+          "endDate": "2021-09-09T06:59Z",
+          "entries": [
+            {
+              "label": "Hall of Fame Weekend",
+              "alternateLabel": "HOF",
+              "detail": "Jul 17-Aug 10",
+              "value": "1",
+              "startDate": "2021-07-17T07:00Z",
+              "endDate": "2021-08-11T06:59Z"
+            },
+            {
+              "label": "Preseason Week 1",
+              "alternateLabel": "Pre Wk 1",
+              "detail": "Aug 11-17",
+              "value": "2",
+              "startDate": "2021-08-11T07:00Z",
+              "endDate": "2021-08-18T06:59Z"
+            },
+            {
+              "label": "Preseason Week 2",
+              "alternateLabel": "Pre Wk 2",
+              "detail": "Aug 18-24",
+              "value": "3",
+              "startDate": "2021-08-18T07:00Z",
+              "endDate": "2021-08-25T06:59Z"
+            },
+            {
+              "label": "Preseason Week 3",
+              "alternateLabel": "Pre Wk 3",
+              "detail": "Aug 25-31",
+              "value": "4",
+              "startDate": "2021-08-25T07:00Z",
+              "endDate": "2021-09-01T06:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Regular Season",
+          "value": "2",
+          "startDate": "2021-09-09T07:00Z",
+          "endDate": "2022-01-12T07:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Sep 9-14",
+              "value": "1",
+              "startDate": "2021-09-09T07:00Z",
+              "endDate": "2021-09-15T06:59Z"
+            },
+            {
+              "label": "Week 2",
+              "alternateLabel": "Week 2",
+              "detail": "Sep 15-21",
+              "value": "2",
+              "startDate": "2021-09-15T07:00Z",
+              "endDate": "2021-09-22T06:59Z"
+            },
+            {
+              "label": "Week 3",
+              "alternateLabel": "Week 3",
+              "detail": "Sep 22-28",
+              "value": "3",
+              "startDate": "2021-09-22T07:00Z",
+              "endDate": "2021-09-29T06:59Z"
+            },
+            {
+              "label": "Week 4",
+              "alternateLabel": "Week 4",
+              "detail": "Sep 29-Oct 5",
+              "value": "4",
+              "startDate": "2021-09-29T07:00Z",
+              "endDate": "2021-10-06T06:59Z"
+            },
+            {
+              "label": "Week 5",
+              "alternateLabel": "Week 5",
+              "detail": "Oct 6-12",
+              "value": "5",
+              "startDate": "2021-10-06T07:00Z",
+              "endDate": "2021-10-13T06:59Z"
+            },
+            {
+              "label": "Week 6",
+              "alternateLabel": "Week 6",
+              "detail": "Oct 13-19",
+              "value": "6",
+              "startDate": "2021-10-13T07:00Z",
+              "endDate": "2021-10-20T06:59Z"
+            },
+            {
+              "label": "Week 7",
+              "alternateLabel": "Week 7",
+              "detail": "Oct 20-26",
+              "value": "7",
+              "startDate": "2021-10-20T07:00Z",
+              "endDate": "2021-10-27T06:59Z"
+            },
+            {
+              "label": "Week 8",
+              "alternateLabel": "Week 8",
+              "detail": "Oct 27-Nov 2",
+              "value": "8",
+              "startDate": "2021-10-27T07:00Z",
+              "endDate": "2021-11-03T06:59Z"
+            },
+            {
+              "label": "Week 9",
+              "alternateLabel": "Week 9",
+              "detail": "Nov 3-9",
+              "value": "9",
+              "startDate": "2021-11-03T07:00Z",
+              "endDate": "2021-11-10T07:59Z"
+            },
+            {
+              "label": "Week 10",
+              "alternateLabel": "Week 10",
+              "detail": "Nov 10-16",
+              "value": "10",
+              "startDate": "2021-11-10T08:00Z",
+              "endDate": "2021-11-17T07:59Z"
+            },
+            {
+              "label": "Week 11",
+              "alternateLabel": "Week 11",
+              "detail": "Nov 17-23",
+              "value": "11",
+              "startDate": "2021-11-17T08:00Z",
+              "endDate": "2021-11-24T07:59Z"
+            },
+            {
+              "label": "Week 12",
+              "alternateLabel": "Week 12",
+              "detail": "Nov 24-30",
+              "value": "12",
+              "startDate": "2021-11-24T08:00Z",
+              "endDate": "2021-12-01T07:59Z"
+            },
+            {
+              "label": "Week 13",
+              "alternateLabel": "Week 13",
+              "detail": "Dec 1-7",
+              "value": "13",
+              "startDate": "2021-12-01T08:00Z",
+              "endDate": "2021-12-08T07:59Z"
+            },
+            {
+              "label": "Week 14",
+              "alternateLabel": "Week 14",
+              "detail": "Dec 8-14",
+              "value": "14",
+              "startDate": "2021-12-08T08:00Z",
+              "endDate": "2021-12-15T07:59Z"
+            },
+            {
+              "label": "Week 15",
+              "alternateLabel": "Week 15",
+              "detail": "Dec 15-21",
+              "value": "15",
+              "startDate": "2021-12-15T08:00Z",
+              "endDate": "2021-12-22T07:59Z"
+            },
+            {
+              "label": "Week 16",
+              "alternateLabel": "Week 16",
+              "detail": "Dec 22-28",
+              "value": "16",
+              "startDate": "2021-12-22T08:00Z",
+              "endDate": "2021-12-29T07:59Z"
+            },
+            {
+              "label": "Week 17",
+              "alternateLabel": "Week 17",
+              "detail": "Dec 29-Jan 4",
+              "value": "17",
+              "startDate": "2021-12-29T08:00Z",
+              "endDate": "2022-01-05T07:59Z"
+            },
+            {
+              "label": "Week 18",
+              "alternateLabel": "Week 18",
+              "detail": "Jan 5-11",
+              "value": "18",
+              "startDate": "2022-01-05T08:00Z",
+              "endDate": "2022-01-12T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Postseason",
+          "value": "3",
+          "startDate": "2022-01-12T08:00Z",
+          "endDate": "2022-02-16T07:59Z",
+          "entries": [
+            {
+              "label": "Wild Card",
+              "alternateLabel": "Wild Card",
+              "detail": "Jan 12-18",
+              "value": "1",
+              "startDate": "2022-01-12T08:00Z",
+              "endDate": "2022-01-19T07:59Z"
+            },
+            {
+              "label": "Divisional Round",
+              "alternateLabel": "Div Rd",
+              "detail": "Jan 19-25",
+              "value": "2",
+              "startDate": "2022-01-19T08:00Z",
+              "endDate": "2022-01-26T07:59Z"
+            },
+            {
+              "label": "Conference Championship",
+              "alternateLabel": "Conf Champ",
+              "detail": "Jan 26-Feb 1",
+              "value": "3",
+              "startDate": "2022-01-26T08:00Z",
+              "endDate": "2022-02-02T07:59Z"
+            },
+            {
+              "label": "Pro Bowl",
+              "alternateLabel": "Pro Bowl",
+              "detail": "Feb 2-8",
+              "value": "4",
+              "startDate": "2022-02-02T08:00Z",
+              "endDate": "2022-02-09T07:59Z"
+            },
+            {
+              "label": "Super Bowl",
+              "alternateLabel": "Super Bowl",
+              "detail": "Feb 9-15",
+              "value": "5",
+              "startDate": "2022-02-09T08:00Z",
+              "endDate": "2022-02-16T07:59Z"
+            }
+          ]
+        },
+        {
+          "label": "Off Season",
+          "value": "4",
+          "startDate": "2022-02-16T08:00Z",
+          "endDate": "2022-08-01T06:59Z",
+          "entries": [
+            {
+              "label": "Week 1",
+              "alternateLabel": "Week 1",
+              "detail": "Feb 16-Jul 31",
+              "value": "1",
+              "startDate": "2022-02-16T08:00Z",
+              "endDate": "2022-08-01T06:59Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "401326584",
+      "uid": "s:20~l:28~e:401326584",
+      "date": "2022-01-04T01:15Z",
+      "name": "Cleveland Browns at Pittsburgh Steelers",
+      "shortName": "CLE @ PIT",
+      "season": {
+        "year": 2021,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 17
+      },
+      "competitions": [
+        {
+          "id": "401326584",
+          "uid": "s:20~l:28~e:401326584~c:401326584",
+          "date": "2022-01-04T01:15Z",
+          "attendance": 63624,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "conferenceCompetition": false,
+          "playByPlayAvailable": true,
+          "recent": false,
+          "venue": {
+            "id": "3752",
+            "fullName": "Acrisure Stadium",
+            "address": {
+              "city": "Pittsburgh",
+              "state": "PA",
+              "country": "USA"
+            },
+            "indoor": false
+          },
+          "competitors": [
+            {
+              "id": "23",
+              "uid": "s:20~l:28~t:23",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "winner": true,
+              "team": {
+                "id": "23",
+                "uid": "s:20~l:28~t:23",
+                "location": "Pittsburgh",
+                "name": "Steelers",
+                "abbreviation": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "shortDisplayName": "Steelers",
+                "color": "000000",
+                "alternateColor": "ffb612",
+                "isActive": true,
+                "venue": {
+                  "id": "3752"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/pit/pittsburgh-steelers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/pit/pittsburgh-steelers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png"
+              },
+              "score": "26",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 10.0,
+                  "displayValue": "10",
+                  "period": 2
+                },
+                {
+                  "value": 3.0,
+                  "displayValue": "3",
+                  "period": 3
+                },
+                {
+                  "value": 13.0,
+                  "displayValue": "13",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "8-7-1"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-2-1"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-5"
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "uid": "s:20~l:28~t:5",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "winner": false,
+              "team": {
+                "id": "5",
+                "uid": "s:20~l:28~t:5",
+                "location": "Cleveland",
+                "name": "Browns",
+                "abbreviation": "CLE",
+                "displayName": "Cleveland Browns",
+                "shortDisplayName": "Browns",
+                "color": "4C230E",
+                "alternateColor": "ff3c00",
+                "isActive": true,
+                "venue": {
+                  "id": "3679"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/roster/_/name/cle/cleveland-browns",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/stats/_/name/cle/cleveland-browns",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nfl/team/schedule/_/name/cle",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png"
+              },
+              "score": "14",
+              "linescores": [
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 1
+                },
+                {
+                  "value": 0.0,
+                  "displayValue": "0",
+                  "period": 2
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 3
+                },
+                {
+                  "value": 7.0,
+                  "displayValue": "7",
+                  "period": 4
+                }
+              ],
+              "statistics": [],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "7-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-3"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-6"
+                }
+              ]
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0.0,
+            "displayClock": "0:00",
+            "period": 4,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "isTBDFlex": false
+          },
+          "broadcasts": [
+            {
+              "market": "national",
+              "names": [
+                "ESPN"
+              ]
+            }
+          ],
+          "leaders": [
+            {
+              "name": "passingYards",
+              "displayName": "Passing Leader",
+              "shortDisplayName": "PASS",
+              "abbreviation": "PYDS",
+              "leaders": [
+                {
+                  "displayValue": "16/38, 185 YDS, 2 TD, 2 INT",
+                  "value": 185.0,
+                  "athlete": {
+                    "id": "3052587",
+                    "fullName": "Baker Mayfield",
+                    "displayName": "Baker Mayfield",
+                    "shortName": "B. Mayfield",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/3052587/baker-mayfield"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
+                    "jersey": "6",
+                    "position": {
+                      "abbreviation": "QB"
+                    },
+                    "team": {
+                      "id": "5"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "rushingYards",
+              "displayName": "Rushing Leader",
+              "shortDisplayName": "RUSH",
+              "abbreviation": "RYDS",
+              "leaders": [
+                {
+                  "displayValue": "28 CAR, 188 YDS, 1 TD",
+                  "value": 188.0,
+                  "athlete": {
+                    "id": "4241457",
+                    "fullName": "Najee Harris",
+                    "displayName": "Najee Harris",
+                    "shortName": "N. Harris",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4241457/najee-harris"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241457.png",
+                    "jersey": "22",
+                    "position": {
+                      "abbreviation": "RB"
+                    },
+                    "team": {
+                      "id": "23"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "23"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "receivingYards",
+              "displayName": "Receiving Leader",
+              "shortDisplayName": "REC",
+              "abbreviation": "RECYDS",
+              "leaders": [
+                {
+                  "displayValue": "3 REC, 76 YDS",
+                  "value": 76.0,
+                  "athlete": {
+                    "id": "4258195",
+                    "fullName": "Donovan Peoples-Jones",
+                    "displayName": "Donovan Peoples-Jones",
+                    "shortName": "D. Peoples-Jones",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/nfl/player/_/id/4258195/donovan-peoples-jones"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4258195.png",
+                    "jersey": "14",
+                    "position": {
+                      "abbreviation": "WR"
+                    },
+                    "team": {
+                      "id": "5"
+                    },
+                    "active": true
+                  },
+                  "team": {
+                    "id": "5"
+                  }
+                }
+              ]
+            }
+          ],
+          "format": {
+            "regulation": {
+              "periods": 4
+            }
+          },
+          "startDate": "2022-01-04T01:15Z",
+          "broadcast": "ESPN",
+          "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "ESPN",
+                "logo": "https://a.espncdn.com/guid/335fd2d2-97b9-336b-81ee-573eb6bdcffc/logos/default.png",
+                "darkLogo": ""
+              },
+              "lang": "en",
+              "region": "us"
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "\u2014 The Cleveland Browns knew they had been eliminated from playoff contention entering a Monday night showdown against their AFC North rival Pittsburgh Steelers.",
+              "shortLinkText": "Battered Mayfield, listless Browns lose to Steelers, 26-14"
+            }
+          ],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/game/_/gameId/401326584/browns-steelers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/boxscore/_/gameId/401326584",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401326584",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nfl/recap?gameId=401326584",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 4,
+        "type": {
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
+        }
+      }
+    }
+  ],
+  "provider": {
+    "id": "100",
+    "name": "Draft Kings",
+    "displayName": "Draft Kings",
+    "priority": 1,
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "rel": [
+          "light"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "rel": [
+          "dark"
+        ]
+      }
+    ]
+  },
+  "week": {
+    "number": 17
+  }
+}

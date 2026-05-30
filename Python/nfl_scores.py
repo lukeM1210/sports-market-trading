@@ -89,23 +89,40 @@ def get_scores_for_dates(date_strs: list[str]) -> dict[tuple[str, str], dict]:
     return result
 
 
-def get_nfl_season_scores() -> dict[tuple[str, str], dict]:
-    """Fetch all scores for the 2025-26 NFL season (Sep 4 2025 – Feb 8 2026)."""
-    start = datetime(2025, 9, 4)
-    end = datetime(2026, 2, 9)
+# Season kickoff and Super Bowl dates per season year
+NFL_SEASON_DATES = {
+    "2020": ("2020-09-10", "2021-02-08"),
+    "2021": ("2021-09-09", "2022-02-14"),
+    "2022": ("2022-09-08", "2023-02-13"),
+    "2023": ("2023-09-07", "2024-02-12"),
+    "2024": ("2024-09-05", "2025-02-10"),
+    "2025": ("2025-09-04", "2026-02-09"),
+}
+
+
+def get_nfl_season_scores(year: str = "2025") -> dict[tuple[str, str], dict]:
+    """Fetch all scores for the given NFL season year."""
+    if year not in NFL_SEASON_DATES:
+        raise ValueError(f"Unknown season year: {year}. Available: {list(NFL_SEASON_DATES)}")
+
+    start_str, end_str = NFL_SEASON_DATES[year]
+    start = datetime.strptime(start_str, "%Y-%m-%d")
+    end = datetime.strptime(end_str, "%Y-%m-%d") + timedelta(days=1)
+
     dates = []
     current = start
     while current <= end:
-        # Only fetch Thu, Sat, Sun, Mon — NFL game days
         if current.weekday() in (0, 3, 5, 6):  # Mon=0, Thu=3, Sat=5, Sun=6
             dates.append(current.strftime("%Y-%m-%d"))
         current += timedelta(days=1)
 
-    print(f"Fetching scores for {len(dates)} NFL game days...")
+    print(f"Fetching scores for {len(dates)} NFL {year} game days...")
     return get_scores_for_dates(dates)
 
 
 if __name__ == "__main__":
-    scores = get_nfl_season_scores()
+    import sys
+    year = sys.argv[1] if len(sys.argv) > 1 else "2025"
+    scores = get_nfl_season_scores(year)
     completed = sum(1 for v in scores.values() if v["completed"])
     print(f"\nFetched {len(scores)} games, {completed} completed.")
