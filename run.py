@@ -7,6 +7,7 @@ ROOT = Path(__file__).parent / "Python"
 INGESTORS = [
     ROOT / "NBA" / "ingest_nba_odds.py",
     ROOT / "NFL" / "ingest_nfl_odds.py",
+    ROOT / "NFL" / "ingest_nfl_futures.py",
     ROOT / "NHL" / "ingest_nhl_odds.py",
     ROOT / "MLB" / "ingest_mlb_odds.py",
     ROOT / "NCAAF" / "ingest_ncaaf_odds.py",
