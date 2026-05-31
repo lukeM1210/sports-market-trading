@@ -156,6 +156,13 @@ def render_odds_page(page_title: str, csv_path: Path) -> None:
                     name=str(book),
                     line=dict(width=3),
                     marker=dict(size=6),
+                    customdata=g["price_american"].values,
+                    hovertemplate=(
+                        "%{x|%m/%d %I:%M%p}<br>"
+                        "Total: %{y:.1f}<br>"
+                        "Price: %{customdata:+d}"
+                        "<extra>%{fullData.name}</extra>"
+                    ),
                 ))
             fig.update_yaxes(title="Total (Points)", dtick=0.5, tickformat=".1f")
             fig.update_xaxes(tickformat="%m/%d", dtick=3600000 * 24, tickangle=-30, title="Date (CT)")
