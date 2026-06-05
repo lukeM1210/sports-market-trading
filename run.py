@@ -1,5 +1,6 @@
 import subprocess
 import sys
+import threading
 from pathlib import Path
 
 ROOT = Path(__file__).parent / "Python"
@@ -13,11 +14,22 @@ INGESTORS = [
     ROOT / "NCAAF" / "ingest_ncaaf_odds.py",
 ]
 
-for script in INGESTORS:
-    subprocess.Popen(
+
+def run_ingestor(script: Path) -> None:
+    name = script.parent.name
+    proc = subprocess.Popen(
         [sys.executable, str(script)],
-        creationflags=subprocess.CREATE_NEW_CONSOLE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
     )
+    for line in proc.stdout:
+        print(f"[{name}] {line}", end="")
+
+
+for script in INGESTORS:
+    t = threading.Thread(target=run_ingestor, args=(script,), daemon=True)
+    t.start()
     print(f"Started {script.parent.name} ingestor")
 
 print("\nAll ingestors running. Starting dashboard...\n")

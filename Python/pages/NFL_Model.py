@@ -1,4 +1,6 @@
 from pathlib import Path
+import subprocess
+import sys
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
@@ -23,6 +25,16 @@ if not available_years:
 
 ALL_SEASONS = "All Seasons"
 selected_year = st.sidebar.selectbox("Season", [ALL_SEASONS] + available_years, index=0)
+
+st.sidebar.markdown("---")
+if st.sidebar.button("Refresh Results", help="Re-fetch ESPN scores and update results for the selected season"):
+    rebuild_years = available_years if selected_year == ALL_SEASONS else [selected_year]
+    nfl_model_path = Path(__file__).parent.parent / "nfl_model.py"
+    with st.sidebar.status("Rebuilding..."):
+        for y in rebuild_years:
+            subprocess.run([sys.executable, str(nfl_model_path), "--year", y], check=True)
+    st.sidebar.success("Done! Refresh the page.")
+    st.cache_data.clear()
 
 def load_df(year: str) -> pd.DataFrame:
     path = HIST_DIR / f"nfl_{year}_dataset.csv"
@@ -405,6 +417,61 @@ else:
         legend_title_text="ML Result",
     )
     st.plotly_chart(fig_pm, use_container_width=True, key="pm_scatter")
+
+# ---------------------------------------------------------------------------
+# Kelly Criterion Calculator
+# ---------------------------------------------------------------------------
+st.markdown("---")
+st.subheader("Kelly Criterion Calculator")
+st.caption(
+    "Enter the closing American odds you're being offered and your bankroll. "
+    "The model's historical win rate for the selected bucket becomes your edge estimate."
+)
+
+if not shortening.empty:
+    kelly_col1, kelly_col2 = st.columns([1, 1])
+
+    with kelly_col1:
+        kelly_bucket = st.selectbox("Movement Bucket", BUCKET_ORDER, key="kelly_bucket")
+        kelly_odds_input = st.number_input("Your Odds (American)", value=-110, step=5, key="kelly_odds")
+        kelly_bankroll = st.number_input("Bankroll ($)", value=1000, min_value=1, step=100, key="kelly_bankroll")
+
+    # Historical win rate from this bucket (shortening teams)
+    bucket_grp = shortening[shortening["movement_bucket"] == kelly_bucket]
+    bucket_resolved = bucket_grp[bucket_grp["ml_result"].isin(["W", "L"])]
+    if len(bucket_resolved) == 0:
+        with kelly_col2:
+            st.info("No resolved games in this bucket yet.")
+    else:
+        p_win = (bucket_resolved["ml_result"] == "W").sum() / len(bucket_resolved)
+        p_lose = 1 - p_win
+        n_games = len(bucket_resolved)
+
+        # Convert American odds to net decimal (what you win per $1 bet)
+        if kelly_odds_input >= 100:
+            b = kelly_odds_input / 100
+        else:
+            b = 100 / abs(kelly_odds_input)
+
+        kelly_fraction = (b * p_win - p_lose) / b
+        half_kelly = kelly_fraction / 2
+        full_bet = max(kelly_fraction * kelly_bankroll, 0)
+        half_bet = max(half_kelly * kelly_bankroll, 0)
+
+        with kelly_col2:
+            st.markdown(f"**Bucket: {kelly_bucket}** · {n_games} resolved games")
+            st.markdown(f"Historical win rate: **{p_win*100:.1f}%**")
+            st.markdown(f"Implied prob of your odds: **{(1/( 1 + b))*100:.1f}%**")
+            st.markdown("---")
+            edge = p_win - (1 / (1 + b))
+            if kelly_fraction <= 0:
+                st.error(f"No edge — implied prob exceeds historical win rate (edge: {edge*100:+.1f}pp). No bet recommended.")
+            else:
+                st.success(f"Edge: **{edge*100:+.1f}pp**")
+                k1, k2 = st.columns(2)
+                k1.metric("Full Kelly Bet", f"${full_bet:,.0f}", f"{kelly_fraction*100:.1f}% of bankroll")
+                k2.metric("Half Kelly Bet (recommended)", f"${half_bet:,.0f}", f"{half_kelly*100:.1f}% of bankroll")
+                st.caption("Half Kelly is the standard recommendation — reduces variance while preserving most EV.")
 
 # ---------------------------------------------------------------------------
 # Raw game log
