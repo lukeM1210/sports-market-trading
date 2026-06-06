@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 965" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6e7781"/>
+    </marker>
+  </defs>
+
+  <!-- ── BACKGROUND ─────────────────────────────────────────── -->
+  <rect width="1000" height="965" fill="#f6f8fa"/>
+
+  <!-- ── TITLE BAR ───────────────────────────────────────────── -->
+  <rect x="0" y="0" width="1000" height="68" fill="#1f2328"/>
+  <text x="500" y="31" text-anchor="middle" fill="#f0f6fc" font-size="20" font-weight="700" letter-spacing="0.3">Sports Market Trading</text>
+  <text x="500" y="55" text-anchor="middle" fill="#7d8590" font-size="12" letter-spacing="2.5">SYSTEM ARCHITECTURE</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 1 — EXTERNAL DATA SOURCES                           -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="80" width="960" height="148" rx="10" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+  <text x="40" y="101" fill="#0550ae" font-size="10.5" font-weight="700" letter-spacing="1.8">EXTERNAL DATA SOURCES</text>
+
+  <!-- The Odds API -->
+  <rect x="40" y="112" width="290" height="100" rx="7" fill="#ffffff" stroke="#54aeff" stroke-width="1.5"/>
+  <text x="185" y="134" text-anchor="middle" fill="#0969da" font-size="13" font-weight="700">The Odds API</text>
+  <text x="185" y="153" text-anchor="middle" fill="#57606a" font-size="11">api.the-odds-api.com</text>
+  <text x="185" y="170" text-anchor="middle" fill="#57606a" font-size="11">Moneylines · Spreads · Totals · Futures</text>
+  <text x="185" y="187" text-anchor="middle" fill="#57606a" font-size="11">NBA · NFL · NHL · MLB · NCAAF</text>
+  <text x="185" y="204" text-anchor="middle" fill="#8c959f" font-size="10">API_KEY (.env) · Hourly fetch</text>
+
+  <!-- Kalshi API -->
+  <rect x="355" y="112" width="290" height="100" rx="7" fill="#ffffff" stroke="#54aeff" stroke-width="1.5"/>
+  <text x="500" y="134" text-anchor="middle" fill="#0969da" font-size="13" font-weight="700">Kalshi Prediction Markets</text>
+  <text x="500" y="153" text-anchor="middle" fill="#57606a" font-size="11">api.elections.kalshi.com</text>
+  <text x="500" y="170" text-anchor="middle" fill="#57606a" font-size="11">Real-time Orderbook Depth</text>
+  <text x="500" y="187" text-anchor="middle" fill="#57606a" font-size="11">MLB Prediction Contracts</text>
+  <text x="500" y="204" text-anchor="middle" fill="#8c959f" font-size="10">KALSHI_API_KEY (.env) · Live polling</text>
+
+  <!-- ESPN API -->
+  <rect x="670" y="112" width="290" height="100" rx="7" fill="#ffffff" stroke="#54aeff" stroke-width="1.5"/>
+  <text x="815" y="134" text-anchor="middle" fill="#0969da" font-size="13" font-weight="700">ESPN Scoreboard API</text>
+  <text x="815" y="153" text-anchor="middle" fill="#57606a" font-size="11">site.api.espn.com</text>
+  <text x="815" y="170" text-anchor="middle" fill="#57606a" font-size="11">Historical NFL Scores &amp; Results</text>
+  <text x="815" y="187" text-anchor="middle" fill="#57606a" font-size="11">Game Status · Final Scores</text>
+  <text x="815" y="204" text-anchor="middle" fill="#8c959f" font-size="10">No authentication required</text>
+
+  <!-- Arrow 1 + Label -->
+  <line x1="500" y1="228" x2="500" y2="258" stroke="#6e7781" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="388" y="233" width="224" height="19" rx="4" fill="#eaeef2" stroke="#d0d7de" stroke-width="1"/>
+  <text x="500" y="246" text-anchor="middle" fill="#57606a" font-size="10.5" font-weight="600">run.py launches background threads</text>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 2 — BACKGROUND INGESTORS                            -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="268" width="960" height="120" rx="10" fill="#dcfce7" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="40" y="289" fill="#116329" font-size="10.5" font-weight="700" letter-spacing="1.8">BACKGROUND DATA INGESTORS   ·   One thread per sport   ·   Fetch &amp; append every 60 min</text>
+
+  <!-- NBA -->
+  <rect x="40" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="111" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">NBA</text>
+  <text x="111" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_nba_odds.py</text>
+  <text x="111" y="351" text-anchor="middle" fill="#57606a" font-size="10">Moneyline · Totals</text>
+  <text x="111" y="364" text-anchor="middle" fill="#8c959f" font-size="9">NBA/output/odds.csv</text>
+
+  <!-- NFL -->
+  <rect x="197" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="268" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">NFL</text>
+  <text x="268" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_nfl_odds.py</text>
+  <text x="268" y="351" text-anchor="middle" fill="#57606a" font-size="10">Moneyline · Spreads</text>
+  <text x="268" y="364" text-anchor="middle" fill="#8c959f" font-size="9">NFL/output/odds.csv</text>
+
+  <!-- NHL -->
+  <rect x="354" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="425" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">NHL</text>
+  <text x="425" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_nhl_odds.py</text>
+  <text x="425" y="351" text-anchor="middle" fill="#57606a" font-size="10">Moneyline · Totals</text>
+  <text x="425" y="364" text-anchor="middle" fill="#8c959f" font-size="9">NHL/output/odds.csv</text>
+
+  <!-- MLB -->
+  <rect x="511" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="582" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">MLB</text>
+  <text x="582" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_mlb_odds.py</text>
+  <text x="582" y="351" text-anchor="middle" fill="#57606a" font-size="10">Moneyline · Totals</text>
+  <text x="582" y="364" text-anchor="middle" fill="#8c959f" font-size="9">MLB/output/odds.csv</text>
+
+  <!-- NCAAF -->
+  <rect x="668" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="739" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">NCAAF</text>
+  <text x="739" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_ncaaf_odds.py</text>
+  <text x="739" y="351" text-anchor="middle" fill="#57606a" font-size="10">Moneyline · Totals</text>
+  <text x="739" y="364" text-anchor="middle" fill="#8c959f" font-size="9">NCAAF/output/odds.csv</text>
+
+  <!-- NFL Futures -->
+  <rect x="825" y="299" width="142" height="74" rx="6" fill="#ffffff" stroke="#2da44e" stroke-width="1.5"/>
+  <text x="896" y="319" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">NFL Futures</text>
+  <text x="896" y="336" text-anchor="middle" fill="#57606a" font-size="10">ingest_nfl_futures.py</text>
+  <text x="896" y="351" text-anchor="middle" fill="#57606a" font-size="10">Super Bowl Winner</text>
+  <text x="896" y="364" text-anchor="middle" fill="#8c959f" font-size="9">NFL/futures/odds.csv</text>
+
+  <!-- Arrow 2 -->
+  <line x1="500" y1="388" x2="500" y2="413" stroke="#6e7781" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 3 — LOCAL STORAGE                                   -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="423" width="960" height="108" rx="10" fill="#fff8ee" stroke="#fd8c00" stroke-width="1.5"/>
+  <text x="40" y="444" fill="#bc4c00" font-size="10.5" font-weight="700" letter-spacing="1.8">LOCAL STORAGE   ·   CSV flat files   ·   Timestamped append-only snapshots</text>
+
+  <!-- Live Odds CSVs -->
+  <rect x="40" y="454" width="300" height="62" rx="6" fill="#ffffff" stroke="#fd8c00" stroke-width="1.5"/>
+  <text x="190" y="474" text-anchor="middle" fill="#bc4c00" font-size="12" font-weight="700">Live Odds CSVs</text>
+  <text x="190" y="491" text-anchor="middle" fill="#57606a" font-size="11">[Sport]/output/odds.csv</text>
+  <text x="190" y="507" text-anchor="middle" fill="#8c959f" font-size="10">Book · team · market · price · timestamp</text>
+
+  <!-- NFL Historical Dataset -->
+  <rect x="360" y="454" width="300" height="62" rx="6" fill="#ffffff" stroke="#fd8c00" stroke-width="1.5"/>
+  <text x="510" y="474" text-anchor="middle" fill="#bc4c00" font-size="12" font-weight="700">NFL Historical Dataset</text>
+  <text x="510" y="491" text-anchor="middle" fill="#57606a" font-size="11">NFL/historical/nfl_{year}_dataset.csv</text>
+  <text x="510" y="507" text-anchor="middle" fill="#8c959f" font-size="10">Opening vs closing lines · outcomes</text>
+
+  <!-- ESPN Score Cache -->
+  <rect x="680" y="454" width="280" height="62" rx="6" fill="#ffffff" stroke="#fd8c00" stroke-width="1.5"/>
+  <text x="820" y="474" text-anchor="middle" fill="#bc4c00" font-size="12" font-weight="700">ESPN Score Cache</text>
+  <text x="820" y="491" text-anchor="middle" fill="#57606a" font-size="11">NFL/historical/scores/</text>
+  <text x="820" y="507" text-anchor="middle" fill="#8c959f" font-size="10">Cached JSON by date · zero re-fetch cost</text>
+
+  <!-- Arrow 3 -->
+  <line x1="500" y1="531" x2="500" y2="556" stroke="#6e7781" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 4 — ANALYTICS                                       -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="566" width="960" height="108" rx="10" fill="#fbefff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="40" y="587" fill="#6e40c9" font-size="10.5" font-weight="700" letter-spacing="1.8">CORE ANALYTICS MODULES</text>
+
+  <!-- analytics.py -->
+  <rect x="40" y="597" width="220" height="62" rx="6" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="150" y="617" text-anchor="middle" fill="#6e40c9" font-size="12" font-weight="700">analytics.py</text>
+  <text x="150" y="634" text-anchor="middle" fill="#57606a" font-size="11">Top line movers detection</text>
+  <text x="150" y="650" text-anchor="middle" fill="#8c959f" font-size="10">Implied probability · consensus filter</text>
+
+  <!-- charts.py -->
+  <rect x="280" y="597" width="220" height="62" rx="6" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="390" y="617" text-anchor="middle" fill="#6e40c9" font-size="12" font-weight="700">charts.py</text>
+  <text x="390" y="634" text-anchor="middle" fill="#57606a" font-size="11">Plotly chart rendering engine</text>
+  <text x="390" y="650" text-anchor="middle" fill="#8c959f" font-size="10">Moneyline · totals · movers</text>
+
+  <!-- nfl_model.py -->
+  <rect x="520" y="597" width="220" height="62" rx="6" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="630" y="617" text-anchor="middle" fill="#6e40c9" font-size="12" font-weight="700">nfl_model.py</text>
+  <text x="630" y="634" text-anchor="middle" fill="#57606a" font-size="11">Historical line movement analysis</text>
+  <text x="630" y="650" text-anchor="middle" fill="#8c959f" font-size="10">Opening vs closing · devig · W/L</text>
+
+  <!-- kalshi_client.py -->
+  <rect x="760" y="597" width="220" height="62" rx="6" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="870" y="617" text-anchor="middle" fill="#6e40c9" font-size="12" font-weight="700">kalshi_client.py</text>
+  <text x="870" y="634" text-anchor="middle" fill="#57606a" font-size="11">Prediction market REST client</text>
+  <text x="870" y="650" text-anchor="middle" fill="#8c959f" font-size="10">Orderbook · trades · market data</text>
+
+  <!-- Arrow 4 -->
+  <line x1="500" y1="674" x2="500" y2="699" stroke="#6e7781" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 5 — STREAMLIT DASHBOARD                             -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <rect x="20" y="709" width="960" height="168" rx="10" fill="#e6f4ff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="40" y="730" fill="#0550ae" font-size="10.5" font-weight="700" letter-spacing="1.8">STREAMLIT DASHBOARD   ·   localhost:8501   ·   Auto-refresh every 30 seconds</text>
+
+  <!-- Home -->
+  <rect x="40" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="111" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">Home</text>
+  <text x="111" y="779" text-anchor="middle" fill="#57606a" font-size="10">Dashboard.py</text>
+  <text x="111" y="797" text-anchor="middle" fill="#8c959f" font-size="9.5">Upcoming games</text>
+  <text x="111" y="811" text-anchor="middle" fill="#8c959f" font-size="9.5">Top 5 movers</text>
+  <text x="111" y="825" text-anchor="middle" fill="#8c959f" font-size="9.5">Fav + underdog</text>
+  <text x="111" y="854" text-anchor="middle" fill="#0550ae" font-size="9" font-weight="600">Navigation Hub</text>
+
+  <!-- NFL Pages -->
+  <rect x="197" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="268" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">NFL Pages</text>
+  <text x="268" y="779" text-anchor="middle" fill="#57606a" font-size="10">NFL.py</text>
+  <text x="268" y="795" text-anchor="middle" fill="#57606a" font-size="10">NFL_Futures.py</text>
+  <text x="268" y="811" text-anchor="middle" fill="#57606a" font-size="10">NFL_Model.py</text>
+  <text x="268" y="829" text-anchor="middle" fill="#8c959f" font-size="9.5">Lines · Futures</text>
+  <text x="268" y="843" text-anchor="middle" fill="#8c959f" font-size="9.5">Historical model</text>
+
+  <!-- NBA -->
+  <rect x="354" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="425" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">NBA</text>
+  <text x="425" y="779" text-anchor="middle" fill="#57606a" font-size="10">NBA.py</text>
+  <text x="425" y="797" text-anchor="middle" fill="#8c959f" font-size="9.5">Moneyline charts</text>
+  <text x="425" y="812" text-anchor="middle" fill="#8c959f" font-size="9.5">Totals movement</text>
+  <text x="425" y="827" text-anchor="middle" fill="#8c959f" font-size="9.5">Multi-book view</text>
+
+  <!-- MLB / NHL / NCAAF -->
+  <rect x="511" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="582" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">MLB · NHL · NCAAF</text>
+  <text x="582" y="779" text-anchor="middle" fill="#57606a" font-size="10">MLB.py  NHL.py</text>
+  <text x="582" y="795" text-anchor="middle" fill="#57606a" font-size="10">NCAAF.py</text>
+  <text x="582" y="813" text-anchor="middle" fill="#8c959f" font-size="9.5">Live line movement</text>
+  <text x="582" y="828" text-anchor="middle" fill="#8c959f" font-size="9.5">Multi-book compare</text>
+
+  <!-- Line Shopping -->
+  <rect x="668" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="739" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">Line Shopping</text>
+  <text x="739" y="779" text-anchor="middle" fill="#57606a" font-size="10">Line_Shopping.py</text>
+  <text x="739" y="797" text-anchor="middle" fill="#8c959f" font-size="9.5">Best odds across</text>
+  <text x="739" y="811" text-anchor="middle" fill="#8c959f" font-size="9.5">all books per game</text>
+  <text x="739" y="825" text-anchor="middle" fill="#8c959f" font-size="9.5">7-day lookahead</text>
+
+  <!-- Kalshi Orderbook -->
+  <rect x="825" y="740" width="142" height="122" rx="6" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="896" y="762" text-anchor="middle" fill="#0969da" font-size="11.5" font-weight="700">Kalshi Orderbook</text>
+  <text x="896" y="779" text-anchor="middle" fill="#57606a" font-size="10">Kalshi_Orderbook.py</text>
+  <text x="896" y="797" text-anchor="middle" fill="#8c959f" font-size="9.5">Real-time depth</text>
+  <text x="896" y="811" text-anchor="middle" fill="#8c959f" font-size="9.5">Sharp money track</text>
+  <text x="896" y="825" text-anchor="middle" fill="#8c959f" font-size="9.5">Bid / Ask visual</text>
+
+  <!-- Arrow 5 -->
+  <line x1="500" y1="877" x2="500" y2="902" stroke="#6e7781" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- ── USER ────────────────────────────────────────────────── -->
+  <rect x="375" y="910" width="250" height="44" rx="22" fill="#1f2328"/>
+  <text x="500" y="937" text-anchor="middle" fill="#f0f6fc" font-size="13" font-weight="600">Browser   /   User</text>
+
+</svg>

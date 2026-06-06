@@ -3,6 +3,15 @@ import pandas as pd
 
 BASE = Path(__file__).parent
 
+# Prediction markets are low-liquidity: a single small trade can move their
+# quoted odds by several percentage points with no real sharp signal behind it.
+# Keep them OUT of the movers calculation; they still appear in the line charts.
+_PREDICTION_MARKETS = {"kalshi", "polymarket"}
+
+# Minimum number of distinct sportsbooks that must agree on direction for a
+# team to appear in the top-movers list.  Filters out single-book noise.
+_MIN_BOOKS_CONSENSUS = 2
+
 
 def to_implied_prob(odds: float) -> float:
     return (-odds / (-odds + 100) * 100) if odds < 0 else (100 / (odds + 100) * 100)
@@ -18,6 +27,9 @@ def _build_movers(csv_paths: list[Path]) -> pd.DataFrame:
     df["price_american"] = pd.to_numeric(df["price_american"], errors="coerce")
     df = df.dropna(subset=["price_american", "market_last_update"])
     df = df[df["market_key"] == "h2h"]
+
+    # Exclude prediction markets — their thin liquidity creates false signals
+    df = df[~df["bookmaker_key"].isin(_PREDICTION_MARKETS)]
 
     rows = []
     for (event_id, bookmaker, outcome), group in df.groupby(
@@ -53,30 +65,63 @@ def _build_movers(csv_paths: list[Path]) -> pd.DataFrame:
             "game_start_utc": group["event_commence_utc"].iloc[0],
         })
 
-    return pd.DataFrame(rows) if rows else pd.DataFrame()
+    if not rows:
+        return pd.DataFrame()
+
+    df_rows = pd.DataFrame(rows)
+
+    # Cross-book consensus filter: a team must show movement in the same
+    # direction at _MIN_BOOKS_CONSENSUS or more distinct books.
+    # This eliminates single-book noise (one book re-pricing, data error, etc.)
+    def _consensus(group_df: pd.DataFrame, direction: str) -> pd.DataFrame:
+        if direction == "up":
+            movers = group_df[group_df["prob_shift"] > 0]
+        else:
+            movers = group_df[group_df["prob_shift"] < 0]
+        n_books = movers["bookmaker"].nunique()
+        if n_books < _MIN_BOOKS_CONSENSUS:
+            return pd.DataFrame()
+        # Return the single row with the median shift for a stable representative
+        median_shift = movers["prob_shift"].median()
+        rep = movers.iloc[(movers["prob_shift"] - median_shift).abs().argsort()[:1]].copy()
+        rep["confirming_books"] = n_books
+        return rep
+
+    up_parts, down_parts = [], []
+    for (_, opponent), grp in df_rows.groupby(["team", "opponent"]):
+        up_parts.append(_consensus(grp, "up"))
+        down_parts.append(_consensus(grp, "down"))
+
+    return df_rows, up_parts, down_parts
 
 
 def top_5_favorite_movers(csv_paths: list[Path]) -> pd.DataFrame:
-    df = _build_movers(csv_paths)
-    if df.empty:
-        return df
+    result = _build_movers(csv_paths)
+    if isinstance(result, pd.DataFrame):   # empty
+        return result
+    _, up_parts, _ = result
+    up_parts = [p for p in up_parts if not p.empty]
+    if not up_parts:
+        return pd.DataFrame()
     return (
-        df[df["prob_shift"] > 0]
+        pd.concat(up_parts, ignore_index=True)
         .sort_values("prob_shift", ascending=False)
-        .drop_duplicates(subset=["team", "opponent"])
         .head(5)
         .reset_index(drop=True)
     )
 
 
 def top_5_underdog_movers(csv_paths: list[Path]) -> pd.DataFrame:
-    df = _build_movers(csv_paths)
-    if df.empty:
-        return df
+    result = _build_movers(csv_paths)
+    if isinstance(result, pd.DataFrame):   # empty
+        return result
+    _, _, down_parts = result
+    down_parts = [p for p in down_parts if not p.empty]
+    if not down_parts:
+        return pd.DataFrame()
     return (
-        df[df["prob_shift"] < 0]
+        pd.concat(down_parts, ignore_index=True)
         .sort_values("prob_shift", ascending=True)
-        .drop_duplicates(subset=["team", "opponent"])
         .head(5)
         .reset_index(drop=True)
     )
